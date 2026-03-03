@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="5367" it="0" lt="5367" ct="1" ts="1772502688638" s="true" lb="HTTP リクエスト" rc="200" rm="" tn="SpringThread2 2-1" dt="text" by="305" sby="398" ng="1" na="2">
+  <java.net.URL>http://localhost:8080/time?message=Current%20time%20in%20germany?</java.net.URL>
+</httpSample>
+<httpSample t="24328" it="0" lt="24327" ct="2" ts="1772502688637" s="true" lb="HTTP リクエスト" rc="200" rm="" tn="SpringThread1 1-1" dt="text" by="1842" sby="512" ng="1" na="1">
+  <java.net.URL>http://localhost:8080/help?message=List%20the%20open%20ticket%20and%20wifi%20in%20training%20room%20is%20working%20now%20after%20the%20update%20of%20the%20freamware%20of%20rauter?</java.net.URL>
+</httpSample>
+
+</testResults>

@@ -1,0 +1,1135 @@
+2026-03-03 16:25:15,237 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-03-03 16:25:15,274 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2026-03-03 16:25:15,274 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2026-03-03 16:25:15,291 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-03-03 16:25:15,291 INFO o.a.j.JMeter: Version 5.6.3
+2026-03-03 16:25:15,291 INFO o.a.j.JMeter: java.version=21.0.8
+2026-03-03 16:25:15,291 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2026-03-03 16:25:15,291 INFO o.a.j.JMeter: os.name=Windows 11
+2026-03-03 16:25:15,291 INFO o.a.j.JMeter: os.arch=amd64
+2026-03-03 16:25:15,291 INFO o.a.j.JMeter: os.version=10.0
+2026-03-03 16:25:15,291 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-03-03 16:25:15,293 INFO o.a.j.JMeter: java.awt.headless=null
+2026-03-03 16:25:15,293 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-03-03 16:25:15,293 INFO o.a.j.JMeter: Available Processors =12
+2026-03-03 16:25:15,306 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-03-03 16:25:15,306 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-03-03 16:25:15,306 INFO o.a.j.JMeter: JMeterHome=C:\Users\SudeepFuji\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3
+2026-03-03 16:25:15,306 INFO o.a.j.JMeter: user.dir  =C:\Users\SudeepFuji\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
+2026-03-03 16:25:15,306 INFO o.a.j.JMeter: PWD       =C:\Users\SudeepFuji\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
+2026-03-03 16:25:15,314 INFO o.a.j.JMeter: IP: 192.168.124.3 Name: 520-361 FullName: 520-361
+2026-03-03 16:25:15,351 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2026-03-03 16:25:15,749 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2026-03-03 16:25:27,295 INFO o.a.j.g.a.t.TemplateManager: Reading templates from: C:\Users\SudeepFuji\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\templates\templates.xml
+2026-03-03 16:25:58,445 INFO o.a.j.s.FileServer: Default base='C:\Users\SudeepFuji\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin'
+2026-03-03 16:25:58,445 INFO o.a.j.g.a.Load: Loading file: C:\Users\SudeepFuji\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\Monitoring.jmx
+2026-03-03 16:25:58,445 INFO o.a.j.s.FileServer: Set new base='C:\Users\SudeepFuji\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin'
+2026-03-03 16:25:58,768 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-03-03 16:25:58,818 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-03-03 16:25:58,828 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-03-03 16:25:58,828 INFO o.a.j.s.SaveService: Loading file: C:\Users\SudeepFuji\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\Monitoring.jmx
+2026-03-03 16:25:58,910 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-03-03 16:25:58,910 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-03-03 16:25:58,910 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-03-03 16:25:58,910 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-03-03 16:25:58,910 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-03-03 16:25:58,910 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-03-03 16:25:58,943 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-03-03 16:25:58,943 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-03-03 16:25:58,943 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-03-03 16:25:58,943 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-03-03 16:25:59,727 INFO o.a.j.s.FileServer: Set new base='C:\Users\SudeepFuji\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin'
+2026-03-03 16:43:34,292 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2026-03-03 16:43:34,295 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Users\SudeepFuji\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\proxyserver.jks
+2026-03-03 16:46:28,744 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-03-03 16:46:28,744 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-03-03 16:46:28,900 INFO o.a.j.p.h.p.ProxyControl: Creating HTTP(S) Test Script Recorder Root CA in C:\Users\SudeepFuji\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\proxyserver.jks, ensure you install certificate in your Browser for recording
+2026-03-03 16:46:37,100 INFO o.a.j.p.h.p.ProxyControl: Created keystore in C:\Users\SudeepFuji\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\proxyserver.jks
+2026-03-03 16:46:37,278 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8888
+2026-03-03 16:46:37,293 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2026-03-03 17:03:26,601 ERROR o.a.j.JMeter: Uncaught exception in thread Thread[#38,AWT-EventQueue-0,6,main]
+java.lang.NumberFormatException: For input string: ""
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:672) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:778) ~[?:?]
+	at org.apache.jmeter.protocol.http.proxy.gui.RecorderDialog.lambda$init$0(RecorderDialog.java:167) ~[ApacheJMeter_http.jar:5.6.3]
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972) ~[?:?]
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314) ~[?:?]
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407) ~[?:?]
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262) ~[?:?]
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279) ~[?:?]
+	at com.github.weisj.darklaf.ui.button.DarkButtonListener.mouseReleased(DarkButtonListener.java:72) ~[darklaf-core-2.7.3.jar:2.7.3]
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621) ~[?:?]
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3398) ~[?:?]
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386) ~[?:?]
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266) ~[?:?]
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996) ~[?:?]
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828) ~[?:?]
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948) ~[?:?]
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575) ~[?:?]
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516) ~[?:?]
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310) ~[?:?]
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828) ~[?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775) ~[?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98) ~[?:?]
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747) ~[?:?]
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744) ~[?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+2026-03-03 17:03:28,081 ERROR o.a.j.JMeter: Uncaught exception in thread Thread[#38,AWT-EventQueue-0,6,main]
+java.lang.NumberFormatException: For input string: ""
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:672) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:778) ~[?:?]
+	at org.apache.jmeter.protocol.http.proxy.gui.RecorderDialog.lambda$init$0(RecorderDialog.java:167) ~[ApacheJMeter_http.jar:5.6.3]
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972) ~[?:?]
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314) ~[?:?]
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407) ~[?:?]
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262) ~[?:?]
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279) ~[?:?]
+	at com.github.weisj.darklaf.ui.button.DarkButtonListener.mouseReleased(DarkButtonListener.java:72) ~[darklaf-core-2.7.3.jar:2.7.3]
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621) ~[?:?]
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3398) ~[?:?]
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386) ~[?:?]
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266) ~[?:?]
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996) ~[?:?]
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828) ~[?:?]
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948) ~[?:?]
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575) ~[?:?]
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516) ~[?:?]
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310) ~[?:?]
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828) ~[?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775) ~[?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98) ~[?:?]
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747) ~[?:?]
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744) ~[?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+2026-03-03 17:05:14,428 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
+2026-03-03 17:05:24,184 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2026-03-03 17:05:24,184 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2026-03-03 17:05:24,184 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8888
+2026-03-03 17:05:24,184 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2026-03-03 17:06:42,599 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-03-03 17:06:42,601 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-03-03 17:06:42,601 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-03-03 17:06:42,601 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2026-03-03 17:06:42,737 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2026-03-03 17:06:42,737 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2026-03-03 17:06:42,737 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-03-03 17:06:42,737 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2026-03-03 17:06:42,742 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-03-03 17:06:42,742 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-03-03 17:06:42,742 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2026-03-03 17:06:42,746 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2026-03-03 17:06:42,747 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2026-03-03 17:06:42,747 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-03-03 17:06:42,747 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2026-03-03 17:08:29,640 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
+2026-03-03 17:08:29,654 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2026-03-03 17:08:29,654 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2026-03-03 17:08:29,654 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8081
+2026-03-03 17:08:29,656 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2026-03-03 17:15:09,907 INFO o.a.j.p.h.p.Proxy: Proxy will remove the headers: If-Modified-Since,If-None-Match,Host
+2026-03-03 17:15:09,916 INFO o.a.j.p.h.p.ProxyControl: [58549]  Creating entry push.services.mozilla.com in C:\Users\SudeepFuji\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\proxyserver.jks
+2026-03-03 17:15:14,779 INFO o.a.j.p.h.p.Proxy: [58549]  KeyStore for SSL loaded OK and put host 'push.services.mozilla.com' in map with key (push.services.mozilla.com)
+2026-03-03 17:15:15,120 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = 520-361
+2026-03-03 17:15:15,138 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-03-03 17:15:15,256 WARN o.a.j.p.h.p.Proxy: [58549]  Problem with SSL certificate for url  for 'push.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: 確立された接続がホスト コンピューターのソウトウェアによって中止されました。
+2026-03-03 17:15:15,319 DEBUG o.a.h.c.p.RequestAddCookies: CookieSpec selected: default
+2026-03-03 17:15:15,319 DEBUG o.a.h.c.p.RequestAddCookies: Unsupported cookie policy: default
+2026-03-03 17:15:15,319 DEBUG o.a.h.c.p.RequestAuthCache: Auth cache not set in the context
+2026-03-03 17:15:15,319 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection request: [route: {}->http://detectportal.firefox.com:80][state: Thread-29][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:15:15,350 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection leased: [id: 0][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2026-03-03 17:15:15,350 DEBUG o.a.h.i.e.MainClientExec: Opening connection {}->http://detectportal.firefox.com:80
+2026-03-03 17:15:15,379 DEBUG o.a.h.i.e.MainClientExec: Executing request GET /canonical.html HTTP/1.1
+2026-03-03 17:15:15,381 DEBUG o.a.h.i.e.MainClientExec: Target auth state: UNCHALLENGED
+2026-03-03 17:15:15,381 DEBUG o.a.h.i.e.MainClientExec: Proxy auth state: UNCHALLENGED
+2026-03-03 17:15:15,383 DEBUG o.a.h.headers: http-outgoing-0 >> GET /canonical.html HTTP/1.1
+2026-03-03 17:15:15,383 DEBUG o.a.h.headers: http-outgoing-0 >> Connection: close
+2026-03-03 17:15:15,383 DEBUG o.a.h.headers: http-outgoing-0 >> Accept-Language: en-US,en;q=0.9
+2026-03-03 17:15:15,383 DEBUG o.a.h.headers: http-outgoing-0 >> Host: detectportal.firefox.com
+2026-03-03 17:15:15,383 DEBUG o.a.h.headers: http-outgoing-0 >> Cache-Control: no-cache
+2026-03-03 17:15:15,383 DEBUG o.a.h.headers: http-outgoing-0 >> Accept-Encoding: gzip, deflate
+2026-03-03 17:15:15,383 DEBUG o.a.h.headers: http-outgoing-0 >> Pragma: no-cache
+2026-03-03 17:15:15,383 DEBUG o.a.h.headers: http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0
+2026-03-03 17:15:15,385 DEBUG o.a.h.headers: http-outgoing-0 >> Accept: */*
+2026-03-03 17:15:15,385 DEBUG o.a.h.wire: http-outgoing-0 >> "GET /canonical.html HTTP/1.1[\r][\n]"
+2026-03-03 17:15:15,385 DEBUG o.a.h.wire: http-outgoing-0 >> "Connection: close[\r][\n]"
+2026-03-03 17:15:15,385 DEBUG o.a.h.wire: http-outgoing-0 >> "Accept-Language: en-US,en;q=0.9[\r][\n]"
+2026-03-03 17:15:15,385 DEBUG o.a.h.wire: http-outgoing-0 >> "Host: detectportal.firefox.com[\r][\n]"
+2026-03-03 17:15:15,385 DEBUG o.a.h.wire: http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+2026-03-03 17:15:15,385 DEBUG o.a.h.wire: http-outgoing-0 >> "Accept-Encoding: gzip, deflate[\r][\n]"
+2026-03-03 17:15:15,385 DEBUG o.a.h.wire: http-outgoing-0 >> "Pragma: no-cache[\r][\n]"
+2026-03-03 17:15:15,385 DEBUG o.a.h.wire: http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0[\r][\n]"
+2026-03-03 17:15:15,385 DEBUG o.a.h.wire: http-outgoing-0 >> "Accept: */*[\r][\n]"
+2026-03-03 17:15:15,385 DEBUG o.a.h.wire: http-outgoing-0 >> "[\r][\n]"
+2026-03-03 17:15:15,404 DEBUG o.a.h.wire: http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2026-03-03 17:15:15,404 DEBUG o.a.h.wire: http-outgoing-0 << "Server: nginx[\r][\n]"
+2026-03-03 17:15:15,404 DEBUG o.a.h.wire: http-outgoing-0 << "Content-Length: 90[\r][\n]"
+2026-03-03 17:15:15,404 DEBUG o.a.h.wire: http-outgoing-0 << "Via: 1.1 google[\r][\n]"
+2026-03-03 17:15:15,404 DEBUG o.a.h.wire: http-outgoing-0 << "Date: Mon, 02 Mar 2026 19:00:33 GMT[\r][\n]"
+2026-03-03 17:15:15,404 DEBUG o.a.h.wire: http-outgoing-0 << "Age: 47681[\r][\n]"
+2026-03-03 17:15:15,404 DEBUG o.a.h.wire: http-outgoing-0 << "Content-Type: text/html[\r][\n]"
+2026-03-03 17:15:15,404 DEBUG o.a.h.wire: http-outgoing-0 << "Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600[\r][\n]"
+2026-03-03 17:15:15,404 DEBUG o.a.h.wire: http-outgoing-0 << "Connection: close[\r][\n]"
+2026-03-03 17:15:15,404 DEBUG o.a.h.wire: http-outgoing-0 << "[\r][\n]"
+2026-03-03 17:15:15,405 DEBUG o.a.h.wire: http-outgoing-0 << "<meta http-equiv="refresh" content="0;url=https://support.mozilla.org/kb/captive-portal"/>"
+2026-03-03 17:15:15,408 DEBUG o.a.h.headers: http-outgoing-0 << HTTP/1.1 200 OK
+2026-03-03 17:15:15,408 DEBUG o.a.h.headers: http-outgoing-0 << Server: nginx
+2026-03-03 17:15:15,408 DEBUG o.a.h.headers: http-outgoing-0 << Content-Length: 90
+2026-03-03 17:15:15,408 DEBUG o.a.h.headers: http-outgoing-0 << Via: 1.1 google
+2026-03-03 17:15:15,408 DEBUG o.a.h.headers: http-outgoing-0 << Date: Mon, 02 Mar 2026 19:00:33 GMT
+2026-03-03 17:15:15,408 DEBUG o.a.h.headers: http-outgoing-0 << Age: 47681
+2026-03-03 17:15:15,408 DEBUG o.a.h.headers: http-outgoing-0 << Content-Type: text/html
+2026-03-03 17:15:15,408 DEBUG o.a.h.headers: http-outgoing-0 << Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+2026-03-03 17:15:15,408 DEBUG o.a.h.headers: http-outgoing-0 << Connection: close
+2026-03-03 17:15:15,414 DEBUG o.a.h.c.p.ResponseProcessCookies: Cookie spec not specified in HTTP context
+2026-03-03 17:15:15,414 DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection: http-outgoing-0: Close connection
+2026-03-03 17:15:15,414 DEBUG o.a.h.i.e.MainClientExec: Connection discarded
+2026-03-03 17:15:15,414 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection released: [id: 0][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:15:15,566 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager is shutting down
+2026-03-03 17:15:15,568 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager shut down
+2026-03-03 17:15:15,579 DEBUG o.a.h.c.p.RequestAddCookies: CookieSpec selected: default
+2026-03-03 17:15:15,579 DEBUG o.a.h.c.p.RequestAddCookies: Unsupported cookie policy: default
+2026-03-03 17:15:15,579 DEBUG o.a.h.c.p.RequestAddCookies: CookieSpec selected: default
+2026-03-03 17:15:15,579 DEBUG o.a.h.c.p.RequestAuthCache: Auth cache not set in the context
+2026-03-03 17:15:15,579 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection request: [route: {}->http://detectportal.firefox.com:80][state: Thread-30][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:15:15,579 DEBUG o.a.h.c.p.RequestAddCookies: Unsupported cookie policy: default
+2026-03-03 17:15:15,579 DEBUG o.a.h.c.p.RequestAuthCache: Auth cache not set in the context
+2026-03-03 17:15:15,579 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection leased: [id: 1][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2026-03-03 17:15:15,579 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection request: [route: {}->http://detectportal.firefox.com:80][state: Thread-31][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:15:15,579 DEBUG o.a.h.i.e.MainClientExec: Opening connection {}->http://detectportal.firefox.com:80
+2026-03-03 17:15:15,579 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection leased: [id: 2][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2026-03-03 17:15:15,579 DEBUG o.a.h.i.e.MainClientExec: Opening connection {}->http://detectportal.firefox.com:80
+2026-03-03 17:15:15,588 DEBUG o.a.h.i.e.MainClientExec: Executing request GET /success.txt?ipv4 HTTP/1.1
+2026-03-03 17:15:15,588 DEBUG o.a.h.i.e.MainClientExec: Executing request GET /success.txt?ipv6 HTTP/1.1
+2026-03-03 17:15:15,588 DEBUG o.a.h.i.e.MainClientExec: Target auth state: UNCHALLENGED
+2026-03-03 17:15:15,588 DEBUG o.a.h.i.e.MainClientExec: Target auth state: UNCHALLENGED
+2026-03-03 17:15:15,588 DEBUG o.a.h.i.e.MainClientExec: Proxy auth state: UNCHALLENGED
+2026-03-03 17:15:15,588 DEBUG o.a.h.i.e.MainClientExec: Proxy auth state: UNCHALLENGED
+2026-03-03 17:15:15,588 DEBUG o.a.h.headers: http-outgoing-1 >> GET /success.txt?ipv4 HTTP/1.1
+2026-03-03 17:15:15,588 DEBUG o.a.h.headers: http-outgoing-2 >> GET /success.txt?ipv6 HTTP/1.1
+2026-03-03 17:15:15,588 DEBUG o.a.h.headers: http-outgoing-1 >> Connection: close
+2026-03-03 17:15:15,588 DEBUG o.a.h.headers: http-outgoing-2 >> Connection: close
+2026-03-03 17:15:15,588 DEBUG o.a.h.headers: http-outgoing-1 >> Accept-Language: en-US,en;q=0.9
+2026-03-03 17:15:15,589 DEBUG o.a.h.headers: http-outgoing-2 >> Accept-Language: en-US,en;q=0.9
+2026-03-03 17:15:15,589 DEBUG o.a.h.headers: http-outgoing-1 >> Host: detectportal.firefox.com
+2026-03-03 17:15:15,589 DEBUG o.a.h.headers: http-outgoing-2 >> Host: detectportal.firefox.com
+2026-03-03 17:15:15,589 DEBUG o.a.h.headers: http-outgoing-1 >> Priority: u=4
+2026-03-03 17:15:15,589 DEBUG o.a.h.headers: http-outgoing-2 >> Priority: u=4
+2026-03-03 17:15:15,589 DEBUG o.a.h.headers: http-outgoing-1 >> Cache-Control: no-cache
+2026-03-03 17:15:15,589 DEBUG o.a.h.headers: http-outgoing-2 >> Cache-Control: no-cache
+2026-03-03 17:15:15,589 DEBUG o.a.h.headers: http-outgoing-2 >> Accept-Encoding: gzip, deflate
+2026-03-03 17:15:15,589 DEBUG o.a.h.headers: http-outgoing-1 >> Accept-Encoding: gzip, deflate
+2026-03-03 17:15:15,590 DEBUG o.a.h.headers: http-outgoing-2 >> Pragma: no-cache
+2026-03-03 17:15:15,590 DEBUG o.a.h.headers: http-outgoing-1 >> Pragma: no-cache
+2026-03-03 17:15:15,590 DEBUG o.a.h.headers: http-outgoing-2 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0
+2026-03-03 17:15:15,590 DEBUG o.a.h.headers: http-outgoing-2 >> Accept: */*
+2026-03-03 17:15:15,590 DEBUG o.a.h.headers: http-outgoing-1 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0
+2026-03-03 17:15:15,590 DEBUG o.a.h.wire: http-outgoing-2 >> "GET /success.txt?ipv6 HTTP/1.1[\r][\n]"
+2026-03-03 17:15:15,590 DEBUG o.a.h.headers: http-outgoing-1 >> Accept: */*
+2026-03-03 17:15:15,590 DEBUG o.a.h.wire: http-outgoing-2 >> "Connection: close[\r][\n]"
+2026-03-03 17:15:15,590 DEBUG o.a.h.wire: http-outgoing-1 >> "GET /success.txt?ipv4 HTTP/1.1[\r][\n]"
+2026-03-03 17:15:15,590 DEBUG o.a.h.wire: http-outgoing-2 >> "Accept-Language: en-US,en;q=0.9[\r][\n]"
+2026-03-03 17:15:15,590 DEBUG o.a.h.wire: http-outgoing-1 >> "Connection: close[\r][\n]"
+2026-03-03 17:15:15,590 DEBUG o.a.h.wire: http-outgoing-2 >> "Host: detectportal.firefox.com[\r][\n]"
+2026-03-03 17:15:15,590 DEBUG o.a.h.wire: http-outgoing-1 >> "Accept-Language: en-US,en;q=0.9[\r][\n]"
+2026-03-03 17:15:15,590 DEBUG o.a.h.wire: http-outgoing-2 >> "Priority: u=4[\r][\n]"
+2026-03-03 17:15:15,590 DEBUG o.a.h.wire: http-outgoing-1 >> "Host: detectportal.firefox.com[\r][\n]"
+2026-03-03 17:15:15,590 DEBUG o.a.h.wire: http-outgoing-2 >> "Cache-Control: no-cache[\r][\n]"
+2026-03-03 17:15:15,590 DEBUG o.a.h.wire: http-outgoing-1 >> "Priority: u=4[\r][\n]"
+2026-03-03 17:15:15,591 DEBUG o.a.h.wire: http-outgoing-2 >> "Accept-Encoding: gzip, deflate[\r][\n]"
+2026-03-03 17:15:15,591 DEBUG o.a.h.wire: http-outgoing-1 >> "Cache-Control: no-cache[\r][\n]"
+2026-03-03 17:15:15,591 DEBUG o.a.h.wire: http-outgoing-2 >> "Pragma: no-cache[\r][\n]"
+2026-03-03 17:15:15,591 DEBUG o.a.h.wire: http-outgoing-1 >> "Accept-Encoding: gzip, deflate[\r][\n]"
+2026-03-03 17:15:15,591 DEBUG o.a.h.wire: http-outgoing-2 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0[\r][\n]"
+2026-03-03 17:15:15,591 DEBUG o.a.h.wire: http-outgoing-1 >> "Pragma: no-cache[\r][\n]"
+2026-03-03 17:15:15,591 DEBUG o.a.h.wire: http-outgoing-2 >> "Accept: */*[\r][\n]"
+2026-03-03 17:15:15,591 DEBUG o.a.h.wire: http-outgoing-1 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0[\r][\n]"
+2026-03-03 17:15:15,591 DEBUG o.a.h.wire: http-outgoing-2 >> "[\r][\n]"
+2026-03-03 17:15:15,591 DEBUG o.a.h.wire: http-outgoing-1 >> "Accept: */*[\r][\n]"
+2026-03-03 17:15:15,591 DEBUG o.a.h.wire: http-outgoing-1 >> "[\r][\n]"
+2026-03-03 17:15:15,597 DEBUG o.a.h.wire: http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2026-03-03 17:15:15,604 DEBUG o.a.h.wire: http-outgoing-1 << "Server: nginx[\r][\n]"
+2026-03-03 17:15:15,597 DEBUG o.a.h.wire: http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+2026-03-03 17:15:15,604 DEBUG o.a.h.wire: http-outgoing-1 << "Content-Length: 8[\r][\n]"
+2026-03-03 17:15:15,605 DEBUG o.a.h.wire: http-outgoing-2 << "Server: nginx[\r][\n]"
+2026-03-03 17:15:15,605 DEBUG o.a.h.wire: http-outgoing-1 << "Via: 1.1 google[\r][\n]"
+2026-03-03 17:15:15,605 DEBUG o.a.h.wire: http-outgoing-2 << "Content-Length: 8[\r][\n]"
+2026-03-03 17:15:15,605 DEBUG o.a.h.wire: http-outgoing-1 << "Date: Mon, 02 Mar 2026 18:57:53 GMT[\r][\n]"
+2026-03-03 17:15:15,605 DEBUG o.a.h.wire: http-outgoing-2 << "Via: 1.1 google[\r][\n]"
+2026-03-03 17:15:15,606 DEBUG o.a.h.wire: http-outgoing-1 << "Age: 47841[\r][\n]"
+2026-03-03 17:15:15,606 DEBUG o.a.h.wire: http-outgoing-2 << "Date: Mon, 02 Mar 2026 18:57:53 GMT[\r][\n]"
+2026-03-03 17:15:15,606 DEBUG o.a.h.wire: http-outgoing-1 << "Content-Type: text/plain[\r][\n]"
+2026-03-03 17:15:15,606 DEBUG o.a.h.wire: http-outgoing-2 << "Age: 47841[\r][\n]"
+2026-03-03 17:15:15,606 DEBUG o.a.h.wire: http-outgoing-1 << "Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600[\r][\n]"
+2026-03-03 17:15:15,606 DEBUG o.a.h.wire: http-outgoing-2 << "Content-Type: text/plain[\r][\n]"
+2026-03-03 17:15:15,606 DEBUG o.a.h.wire: http-outgoing-1 << "Connection: close[\r][\n]"
+2026-03-03 17:15:15,606 DEBUG o.a.h.wire: http-outgoing-2 << "Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600[\r][\n]"
+2026-03-03 17:15:15,606 DEBUG o.a.h.wire: http-outgoing-1 << "[\r][\n]"
+2026-03-03 17:15:15,606 DEBUG o.a.h.wire: http-outgoing-2 << "Connection: close[\r][\n]"
+2026-03-03 17:15:15,606 DEBUG o.a.h.wire: http-outgoing-1 << "success[\n]"
+2026-03-03 17:15:15,606 DEBUG o.a.h.wire: http-outgoing-2 << "[\r][\n]"
+2026-03-03 17:15:15,606 DEBUG o.a.h.headers: http-outgoing-1 << HTTP/1.1 200 OK
+2026-03-03 17:15:15,606 DEBUG o.a.h.wire: http-outgoing-2 << "success[\n]"
+2026-03-03 17:15:15,606 DEBUG o.a.h.headers: http-outgoing-1 << Server: nginx
+2026-03-03 17:15:15,606 DEBUG o.a.h.headers: http-outgoing-1 << Content-Length: 8
+2026-03-03 17:15:15,606 DEBUG o.a.h.headers: http-outgoing-2 << HTTP/1.1 200 OK
+2026-03-03 17:15:15,606 DEBUG o.a.h.headers: http-outgoing-1 << Via: 1.1 google
+2026-03-03 17:15:15,606 DEBUG o.a.h.headers: http-outgoing-2 << Server: nginx
+2026-03-03 17:15:15,606 DEBUG o.a.h.headers: http-outgoing-2 << Content-Length: 8
+2026-03-03 17:15:15,606 DEBUG o.a.h.headers: http-outgoing-1 << Date: Mon, 02 Mar 2026 18:57:53 GMT
+2026-03-03 17:15:15,606 DEBUG o.a.h.headers: http-outgoing-2 << Via: 1.1 google
+2026-03-03 17:15:15,606 DEBUG o.a.h.headers: http-outgoing-2 << Date: Mon, 02 Mar 2026 18:57:53 GMT
+2026-03-03 17:15:15,606 DEBUG o.a.h.headers: http-outgoing-1 << Age: 47841
+2026-03-03 17:15:15,608 DEBUG o.a.h.headers: http-outgoing-2 << Age: 47841
+2026-03-03 17:15:15,608 DEBUG o.a.h.headers: http-outgoing-1 << Content-Type: text/plain
+2026-03-03 17:15:15,608 DEBUG o.a.h.headers: http-outgoing-2 << Content-Type: text/plain
+2026-03-03 17:15:15,608 DEBUG o.a.h.headers: http-outgoing-1 << Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+2026-03-03 17:15:15,608 DEBUG o.a.h.headers: http-outgoing-2 << Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+2026-03-03 17:15:15,608 DEBUG o.a.h.headers: http-outgoing-1 << Connection: close
+2026-03-03 17:15:15,608 DEBUG o.a.h.headers: http-outgoing-2 << Connection: close
+2026-03-03 17:15:15,608 DEBUG o.a.h.c.p.ResponseProcessCookies: Cookie spec not specified in HTTP context
+2026-03-03 17:15:15,608 DEBUG o.a.h.c.p.ResponseProcessCookies: Cookie spec not specified in HTTP context
+2026-03-03 17:15:15,609 DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection: http-outgoing-2: Close connection
+2026-03-03 17:15:15,609 DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection: http-outgoing-1: Close connection
+2026-03-03 17:15:15,609 DEBUG o.a.h.i.e.MainClientExec: Connection discarded
+2026-03-03 17:15:15,609 DEBUG o.a.h.i.e.MainClientExec: Connection discarded
+2026-03-03 17:15:15,609 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection released: [id: 1][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:15:15,609 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection released: [id: 2][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:15:15,613 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager is shutting down
+2026-03-03 17:15:15,613 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager is shutting down
+2026-03-03 17:15:15,613 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager shut down
+2026-03-03 17:15:15,613 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager shut down
+2026-03-03 17:15:15,645 INFO o.a.j.p.h.p.ProxyControl: Add sample transname/canonical.html-1 into controller transname
+2026-03-03 17:15:25,150 DEBUG o.a.h.c.p.RequestAddCookies: CookieSpec selected: default
+2026-03-03 17:15:25,150 DEBUG o.a.h.c.p.RequestAddCookies: Unsupported cookie policy: default
+2026-03-03 17:15:25,150 DEBUG o.a.h.c.p.RequestAuthCache: Auth cache not set in the context
+2026-03-03 17:15:25,150 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection request: [route: {}->http://detectportal.firefox.com:80][state: Thread-33][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:15:25,150 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection leased: [id: 3][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2026-03-03 17:15:25,150 DEBUG o.a.h.i.e.MainClientExec: Opening connection {}->http://detectportal.firefox.com:80
+2026-03-03 17:15:25,158 DEBUG o.a.h.i.e.MainClientExec: Executing request GET /canonical.html HTTP/1.1
+2026-03-03 17:15:25,158 DEBUG o.a.h.i.e.MainClientExec: Target auth state: UNCHALLENGED
+2026-03-03 17:15:25,158 DEBUG o.a.h.i.e.MainClientExec: Proxy auth state: UNCHALLENGED
+2026-03-03 17:15:25,158 DEBUG o.a.h.headers: http-outgoing-3 >> GET /canonical.html HTTP/1.1
+2026-03-03 17:15:25,158 DEBUG o.a.h.headers: http-outgoing-3 >> Connection: close
+2026-03-03 17:15:25,158 DEBUG o.a.h.headers: http-outgoing-3 >> Accept-Language: en-US,en;q=0.9
+2026-03-03 17:15:25,158 DEBUG o.a.h.headers: http-outgoing-3 >> Host: detectportal.firefox.com
+2026-03-03 17:15:25,158 DEBUG o.a.h.headers: http-outgoing-3 >> Cache-Control: no-cache
+2026-03-03 17:15:25,158 DEBUG o.a.h.headers: http-outgoing-3 >> Accept-Encoding: gzip, deflate
+2026-03-03 17:15:25,161 DEBUG o.a.h.headers: http-outgoing-3 >> Pragma: no-cache
+2026-03-03 17:15:25,161 DEBUG o.a.h.headers: http-outgoing-3 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0
+2026-03-03 17:15:25,161 DEBUG o.a.h.headers: http-outgoing-3 >> Accept: */*
+2026-03-03 17:15:25,161 DEBUG o.a.h.wire: http-outgoing-3 >> "GET /canonical.html HTTP/1.1[\r][\n]"
+2026-03-03 17:15:25,161 DEBUG o.a.h.wire: http-outgoing-3 >> "Connection: close[\r][\n]"
+2026-03-03 17:15:25,161 DEBUG o.a.h.wire: http-outgoing-3 >> "Accept-Language: en-US,en;q=0.9[\r][\n]"
+2026-03-03 17:15:25,161 DEBUG o.a.h.wire: http-outgoing-3 >> "Host: detectportal.firefox.com[\r][\n]"
+2026-03-03 17:15:25,161 DEBUG o.a.h.wire: http-outgoing-3 >> "Cache-Control: no-cache[\r][\n]"
+2026-03-03 17:15:25,161 DEBUG o.a.h.wire: http-outgoing-3 >> "Accept-Encoding: gzip, deflate[\r][\n]"
+2026-03-03 17:15:25,161 DEBUG o.a.h.wire: http-outgoing-3 >> "Pragma: no-cache[\r][\n]"
+2026-03-03 17:15:25,161 DEBUG o.a.h.wire: http-outgoing-3 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0[\r][\n]"
+2026-03-03 17:15:25,161 DEBUG o.a.h.wire: http-outgoing-3 >> "Accept: */*[\r][\n]"
+2026-03-03 17:15:25,161 DEBUG o.a.h.wire: http-outgoing-3 >> "[\r][\n]"
+2026-03-03 17:15:25,178 DEBUG o.a.h.wire: http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+2026-03-03 17:15:25,178 DEBUG o.a.h.wire: http-outgoing-3 << "Server: nginx[\r][\n]"
+2026-03-03 17:15:25,178 DEBUG o.a.h.wire: http-outgoing-3 << "Content-Length: 90[\r][\n]"
+2026-03-03 17:15:25,178 DEBUG o.a.h.wire: http-outgoing-3 << "Via: 1.1 google[\r][\n]"
+2026-03-03 17:15:25,178 DEBUG o.a.h.wire: http-outgoing-3 << "Date: Mon, 02 Mar 2026 19:00:33 GMT[\r][\n]"
+2026-03-03 17:15:25,178 DEBUG o.a.h.wire: http-outgoing-3 << "Age: 47691[\r][\n]"
+2026-03-03 17:15:25,178 DEBUG o.a.h.wire: http-outgoing-3 << "Content-Type: text/html[\r][\n]"
+2026-03-03 17:15:25,178 DEBUG o.a.h.wire: http-outgoing-3 << "Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600[\r][\n]"
+2026-03-03 17:15:25,178 DEBUG o.a.h.wire: http-outgoing-3 << "Connection: close[\r][\n]"
+2026-03-03 17:15:25,178 DEBUG o.a.h.wire: http-outgoing-3 << "[\r][\n]"
+2026-03-03 17:15:25,178 DEBUG o.a.h.wire: http-outgoing-3 << "<meta http-equiv="refresh" content="0;url=https://support.mozilla.org/kb/captive-portal"/>"
+2026-03-03 17:15:25,178 DEBUG o.a.h.headers: http-outgoing-3 << HTTP/1.1 200 OK
+2026-03-03 17:15:25,178 DEBUG o.a.h.headers: http-outgoing-3 << Server: nginx
+2026-03-03 17:15:25,178 DEBUG o.a.h.headers: http-outgoing-3 << Content-Length: 90
+2026-03-03 17:15:25,178 DEBUG o.a.h.headers: http-outgoing-3 << Via: 1.1 google
+2026-03-03 17:15:25,178 DEBUG o.a.h.headers: http-outgoing-3 << Date: Mon, 02 Mar 2026 19:00:33 GMT
+2026-03-03 17:15:25,178 DEBUG o.a.h.headers: http-outgoing-3 << Age: 47691
+2026-03-03 17:15:25,178 DEBUG o.a.h.headers: http-outgoing-3 << Content-Type: text/html
+2026-03-03 17:15:25,178 DEBUG o.a.h.headers: http-outgoing-3 << Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+2026-03-03 17:15:25,178 DEBUG o.a.h.headers: http-outgoing-3 << Connection: close
+2026-03-03 17:15:25,178 DEBUG o.a.h.c.p.ResponseProcessCookies: Cookie spec not specified in HTTP context
+2026-03-03 17:15:25,178 DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection: http-outgoing-3: Close connection
+2026-03-03 17:15:25,178 DEBUG o.a.h.i.e.MainClientExec: Connection discarded
+2026-03-03 17:15:25,178 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection released: [id: 3][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:15:25,178 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager is shutting down
+2026-03-03 17:15:25,178 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager shut down
+2026-03-03 17:15:25,189 DEBUG o.a.h.c.p.RequestAddCookies: CookieSpec selected: default
+2026-03-03 17:15:25,189 DEBUG o.a.h.c.p.RequestAddCookies: Unsupported cookie policy: default
+2026-03-03 17:15:25,189 DEBUG o.a.h.c.p.RequestAuthCache: Auth cache not set in the context
+2026-03-03 17:15:25,189 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection request: [route: {}->http://detectportal.firefox.com:80][state: Thread-34][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:15:25,189 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection leased: [id: 4][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2026-03-03 17:15:25,189 DEBUG o.a.h.i.e.MainClientExec: Opening connection {}->http://detectportal.firefox.com:80
+2026-03-03 17:15:25,189 DEBUG o.a.h.c.p.RequestAddCookies: CookieSpec selected: default
+2026-03-03 17:15:25,189 DEBUG o.a.h.c.p.RequestAddCookies: Unsupported cookie policy: default
+2026-03-03 17:15:25,189 DEBUG o.a.h.c.p.RequestAuthCache: Auth cache not set in the context
+2026-03-03 17:15:25,189 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection request: [route: {}->http://detectportal.firefox.com:80][state: Thread-35][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:15:25,189 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection leased: [id: 5][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2026-03-03 17:15:25,189 DEBUG o.a.h.i.e.MainClientExec: Opening connection {}->http://detectportal.firefox.com:80
+2026-03-03 17:15:25,202 DEBUG o.a.h.i.e.MainClientExec: Executing request GET /success.txt?ipv6 HTTP/1.1
+2026-03-03 17:15:25,202 DEBUG o.a.h.i.e.MainClientExec: Executing request GET /success.txt?ipv4 HTTP/1.1
+2026-03-03 17:15:25,202 DEBUG o.a.h.i.e.MainClientExec: Target auth state: UNCHALLENGED
+2026-03-03 17:15:25,202 DEBUG o.a.h.i.e.MainClientExec: Target auth state: UNCHALLENGED
+2026-03-03 17:15:25,202 DEBUG o.a.h.i.e.MainClientExec: Proxy auth state: UNCHALLENGED
+2026-03-03 17:15:25,202 DEBUG o.a.h.i.e.MainClientExec: Proxy auth state: UNCHALLENGED
+2026-03-03 17:15:25,202 DEBUG o.a.h.headers: http-outgoing-5 >> GET /success.txt?ipv6 HTTP/1.1
+2026-03-03 17:15:25,202 DEBUG o.a.h.headers: http-outgoing-4 >> GET /success.txt?ipv4 HTTP/1.1
+2026-03-03 17:15:25,202 DEBUG o.a.h.headers: http-outgoing-5 >> Connection: close
+2026-03-03 17:15:25,202 DEBUG o.a.h.headers: http-outgoing-4 >> Connection: close
+2026-03-03 17:15:25,203 DEBUG o.a.h.headers: http-outgoing-5 >> Accept-Language: en-US,en;q=0.9
+2026-03-03 17:15:25,203 DEBUG o.a.h.headers: http-outgoing-4 >> Accept-Language: en-US,en;q=0.9
+2026-03-03 17:15:25,203 DEBUG o.a.h.headers: http-outgoing-5 >> Host: detectportal.firefox.com
+2026-03-03 17:15:25,203 DEBUG o.a.h.headers: http-outgoing-4 >> Host: detectportal.firefox.com
+2026-03-03 17:15:25,203 DEBUG o.a.h.headers: http-outgoing-5 >> Priority: u=4
+2026-03-03 17:15:25,203 DEBUG o.a.h.headers: http-outgoing-4 >> Priority: u=4
+2026-03-03 17:15:25,203 DEBUG o.a.h.headers: http-outgoing-5 >> Cache-Control: no-cache
+2026-03-03 17:15:25,203 DEBUG o.a.h.headers: http-outgoing-5 >> Accept-Encoding: gzip, deflate
+2026-03-03 17:15:25,203 DEBUG o.a.h.headers: http-outgoing-4 >> Cache-Control: no-cache
+2026-03-03 17:15:25,204 DEBUG o.a.h.headers: http-outgoing-5 >> Pragma: no-cache
+2026-03-03 17:15:25,204 DEBUG o.a.h.headers: http-outgoing-5 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0
+2026-03-03 17:15:25,204 DEBUG o.a.h.headers: http-outgoing-4 >> Accept-Encoding: gzip, deflate
+2026-03-03 17:15:25,204 DEBUG o.a.h.headers: http-outgoing-5 >> Accept: */*
+2026-03-03 17:15:25,204 DEBUG o.a.h.headers: http-outgoing-4 >> Pragma: no-cache
+2026-03-03 17:15:25,204 DEBUG o.a.h.wire: http-outgoing-5 >> "GET /success.txt?ipv6 HTTP/1.1[\r][\n]"
+2026-03-03 17:15:25,204 DEBUG o.a.h.headers: http-outgoing-4 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0
+2026-03-03 17:15:25,204 DEBUG o.a.h.wire: http-outgoing-5 >> "Connection: close[\r][\n]"
+2026-03-03 17:15:25,204 DEBUG o.a.h.headers: http-outgoing-4 >> Accept: */*
+2026-03-03 17:15:25,204 DEBUG o.a.h.wire: http-outgoing-5 >> "Accept-Language: en-US,en;q=0.9[\r][\n]"
+2026-03-03 17:15:25,204 DEBUG o.a.h.wire: http-outgoing-4 >> "GET /success.txt?ipv4 HTTP/1.1[\r][\n]"
+2026-03-03 17:15:25,204 DEBUG o.a.h.wire: http-outgoing-5 >> "Host: detectportal.firefox.com[\r][\n]"
+2026-03-03 17:15:25,205 DEBUG o.a.h.wire: http-outgoing-4 >> "Connection: close[\r][\n]"
+2026-03-03 17:15:25,205 DEBUG o.a.h.wire: http-outgoing-5 >> "Priority: u=4[\r][\n]"
+2026-03-03 17:15:25,205 DEBUG o.a.h.wire: http-outgoing-4 >> "Accept-Language: en-US,en;q=0.9[\r][\n]"
+2026-03-03 17:15:25,205 DEBUG o.a.h.wire: http-outgoing-5 >> "Cache-Control: no-cache[\r][\n]"
+2026-03-03 17:15:25,205 DEBUG o.a.h.wire: http-outgoing-4 >> "Host: detectportal.firefox.com[\r][\n]"
+2026-03-03 17:15:25,205 DEBUG o.a.h.wire: http-outgoing-4 >> "Priority: u=4[\r][\n]"
+2026-03-03 17:15:25,205 DEBUG o.a.h.wire: http-outgoing-5 >> "Accept-Encoding: gzip, deflate[\r][\n]"
+2026-03-03 17:15:25,205 DEBUG o.a.h.wire: http-outgoing-4 >> "Cache-Control: no-cache[\r][\n]"
+2026-03-03 17:15:25,205 DEBUG o.a.h.wire: http-outgoing-5 >> "Pragma: no-cache[\r][\n]"
+2026-03-03 17:15:25,205 DEBUG o.a.h.wire: http-outgoing-4 >> "Accept-Encoding: gzip, deflate[\r][\n]"
+2026-03-03 17:15:25,205 DEBUG o.a.h.wire: http-outgoing-5 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0[\r][\n]"
+2026-03-03 17:15:25,206 DEBUG o.a.h.wire: http-outgoing-5 >> "Accept: */*[\r][\n]"
+2026-03-03 17:15:25,205 DEBUG o.a.h.wire: http-outgoing-4 >> "Pragma: no-cache[\r][\n]"
+2026-03-03 17:15:25,206 DEBUG o.a.h.wire: http-outgoing-5 >> "[\r][\n]"
+2026-03-03 17:15:25,206 DEBUG o.a.h.wire: http-outgoing-4 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0[\r][\n]"
+2026-03-03 17:15:25,206 DEBUG o.a.h.wire: http-outgoing-4 >> "Accept: */*[\r][\n]"
+2026-03-03 17:15:25,206 DEBUG o.a.h.wire: http-outgoing-4 >> "[\r][\n]"
+2026-03-03 17:15:25,206 WARN o.a.j.p.h.p.Proxy: [52537]  Problem with SSL certificate for url  for 'push.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: 確立された接続がホスト コンピューターのソウトウェアによって中止されました。
+2026-03-03 17:15:25,216 DEBUG o.a.h.wire: http-outgoing-4 << "HTTP/1.1 200 OK[\r][\n]"
+2026-03-03 17:15:25,216 DEBUG o.a.h.wire: http-outgoing-5 << "HTTP/1.1 200 OK[\r][\n]"
+2026-03-03 17:15:25,218 DEBUG o.a.h.wire: http-outgoing-4 << "Server: nginx[\r][\n]"
+2026-03-03 17:15:25,218 DEBUG o.a.h.wire: http-outgoing-5 << "Server: nginx[\r][\n]"
+2026-03-03 17:15:25,218 DEBUG o.a.h.wire: http-outgoing-4 << "Content-Length: 8[\r][\n]"
+2026-03-03 17:15:25,219 DEBUG o.a.h.wire: http-outgoing-4 << "Via: 1.1 google[\r][\n]"
+2026-03-03 17:15:25,219 DEBUG o.a.h.wire: http-outgoing-5 << "Content-Length: 8[\r][\n]"
+2026-03-03 17:15:25,219 DEBUG o.a.h.wire: http-outgoing-4 << "Date: Mon, 02 Mar 2026 18:57:53 GMT[\r][\n]"
+2026-03-03 17:15:25,219 DEBUG o.a.h.wire: http-outgoing-5 << "Via: 1.1 google[\r][\n]"
+2026-03-03 17:15:25,219 DEBUG o.a.h.wire: http-outgoing-5 << "Date: Mon, 02 Mar 2026 18:57:53 GMT[\r][\n]"
+2026-03-03 17:15:25,219 DEBUG o.a.h.wire: http-outgoing-4 << "Age: 47851[\r][\n]"
+2026-03-03 17:15:25,219 DEBUG o.a.h.wire: http-outgoing-5 << "Age: 47851[\r][\n]"
+2026-03-03 17:15:25,219 DEBUG o.a.h.wire: http-outgoing-4 << "Content-Type: text/plain[\r][\n]"
+2026-03-03 17:15:25,219 DEBUG o.a.h.wire: http-outgoing-5 << "Content-Type: text/plain[\r][\n]"
+2026-03-03 17:15:25,219 DEBUG o.a.h.wire: http-outgoing-4 << "Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600[\r][\n]"
+2026-03-03 17:15:25,219 DEBUG o.a.h.wire: http-outgoing-5 << "Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600[\r][\n]"
+2026-03-03 17:15:25,219 DEBUG o.a.h.wire: http-outgoing-4 << "Connection: close[\r][\n]"
+2026-03-03 17:15:25,219 DEBUG o.a.h.wire: http-outgoing-5 << "Connection: close[\r][\n]"
+2026-03-03 17:15:25,219 DEBUG o.a.h.wire: http-outgoing-5 << "[\r][\n]"
+2026-03-03 17:15:25,219 DEBUG o.a.h.wire: http-outgoing-4 << "[\r][\n]"
+2026-03-03 17:15:25,220 DEBUG o.a.h.wire: http-outgoing-5 << "success[\n]"
+2026-03-03 17:15:25,220 DEBUG o.a.h.wire: http-outgoing-4 << "success[\n]"
+2026-03-03 17:15:25,220 DEBUG o.a.h.headers: http-outgoing-5 << HTTP/1.1 200 OK
+2026-03-03 17:15:25,220 DEBUG o.a.h.headers: http-outgoing-4 << HTTP/1.1 200 OK
+2026-03-03 17:15:25,220 DEBUG o.a.h.headers: http-outgoing-5 << Server: nginx
+2026-03-03 17:15:25,220 DEBUG o.a.h.headers: http-outgoing-4 << Server: nginx
+2026-03-03 17:15:25,220 DEBUG o.a.h.headers: http-outgoing-4 << Content-Length: 8
+2026-03-03 17:15:25,220 DEBUG o.a.h.headers: http-outgoing-5 << Content-Length: 8
+2026-03-03 17:15:25,220 DEBUG o.a.h.headers: http-outgoing-4 << Via: 1.1 google
+2026-03-03 17:15:25,220 DEBUG o.a.h.headers: http-outgoing-5 << Via: 1.1 google
+2026-03-03 17:15:25,220 DEBUG o.a.h.headers: http-outgoing-4 << Date: Mon, 02 Mar 2026 18:57:53 GMT
+2026-03-03 17:15:25,220 DEBUG o.a.h.headers: http-outgoing-5 << Date: Mon, 02 Mar 2026 18:57:53 GMT
+2026-03-03 17:15:25,221 DEBUG o.a.h.headers: http-outgoing-4 << Age: 47851
+2026-03-03 17:15:25,221 DEBUG o.a.h.headers: http-outgoing-5 << Age: 47851
+2026-03-03 17:15:25,221 DEBUG o.a.h.headers: http-outgoing-4 << Content-Type: text/plain
+2026-03-03 17:15:25,221 DEBUG o.a.h.headers: http-outgoing-5 << Content-Type: text/plain
+2026-03-03 17:15:25,221 DEBUG o.a.h.headers: http-outgoing-4 << Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+2026-03-03 17:15:25,221 DEBUG o.a.h.headers: http-outgoing-5 << Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+2026-03-03 17:15:25,221 DEBUG o.a.h.headers: http-outgoing-4 << Connection: close
+2026-03-03 17:15:25,221 DEBUG o.a.h.headers: http-outgoing-5 << Connection: close
+2026-03-03 17:15:25,221 DEBUG o.a.h.c.p.ResponseProcessCookies: Cookie spec not specified in HTTP context
+2026-03-03 17:15:25,221 DEBUG o.a.h.c.p.ResponseProcessCookies: Cookie spec not specified in HTTP context
+2026-03-03 17:15:25,222 DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection: http-outgoing-5: Close connection
+2026-03-03 17:15:25,222 DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection: http-outgoing-4: Close connection
+2026-03-03 17:15:25,222 DEBUG o.a.h.i.e.MainClientExec: Connection discarded
+2026-03-03 17:15:25,222 DEBUG o.a.h.i.e.MainClientExec: Connection discarded
+2026-03-03 17:15:25,222 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection released: [id: 5][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:15:25,222 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection released: [id: 4][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:15:25,224 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager is shutting down
+2026-03-03 17:15:25,224 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager is shutting down
+2026-03-03 17:15:25,224 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager shut down
+2026-03-03 17:15:25,225 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager shut down
+2026-03-03 17:15:25,260 INFO o.a.j.p.h.p.ProxyControl: Add sample transname/canonical.html-4 into controller transname
+2026-03-03 17:15:45,195 DEBUG o.a.h.c.p.RequestAddCookies: CookieSpec selected: default
+2026-03-03 17:15:45,196 DEBUG o.a.h.c.p.RequestAddCookies: Unsupported cookie policy: default
+2026-03-03 17:15:45,196 DEBUG o.a.h.c.p.RequestAuthCache: Auth cache not set in the context
+2026-03-03 17:15:45,196 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection request: [route: {}->http://detectportal.firefox.com:80][state: Thread-37][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:15:45,196 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection leased: [id: 6][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2026-03-03 17:15:45,196 DEBUG o.a.h.i.e.MainClientExec: Opening connection {}->http://detectportal.firefox.com:80
+2026-03-03 17:15:45,202 DEBUG o.a.h.i.e.MainClientExec: Executing request GET /canonical.html HTTP/1.1
+2026-03-03 17:15:45,202 DEBUG o.a.h.i.e.MainClientExec: Target auth state: UNCHALLENGED
+2026-03-03 17:15:45,203 DEBUG o.a.h.i.e.MainClientExec: Proxy auth state: UNCHALLENGED
+2026-03-03 17:15:45,203 DEBUG o.a.h.headers: http-outgoing-6 >> GET /canonical.html HTTP/1.1
+2026-03-03 17:15:45,203 DEBUG o.a.h.headers: http-outgoing-6 >> Connection: close
+2026-03-03 17:15:45,203 DEBUG o.a.h.headers: http-outgoing-6 >> Accept-Language: en-US,en;q=0.9
+2026-03-03 17:15:45,203 DEBUG o.a.h.headers: http-outgoing-6 >> Host: detectportal.firefox.com
+2026-03-03 17:15:45,203 DEBUG o.a.h.headers: http-outgoing-6 >> Cache-Control: no-cache
+2026-03-03 17:15:45,204 DEBUG o.a.h.headers: http-outgoing-6 >> Accept-Encoding: gzip, deflate
+2026-03-03 17:15:45,204 DEBUG o.a.h.headers: http-outgoing-6 >> Pragma: no-cache
+2026-03-03 17:15:45,204 DEBUG o.a.h.headers: http-outgoing-6 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0
+2026-03-03 17:15:45,204 DEBUG o.a.h.headers: http-outgoing-6 >> Accept: */*
+2026-03-03 17:15:45,204 DEBUG o.a.h.wire: http-outgoing-6 >> "GET /canonical.html HTTP/1.1[\r][\n]"
+2026-03-03 17:15:45,204 DEBUG o.a.h.wire: http-outgoing-6 >> "Connection: close[\r][\n]"
+2026-03-03 17:15:45,204 DEBUG o.a.h.wire: http-outgoing-6 >> "Accept-Language: en-US,en;q=0.9[\r][\n]"
+2026-03-03 17:15:45,204 DEBUG o.a.h.wire: http-outgoing-6 >> "Host: detectportal.firefox.com[\r][\n]"
+2026-03-03 17:15:45,204 DEBUG o.a.h.wire: http-outgoing-6 >> "Cache-Control: no-cache[\r][\n]"
+2026-03-03 17:15:45,204 DEBUG o.a.h.wire: http-outgoing-6 >> "Accept-Encoding: gzip, deflate[\r][\n]"
+2026-03-03 17:15:45,204 DEBUG o.a.h.wire: http-outgoing-6 >> "Pragma: no-cache[\r][\n]"
+2026-03-03 17:15:45,204 DEBUG o.a.h.wire: http-outgoing-6 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0[\r][\n]"
+2026-03-03 17:15:45,204 DEBUG o.a.h.wire: http-outgoing-6 >> "Accept: */*[\r][\n]"
+2026-03-03 17:15:45,204 DEBUG o.a.h.wire: http-outgoing-6 >> "[\r][\n]"
+2026-03-03 17:15:45,211 WARN o.a.j.p.h.p.Proxy: [59583]  Problem with SSL certificate for url  for 'push.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: 確立された接続がホスト コンピューターのソウトウェアによって中止されました。
+2026-03-03 17:15:45,218 DEBUG o.a.h.wire: http-outgoing-6 << "HTTP/1.1 200 OK[\r][\n]"
+2026-03-03 17:15:45,219 DEBUG o.a.h.wire: http-outgoing-6 << "Server: nginx[\r][\n]"
+2026-03-03 17:15:45,219 DEBUG o.a.h.wire: http-outgoing-6 << "Content-Length: 90[\r][\n]"
+2026-03-03 17:15:45,219 DEBUG o.a.h.wire: http-outgoing-6 << "Via: 1.1 google[\r][\n]"
+2026-03-03 17:15:45,219 DEBUG o.a.h.wire: http-outgoing-6 << "Date: Mon, 02 Mar 2026 19:00:33 GMT[\r][\n]"
+2026-03-03 17:15:45,219 DEBUG o.a.h.wire: http-outgoing-6 << "Age: 47711[\r][\n]"
+2026-03-03 17:15:45,219 DEBUG o.a.h.wire: http-outgoing-6 << "Content-Type: text/html[\r][\n]"
+2026-03-03 17:15:45,219 DEBUG o.a.h.wire: http-outgoing-6 << "Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600[\r][\n]"
+2026-03-03 17:15:45,219 DEBUG o.a.h.wire: http-outgoing-6 << "Connection: close[\r][\n]"
+2026-03-03 17:15:45,219 DEBUG o.a.h.wire: http-outgoing-6 << "[\r][\n]"
+2026-03-03 17:15:45,219 DEBUG o.a.h.wire: http-outgoing-6 << "<meta http-equiv="refresh" content="0;url=https://support.mozilla.org/kb/captive-portal"/>"
+2026-03-03 17:15:45,219 DEBUG o.a.h.headers: http-outgoing-6 << HTTP/1.1 200 OK
+2026-03-03 17:15:45,220 DEBUG o.a.h.headers: http-outgoing-6 << Server: nginx
+2026-03-03 17:15:45,220 DEBUG o.a.h.headers: http-outgoing-6 << Content-Length: 90
+2026-03-03 17:15:45,220 DEBUG o.a.h.headers: http-outgoing-6 << Via: 1.1 google
+2026-03-03 17:15:45,220 DEBUG o.a.h.headers: http-outgoing-6 << Date: Mon, 02 Mar 2026 19:00:33 GMT
+2026-03-03 17:15:45,220 DEBUG o.a.h.headers: http-outgoing-6 << Age: 47711
+2026-03-03 17:15:45,220 DEBUG o.a.h.headers: http-outgoing-6 << Content-Type: text/html
+2026-03-03 17:15:45,220 DEBUG o.a.h.headers: http-outgoing-6 << Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+2026-03-03 17:15:45,220 DEBUG o.a.h.headers: http-outgoing-6 << Connection: close
+2026-03-03 17:15:45,220 DEBUG o.a.h.c.p.ResponseProcessCookies: Cookie spec not specified in HTTP context
+2026-03-03 17:15:45,220 DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection: http-outgoing-6: Close connection
+2026-03-03 17:15:45,221 DEBUG o.a.h.i.e.MainClientExec: Connection discarded
+2026-03-03 17:15:45,221 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection released: [id: 6][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:15:45,224 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager is shutting down
+2026-03-03 17:15:45,224 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager shut down
+2026-03-03 17:15:45,229 DEBUG o.a.h.c.p.RequestAddCookies: CookieSpec selected: default
+2026-03-03 17:15:45,230 DEBUG o.a.h.c.p.RequestAddCookies: Unsupported cookie policy: default
+2026-03-03 17:15:45,230 DEBUG o.a.h.c.p.RequestAddCookies: CookieSpec selected: default
+2026-03-03 17:15:45,230 DEBUG o.a.h.c.p.RequestAuthCache: Auth cache not set in the context
+2026-03-03 17:15:45,230 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection request: [route: {}->http://detectportal.firefox.com:80][state: Thread-38][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:15:45,230 DEBUG o.a.h.c.p.RequestAddCookies: Unsupported cookie policy: default
+2026-03-03 17:15:45,230 DEBUG o.a.h.c.p.RequestAuthCache: Auth cache not set in the context
+2026-03-03 17:15:45,230 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection leased: [id: 7][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2026-03-03 17:15:45,231 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection request: [route: {}->http://detectportal.firefox.com:80][state: Thread-39][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:15:45,231 DEBUG o.a.h.i.e.MainClientExec: Opening connection {}->http://detectportal.firefox.com:80
+2026-03-03 17:15:45,231 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection leased: [id: 8][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2026-03-03 17:15:45,231 DEBUG o.a.h.i.e.MainClientExec: Opening connection {}->http://detectportal.firefox.com:80
+2026-03-03 17:15:45,237 DEBUG o.a.h.i.e.MainClientExec: Executing request GET /success.txt?ipv4 HTTP/1.1
+2026-03-03 17:15:45,237 DEBUG o.a.h.i.e.MainClientExec: Executing request GET /success.txt?ipv6 HTTP/1.1
+2026-03-03 17:15:45,237 DEBUG o.a.h.i.e.MainClientExec: Target auth state: UNCHALLENGED
+2026-03-03 17:15:45,237 DEBUG o.a.h.i.e.MainClientExec: Target auth state: UNCHALLENGED
+2026-03-03 17:15:45,237 DEBUG o.a.h.i.e.MainClientExec: Proxy auth state: UNCHALLENGED
+2026-03-03 17:15:45,237 DEBUG o.a.h.i.e.MainClientExec: Proxy auth state: UNCHALLENGED
+2026-03-03 17:15:45,237 DEBUG o.a.h.headers: http-outgoing-7 >> GET /success.txt?ipv4 HTTP/1.1
+2026-03-03 17:15:45,237 DEBUG o.a.h.headers: http-outgoing-8 >> GET /success.txt?ipv6 HTTP/1.1
+2026-03-03 17:15:45,237 DEBUG o.a.h.headers: http-outgoing-7 >> Connection: close
+2026-03-03 17:15:45,237 DEBUG o.a.h.headers: http-outgoing-8 >> Connection: close
+2026-03-03 17:15:45,237 DEBUG o.a.h.headers: http-outgoing-7 >> Accept-Language: en-US,en;q=0.9
+2026-03-03 17:15:45,237 DEBUG o.a.h.headers: http-outgoing-8 >> Accept-Language: en-US,en;q=0.9
+2026-03-03 17:15:45,237 DEBUG o.a.h.headers: http-outgoing-7 >> Host: detectportal.firefox.com
+2026-03-03 17:15:45,237 DEBUG o.a.h.headers: http-outgoing-8 >> Host: detectportal.firefox.com
+2026-03-03 17:15:45,237 DEBUG o.a.h.headers: http-outgoing-8 >> Priority: u=4
+2026-03-03 17:15:45,237 DEBUG o.a.h.headers: http-outgoing-7 >> Priority: u=4
+2026-03-03 17:15:45,237 DEBUG o.a.h.headers: http-outgoing-7 >> Cache-Control: no-cache
+2026-03-03 17:15:45,237 DEBUG o.a.h.headers: http-outgoing-8 >> Cache-Control: no-cache
+2026-03-03 17:15:45,238 DEBUG o.a.h.headers: http-outgoing-7 >> Accept-Encoding: gzip, deflate
+2026-03-03 17:15:45,238 DEBUG o.a.h.headers: http-outgoing-8 >> Accept-Encoding: gzip, deflate
+2026-03-03 17:15:45,238 DEBUG o.a.h.headers: http-outgoing-7 >> Pragma: no-cache
+2026-03-03 17:15:45,238 DEBUG o.a.h.headers: http-outgoing-8 >> Pragma: no-cache
+2026-03-03 17:15:45,238 DEBUG o.a.h.headers: http-outgoing-7 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0
+2026-03-03 17:15:45,238 DEBUG o.a.h.headers: http-outgoing-7 >> Accept: */*
+2026-03-03 17:15:45,238 DEBUG o.a.h.headers: http-outgoing-8 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0
+2026-03-03 17:15:45,238 DEBUG o.a.h.wire: http-outgoing-7 >> "GET /success.txt?ipv4 HTTP/1.1[\r][\n]"
+2026-03-03 17:15:45,238 DEBUG o.a.h.headers: http-outgoing-8 >> Accept: */*
+2026-03-03 17:15:45,238 DEBUG o.a.h.wire: http-outgoing-7 >> "Connection: close[\r][\n]"
+2026-03-03 17:15:45,238 DEBUG o.a.h.wire: http-outgoing-8 >> "GET /success.txt?ipv6 HTTP/1.1[\r][\n]"
+2026-03-03 17:15:45,239 DEBUG o.a.h.wire: http-outgoing-7 >> "Accept-Language: en-US,en;q=0.9[\r][\n]"
+2026-03-03 17:15:45,239 DEBUG o.a.h.wire: http-outgoing-8 >> "Connection: close[\r][\n]"
+2026-03-03 17:15:45,239 DEBUG o.a.h.wire: http-outgoing-7 >> "Host: detectportal.firefox.com[\r][\n]"
+2026-03-03 17:15:45,239 DEBUG o.a.h.wire: http-outgoing-8 >> "Accept-Language: en-US,en;q=0.9[\r][\n]"
+2026-03-03 17:15:45,239 DEBUG o.a.h.wire: http-outgoing-8 >> "Host: detectportal.firefox.com[\r][\n]"
+2026-03-03 17:15:45,239 DEBUG o.a.h.wire: http-outgoing-7 >> "Priority: u=4[\r][\n]"
+2026-03-03 17:15:45,240 DEBUG o.a.h.wire: http-outgoing-8 >> "Priority: u=4[\r][\n]"
+2026-03-03 17:15:45,240 DEBUG o.a.h.wire: http-outgoing-8 >> "Cache-Control: no-cache[\r][\n]"
+2026-03-03 17:15:45,240 DEBUG o.a.h.wire: http-outgoing-7 >> "Cache-Control: no-cache[\r][\n]"
+2026-03-03 17:15:45,240 DEBUG o.a.h.wire: http-outgoing-8 >> "Accept-Encoding: gzip, deflate[\r][\n]"
+2026-03-03 17:15:45,240 DEBUG o.a.h.wire: http-outgoing-7 >> "Accept-Encoding: gzip, deflate[\r][\n]"
+2026-03-03 17:15:45,240 DEBUG o.a.h.wire: http-outgoing-8 >> "Pragma: no-cache[\r][\n]"
+2026-03-03 17:15:45,240 DEBUG o.a.h.wire: http-outgoing-7 >> "Pragma: no-cache[\r][\n]"
+2026-03-03 17:15:45,240 DEBUG o.a.h.wire: http-outgoing-8 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0[\r][\n]"
+2026-03-03 17:15:45,240 DEBUG o.a.h.wire: http-outgoing-7 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0[\r][\n]"
+2026-03-03 17:15:45,240 DEBUG o.a.h.wire: http-outgoing-8 >> "Accept: */*[\r][\n]"
+2026-03-03 17:15:45,240 DEBUG o.a.h.wire: http-outgoing-7 >> "Accept: */*[\r][\n]"
+2026-03-03 17:15:45,241 DEBUG o.a.h.wire: http-outgoing-7 >> "[\r][\n]"
+2026-03-03 17:15:45,240 DEBUG o.a.h.wire: http-outgoing-8 >> "[\r][\n]"
+2026-03-03 17:15:45,252 DEBUG o.a.h.wire: http-outgoing-8 << "HTTP/1.1 200 OK[\r][\n]"
+2026-03-03 17:15:45,252 DEBUG o.a.h.wire: http-outgoing-8 << "Server: nginx[\r][\n]"
+2026-03-03 17:15:45,252 DEBUG o.a.h.wire: http-outgoing-8 << "Content-Length: 8[\r][\n]"
+2026-03-03 17:15:45,252 DEBUG o.a.h.wire: http-outgoing-8 << "Via: 1.1 google[\r][\n]"
+2026-03-03 17:15:45,252 DEBUG o.a.h.wire: http-outgoing-8 << "Date: Mon, 02 Mar 2026 18:57:53 GMT[\r][\n]"
+2026-03-03 17:15:45,252 DEBUG o.a.h.wire: http-outgoing-8 << "Age: 47871[\r][\n]"
+2026-03-03 17:15:45,252 DEBUG o.a.h.wire: http-outgoing-8 << "Content-Type: text/plain[\r][\n]"
+2026-03-03 17:15:45,253 DEBUG o.a.h.wire: http-outgoing-8 << "Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600[\r][\n]"
+2026-03-03 17:15:45,253 DEBUG o.a.h.wire: http-outgoing-8 << "Connection: close[\r][\n]"
+2026-03-03 17:15:45,253 DEBUG o.a.h.wire: http-outgoing-8 << "[\r][\n]"
+2026-03-03 17:15:45,253 DEBUG o.a.h.wire: http-outgoing-8 << "success[\n]"
+2026-03-03 17:15:45,253 DEBUG o.a.h.headers: http-outgoing-8 << HTTP/1.1 200 OK
+2026-03-03 17:15:45,253 DEBUG o.a.h.headers: http-outgoing-8 << Server: nginx
+2026-03-03 17:15:45,253 DEBUG o.a.h.headers: http-outgoing-8 << Content-Length: 8
+2026-03-03 17:15:45,253 DEBUG o.a.h.headers: http-outgoing-8 << Via: 1.1 google
+2026-03-03 17:15:45,253 DEBUG o.a.h.headers: http-outgoing-8 << Date: Mon, 02 Mar 2026 18:57:53 GMT
+2026-03-03 17:15:45,253 DEBUG o.a.h.headers: http-outgoing-8 << Age: 47871
+2026-03-03 17:15:45,253 DEBUG o.a.h.headers: http-outgoing-8 << Content-Type: text/plain
+2026-03-03 17:15:45,253 DEBUG o.a.h.headers: http-outgoing-8 << Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+2026-03-03 17:15:45,254 DEBUG o.a.h.headers: http-outgoing-8 << Connection: close
+2026-03-03 17:15:45,254 DEBUG o.a.h.c.p.ResponseProcessCookies: Cookie spec not specified in HTTP context
+2026-03-03 17:15:45,254 DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection: http-outgoing-8: Close connection
+2026-03-03 17:15:45,254 DEBUG o.a.h.i.e.MainClientExec: Connection discarded
+2026-03-03 17:15:45,254 DEBUG o.a.h.wire: http-outgoing-7 << "HTTP/1.1 200 OK[\r][\n]"
+2026-03-03 17:15:45,254 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection released: [id: 8][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:15:45,255 DEBUG o.a.h.wire: http-outgoing-7 << "Server: nginx[\r][\n]"
+2026-03-03 17:15:45,255 DEBUG o.a.h.wire: http-outgoing-7 << "Content-Length: 8[\r][\n]"
+2026-03-03 17:15:45,255 DEBUG o.a.h.wire: http-outgoing-7 << "Via: 1.1 google[\r][\n]"
+2026-03-03 17:15:45,255 DEBUG o.a.h.wire: http-outgoing-7 << "Date: Mon, 02 Mar 2026 18:57:53 GMT[\r][\n]"
+2026-03-03 17:15:45,255 DEBUG o.a.h.wire: http-outgoing-7 << "Age: 47871[\r][\n]"
+2026-03-03 17:15:45,255 DEBUG o.a.h.wire: http-outgoing-7 << "Content-Type: text/plain[\r][\n]"
+2026-03-03 17:15:45,255 DEBUG o.a.h.wire: http-outgoing-7 << "Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600[\r][\n]"
+2026-03-03 17:15:45,256 DEBUG o.a.h.wire: http-outgoing-7 << "Connection: close[\r][\n]"
+2026-03-03 17:15:45,256 DEBUG o.a.h.wire: http-outgoing-7 << "[\r][\n]"
+2026-03-03 17:15:45,256 DEBUG o.a.h.wire: http-outgoing-7 << "success[\n]"
+2026-03-03 17:15:45,256 DEBUG o.a.h.headers: http-outgoing-7 << HTTP/1.1 200 OK
+2026-03-03 17:15:45,256 DEBUG o.a.h.headers: http-outgoing-7 << Server: nginx
+2026-03-03 17:15:45,256 DEBUG o.a.h.headers: http-outgoing-7 << Content-Length: 8
+2026-03-03 17:15:45,256 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager is shutting down
+2026-03-03 17:15:45,256 DEBUG o.a.h.headers: http-outgoing-7 << Via: 1.1 google
+2026-03-03 17:15:45,256 DEBUG o.a.h.headers: http-outgoing-7 << Date: Mon, 02 Mar 2026 18:57:53 GMT
+2026-03-03 17:15:45,256 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager shut down
+2026-03-03 17:15:45,256 DEBUG o.a.h.headers: http-outgoing-7 << Age: 47871
+2026-03-03 17:15:45,256 DEBUG o.a.h.headers: http-outgoing-7 << Content-Type: text/plain
+2026-03-03 17:15:45,256 DEBUG o.a.h.headers: http-outgoing-7 << Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+2026-03-03 17:15:45,257 DEBUG o.a.h.headers: http-outgoing-7 << Connection: close
+2026-03-03 17:15:45,257 DEBUG o.a.h.c.p.ResponseProcessCookies: Cookie spec not specified in HTTP context
+2026-03-03 17:15:45,257 DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection: http-outgoing-7: Close connection
+2026-03-03 17:15:45,257 DEBUG o.a.h.i.e.MainClientExec: Connection discarded
+2026-03-03 17:15:45,257 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection released: [id: 7][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:15:45,258 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager is shutting down
+2026-03-03 17:15:45,258 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager shut down
+2026-03-03 17:15:45,271 INFO o.a.j.p.h.p.ProxyControl: Add sample transname/canonical.html-7 into controller transname
+2026-03-03 17:16:25,236 DEBUG o.a.h.c.p.RequestAddCookies: CookieSpec selected: default
+2026-03-03 17:16:25,237 DEBUG o.a.h.c.p.RequestAddCookies: Unsupported cookie policy: default
+2026-03-03 17:16:25,237 DEBUG o.a.h.c.p.RequestAuthCache: Auth cache not set in the context
+2026-03-03 17:16:25,237 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection request: [route: {}->http://detectportal.firefox.com:80][state: Thread-41][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:16:25,237 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection leased: [id: 9][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2026-03-03 17:16:25,237 DEBUG o.a.h.i.e.MainClientExec: Opening connection {}->http://detectportal.firefox.com:80
+2026-03-03 17:16:25,247 WARN o.a.j.p.h.p.Proxy: [57079]  Problem with SSL certificate for url  for 'push.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: 確立された接続がホスト コンピューターのソウトウェアによって中止されました。
+2026-03-03 17:16:25,255 DEBUG o.a.h.i.e.MainClientExec: Executing request GET /canonical.html HTTP/1.1
+2026-03-03 17:16:25,255 DEBUG o.a.h.i.e.MainClientExec: Target auth state: UNCHALLENGED
+2026-03-03 17:16:25,255 DEBUG o.a.h.i.e.MainClientExec: Proxy auth state: UNCHALLENGED
+2026-03-03 17:16:25,255 DEBUG o.a.h.headers: http-outgoing-9 >> GET /canonical.html HTTP/1.1
+2026-03-03 17:16:25,255 DEBUG o.a.h.headers: http-outgoing-9 >> Connection: close
+2026-03-03 17:16:25,255 DEBUG o.a.h.headers: http-outgoing-9 >> Accept-Language: en-US,en;q=0.9
+2026-03-03 17:16:25,256 DEBUG o.a.h.headers: http-outgoing-9 >> Host: detectportal.firefox.com
+2026-03-03 17:16:25,256 DEBUG o.a.h.headers: http-outgoing-9 >> Cache-Control: no-cache
+2026-03-03 17:16:25,256 DEBUG o.a.h.headers: http-outgoing-9 >> Accept-Encoding: gzip, deflate
+2026-03-03 17:16:25,256 DEBUG o.a.h.headers: http-outgoing-9 >> Pragma: no-cache
+2026-03-03 17:16:25,256 DEBUG o.a.h.headers: http-outgoing-9 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0
+2026-03-03 17:16:25,256 DEBUG o.a.h.headers: http-outgoing-9 >> Accept: */*
+2026-03-03 17:16:25,256 DEBUG o.a.h.wire: http-outgoing-9 >> "GET /canonical.html HTTP/1.1[\r][\n]"
+2026-03-03 17:16:25,256 DEBUG o.a.h.wire: http-outgoing-9 >> "Connection: close[\r][\n]"
+2026-03-03 17:16:25,256 DEBUG o.a.h.wire: http-outgoing-9 >> "Accept-Language: en-US,en;q=0.9[\r][\n]"
+2026-03-03 17:16:25,256 DEBUG o.a.h.wire: http-outgoing-9 >> "Host: detectportal.firefox.com[\r][\n]"
+2026-03-03 17:16:25,256 DEBUG o.a.h.wire: http-outgoing-9 >> "Cache-Control: no-cache[\r][\n]"
+2026-03-03 17:16:25,256 DEBUG o.a.h.wire: http-outgoing-9 >> "Accept-Encoding: gzip, deflate[\r][\n]"
+2026-03-03 17:16:25,256 DEBUG o.a.h.wire: http-outgoing-9 >> "Pragma: no-cache[\r][\n]"
+2026-03-03 17:16:25,256 DEBUG o.a.h.wire: http-outgoing-9 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0[\r][\n]"
+2026-03-03 17:16:25,256 DEBUG o.a.h.wire: http-outgoing-9 >> "Accept: */*[\r][\n]"
+2026-03-03 17:16:25,257 DEBUG o.a.h.wire: http-outgoing-9 >> "[\r][\n]"
+2026-03-03 17:16:25,276 DEBUG o.a.h.wire: http-outgoing-9 << "HTTP/1.1 200 OK[\r][\n]"
+2026-03-03 17:16:25,276 DEBUG o.a.h.wire: http-outgoing-9 << "Server: nginx[\r][\n]"
+2026-03-03 17:16:25,276 DEBUG o.a.h.wire: http-outgoing-9 << "Content-Length: 90[\r][\n]"
+2026-03-03 17:16:25,276 DEBUG o.a.h.wire: http-outgoing-9 << "Via: 1.1 google[\r][\n]"
+2026-03-03 17:16:25,276 DEBUG o.a.h.wire: http-outgoing-9 << "Date: Mon, 02 Mar 2026 19:00:33 GMT[\r][\n]"
+2026-03-03 17:16:25,276 DEBUG o.a.h.wire: http-outgoing-9 << "Age: 47751[\r][\n]"
+2026-03-03 17:16:25,276 DEBUG o.a.h.wire: http-outgoing-9 << "Content-Type: text/html[\r][\n]"
+2026-03-03 17:16:25,276 DEBUG o.a.h.wire: http-outgoing-9 << "Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600[\r][\n]"
+2026-03-03 17:16:25,276 DEBUG o.a.h.wire: http-outgoing-9 << "Connection: close[\r][\n]"
+2026-03-03 17:16:25,276 DEBUG o.a.h.wire: http-outgoing-9 << "[\r][\n]"
+2026-03-03 17:16:25,276 DEBUG o.a.h.wire: http-outgoing-9 << "<meta http-equiv="refresh" content="0;url=https://support.mozilla.org/kb/captive-portal"/>"
+2026-03-03 17:16:25,276 DEBUG o.a.h.headers: http-outgoing-9 << HTTP/1.1 200 OK
+2026-03-03 17:16:25,276 DEBUG o.a.h.headers: http-outgoing-9 << Server: nginx
+2026-03-03 17:16:25,276 DEBUG o.a.h.headers: http-outgoing-9 << Content-Length: 90
+2026-03-03 17:16:25,276 DEBUG o.a.h.headers: http-outgoing-9 << Via: 1.1 google
+2026-03-03 17:16:25,276 DEBUG o.a.h.headers: http-outgoing-9 << Date: Mon, 02 Mar 2026 19:00:33 GMT
+2026-03-03 17:16:25,276 DEBUG o.a.h.headers: http-outgoing-9 << Age: 47751
+2026-03-03 17:16:25,276 DEBUG o.a.h.headers: http-outgoing-9 << Content-Type: text/html
+2026-03-03 17:16:25,277 DEBUG o.a.h.headers: http-outgoing-9 << Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+2026-03-03 17:16:25,277 DEBUG o.a.h.headers: http-outgoing-9 << Connection: close
+2026-03-03 17:16:25,277 DEBUG o.a.h.c.p.ResponseProcessCookies: Cookie spec not specified in HTTP context
+2026-03-03 17:16:25,277 DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection: http-outgoing-9: Close connection
+2026-03-03 17:16:25,277 DEBUG o.a.h.i.e.MainClientExec: Connection discarded
+2026-03-03 17:16:25,277 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection released: [id: 9][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:16:25,279 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager is shutting down
+2026-03-03 17:16:25,279 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager shut down
+2026-03-03 17:16:25,279 DEBUG o.a.h.c.p.RequestAddCookies: CookieSpec selected: default
+2026-03-03 17:16:25,279 DEBUG o.a.h.c.p.RequestAddCookies: CookieSpec selected: default
+2026-03-03 17:16:25,279 DEBUG o.a.h.c.p.RequestAddCookies: Unsupported cookie policy: default
+2026-03-03 17:16:25,279 DEBUG o.a.h.c.p.RequestAddCookies: Unsupported cookie policy: default
+2026-03-03 17:16:25,279 DEBUG o.a.h.c.p.RequestAuthCache: Auth cache not set in the context
+2026-03-03 17:16:25,285 DEBUG o.a.h.c.p.RequestAuthCache: Auth cache not set in the context
+2026-03-03 17:16:25,285 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection request: [route: {}->http://detectportal.firefox.com:80][state: Thread-43][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:16:25,285 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection request: [route: {}->http://detectportal.firefox.com:80][state: Thread-42][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:16:25,285 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection leased: [id: 10][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2026-03-03 17:16:25,285 DEBUG o.a.h.i.e.MainClientExec: Opening connection {}->http://detectportal.firefox.com:80
+2026-03-03 17:16:25,285 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection leased: [id: 11][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2026-03-03 17:16:25,285 DEBUG o.a.h.i.e.MainClientExec: Opening connection {}->http://detectportal.firefox.com:80
+2026-03-03 17:16:25,292 DEBUG o.a.h.i.e.MainClientExec: Executing request GET /success.txt?ipv4 HTTP/1.1
+2026-03-03 17:16:25,292 DEBUG o.a.h.i.e.MainClientExec: Executing request GET /success.txt?ipv6 HTTP/1.1
+2026-03-03 17:16:25,293 DEBUG o.a.h.i.e.MainClientExec: Target auth state: UNCHALLENGED
+2026-03-03 17:16:25,293 DEBUG o.a.h.i.e.MainClientExec: Proxy auth state: UNCHALLENGED
+2026-03-03 17:16:25,293 DEBUG o.a.h.i.e.MainClientExec: Target auth state: UNCHALLENGED
+2026-03-03 17:16:25,293 DEBUG o.a.h.i.e.MainClientExec: Proxy auth state: UNCHALLENGED
+2026-03-03 17:16:25,293 DEBUG o.a.h.headers: http-outgoing-11 >> GET /success.txt?ipv4 HTTP/1.1
+2026-03-03 17:16:25,293 DEBUG o.a.h.headers: http-outgoing-11 >> Connection: close
+2026-03-03 17:16:25,293 DEBUG o.a.h.headers: http-outgoing-10 >> GET /success.txt?ipv6 HTTP/1.1
+2026-03-03 17:16:25,293 DEBUG o.a.h.headers: http-outgoing-11 >> Accept-Language: en-US,en;q=0.9
+2026-03-03 17:16:25,293 DEBUG o.a.h.headers: http-outgoing-11 >> Host: detectportal.firefox.com
+2026-03-03 17:16:25,294 DEBUG o.a.h.headers: http-outgoing-11 >> Priority: u=4
+2026-03-03 17:16:25,293 DEBUG o.a.h.headers: http-outgoing-10 >> Connection: close
+2026-03-03 17:16:25,294 DEBUG o.a.h.headers: http-outgoing-11 >> Cache-Control: no-cache
+2026-03-03 17:16:25,294 DEBUG o.a.h.headers: http-outgoing-10 >> Accept-Language: en-US,en;q=0.9
+2026-03-03 17:16:25,294 DEBUG o.a.h.headers: http-outgoing-10 >> Host: detectportal.firefox.com
+2026-03-03 17:16:25,294 DEBUG o.a.h.headers: http-outgoing-10 >> Priority: u=4
+2026-03-03 17:16:25,294 DEBUG o.a.h.headers: http-outgoing-11 >> Accept-Encoding: gzip, deflate
+2026-03-03 17:16:25,294 DEBUG o.a.h.headers: http-outgoing-10 >> Cache-Control: no-cache
+2026-03-03 17:16:25,294 DEBUG o.a.h.headers: http-outgoing-10 >> Accept-Encoding: gzip, deflate
+2026-03-03 17:16:25,294 DEBUG o.a.h.headers: http-outgoing-11 >> Pragma: no-cache
+2026-03-03 17:16:25,294 DEBUG o.a.h.headers: http-outgoing-11 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0
+2026-03-03 17:16:25,294 DEBUG o.a.h.headers: http-outgoing-11 >> Accept: */*
+2026-03-03 17:16:25,294 DEBUG o.a.h.headers: http-outgoing-10 >> Pragma: no-cache
+2026-03-03 17:16:25,295 DEBUG o.a.h.headers: http-outgoing-10 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0
+2026-03-03 17:16:25,294 DEBUG o.a.h.wire: http-outgoing-11 >> "GET /success.txt?ipv4 HTTP/1.1[\r][\n]"
+2026-03-03 17:16:25,295 DEBUG o.a.h.headers: http-outgoing-10 >> Accept: */*
+2026-03-03 17:16:25,295 DEBUG o.a.h.wire: http-outgoing-10 >> "GET /success.txt?ipv6 HTTP/1.1[\r][\n]"
+2026-03-03 17:16:25,295 DEBUG o.a.h.wire: http-outgoing-10 >> "Connection: close[\r][\n]"
+2026-03-03 17:16:25,295 DEBUG o.a.h.wire: http-outgoing-11 >> "Connection: close[\r][\n]"
+2026-03-03 17:16:25,295 DEBUG o.a.h.wire: http-outgoing-10 >> "Accept-Language: en-US,en;q=0.9[\r][\n]"
+2026-03-03 17:16:25,295 DEBUG o.a.h.wire: http-outgoing-11 >> "Accept-Language: en-US,en;q=0.9[\r][\n]"
+2026-03-03 17:16:25,295 DEBUG o.a.h.wire: http-outgoing-10 >> "Host: detectportal.firefox.com[\r][\n]"
+2026-03-03 17:16:25,295 DEBUG o.a.h.wire: http-outgoing-11 >> "Host: detectportal.firefox.com[\r][\n]"
+2026-03-03 17:16:25,295 DEBUG o.a.h.wire: http-outgoing-11 >> "Priority: u=4[\r][\n]"
+2026-03-03 17:16:25,295 DEBUG o.a.h.wire: http-outgoing-10 >> "Priority: u=4[\r][\n]"
+2026-03-03 17:16:25,295 DEBUG o.a.h.wire: http-outgoing-11 >> "Cache-Control: no-cache[\r][\n]"
+2026-03-03 17:16:25,295 DEBUG o.a.h.wire: http-outgoing-10 >> "Cache-Control: no-cache[\r][\n]"
+2026-03-03 17:16:25,295 DEBUG o.a.h.wire: http-outgoing-11 >> "Accept-Encoding: gzip, deflate[\r][\n]"
+2026-03-03 17:16:25,295 DEBUG o.a.h.wire: http-outgoing-11 >> "Pragma: no-cache[\r][\n]"
+2026-03-03 17:16:25,295 DEBUG o.a.h.wire: http-outgoing-10 >> "Accept-Encoding: gzip, deflate[\r][\n]"
+2026-03-03 17:16:25,295 DEBUG o.a.h.wire: http-outgoing-11 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0[\r][\n]"
+2026-03-03 17:16:25,295 DEBUG o.a.h.wire: http-outgoing-11 >> "Accept: */*[\r][\n]"
+2026-03-03 17:16:25,295 DEBUG o.a.h.wire: http-outgoing-10 >> "Pragma: no-cache[\r][\n]"
+2026-03-03 17:16:25,295 DEBUG o.a.h.wire: http-outgoing-11 >> "[\r][\n]"
+2026-03-03 17:16:25,295 DEBUG o.a.h.wire: http-outgoing-10 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0[\r][\n]"
+2026-03-03 17:16:25,295 DEBUG o.a.h.wire: http-outgoing-10 >> "Accept: */*[\r][\n]"
+2026-03-03 17:16:25,295 DEBUG o.a.h.wire: http-outgoing-10 >> "[\r][\n]"
+2026-03-03 17:16:25,303 DEBUG o.a.h.wire: http-outgoing-11 << "HTTP/1.1 200 OK[\r][\n]"
+2026-03-03 17:16:25,309 DEBUG o.a.h.wire: http-outgoing-11 << "Server: nginx[\r][\n]"
+2026-03-03 17:16:25,309 DEBUG o.a.h.wire: http-outgoing-11 << "Content-Length: 8[\r][\n]"
+2026-03-03 17:16:25,309 DEBUG o.a.h.wire: http-outgoing-11 << "Via: 1.1 google[\r][\n]"
+2026-03-03 17:16:25,303 DEBUG o.a.h.wire: http-outgoing-10 << "HTTP/1.1 200 OK[\r][\n]"
+2026-03-03 17:16:25,309 DEBUG o.a.h.wire: http-outgoing-10 << "Server: nginx[\r][\n]"
+2026-03-03 17:16:25,309 DEBUG o.a.h.wire: http-outgoing-11 << "Date: Mon, 02 Mar 2026 18:57:53 GMT[\r][\n]"
+2026-03-03 17:16:25,309 DEBUG o.a.h.wire: http-outgoing-11 << "Age: 47911[\r][\n]"
+2026-03-03 17:16:25,309 DEBUG o.a.h.wire: http-outgoing-10 << "Content-Length: 8[\r][\n]"
+2026-03-03 17:16:25,309 DEBUG o.a.h.wire: http-outgoing-11 << "Content-Type: text/plain[\r][\n]"
+2026-03-03 17:16:25,309 DEBUG o.a.h.wire: http-outgoing-10 << "Via: 1.1 google[\r][\n]"
+2026-03-03 17:16:25,309 DEBUG o.a.h.wire: http-outgoing-11 << "Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600[\r][\n]"
+2026-03-03 17:16:25,309 DEBUG o.a.h.wire: http-outgoing-10 << "Date: Mon, 02 Mar 2026 18:57:53 GMT[\r][\n]"
+2026-03-03 17:16:25,309 DEBUG o.a.h.wire: http-outgoing-10 << "Age: 47911[\r][\n]"
+2026-03-03 17:16:25,309 DEBUG o.a.h.wire: http-outgoing-10 << "Content-Type: text/plain[\r][\n]"
+2026-03-03 17:16:25,309 DEBUG o.a.h.wire: http-outgoing-10 << "Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600[\r][\n]"
+2026-03-03 17:16:25,309 DEBUG o.a.h.wire: http-outgoing-10 << "Connection: close[\r][\n]"
+2026-03-03 17:16:25,309 DEBUG o.a.h.wire: http-outgoing-10 << "[\r][\n]"
+2026-03-03 17:16:25,309 DEBUG o.a.h.wire: http-outgoing-10 << "success[\n]"
+2026-03-03 17:16:25,309 DEBUG o.a.h.headers: http-outgoing-10 << HTTP/1.1 200 OK
+2026-03-03 17:16:25,309 DEBUG o.a.h.headers: http-outgoing-10 << Server: nginx
+2026-03-03 17:16:25,309 DEBUG o.a.h.headers: http-outgoing-10 << Content-Length: 8
+2026-03-03 17:16:25,309 DEBUG o.a.h.headers: http-outgoing-10 << Via: 1.1 google
+2026-03-03 17:16:25,309 DEBUG o.a.h.headers: http-outgoing-10 << Date: Mon, 02 Mar 2026 18:57:53 GMT
+2026-03-03 17:16:25,309 DEBUG o.a.h.headers: http-outgoing-10 << Age: 47911
+2026-03-03 17:16:25,310 DEBUG o.a.h.headers: http-outgoing-10 << Content-Type: text/plain
+2026-03-03 17:16:25,310 DEBUG o.a.h.headers: http-outgoing-10 << Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+2026-03-03 17:16:25,310 DEBUG o.a.h.headers: http-outgoing-10 << Connection: close
+2026-03-03 17:16:25,310 DEBUG o.a.h.c.p.ResponseProcessCookies: Cookie spec not specified in HTTP context
+2026-03-03 17:16:25,310 DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection: http-outgoing-10: Close connection
+2026-03-03 17:16:25,310 DEBUG o.a.h.i.e.MainClientExec: Connection discarded
+2026-03-03 17:16:25,310 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection released: [id: 10][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:16:25,312 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager is shutting down
+2026-03-03 17:16:25,312 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager shut down
+2026-03-03 17:16:25,309 DEBUG o.a.h.wire: http-outgoing-11 << "Connection: close[\r][\n]"
+2026-03-03 17:16:25,320 DEBUG o.a.h.wire: http-outgoing-11 << "[\r][\n]"
+2026-03-03 17:16:25,320 DEBUG o.a.h.wire: http-outgoing-11 << "success[\n]"
+2026-03-03 17:16:25,320 DEBUG o.a.h.headers: http-outgoing-11 << HTTP/1.1 200 OK
+2026-03-03 17:16:25,320 DEBUG o.a.h.headers: http-outgoing-11 << Server: nginx
+2026-03-03 17:16:25,320 DEBUG o.a.h.headers: http-outgoing-11 << Content-Length: 8
+2026-03-03 17:16:25,320 DEBUG o.a.h.headers: http-outgoing-11 << Via: 1.1 google
+2026-03-03 17:16:25,320 DEBUG o.a.h.headers: http-outgoing-11 << Date: Mon, 02 Mar 2026 18:57:53 GMT
+2026-03-03 17:16:25,320 DEBUG o.a.h.headers: http-outgoing-11 << Age: 47911
+2026-03-03 17:16:25,320 DEBUG o.a.h.headers: http-outgoing-11 << Content-Type: text/plain
+2026-03-03 17:16:25,320 DEBUG o.a.h.headers: http-outgoing-11 << Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+2026-03-03 17:16:25,320 DEBUG o.a.h.headers: http-outgoing-11 << Connection: close
+2026-03-03 17:16:25,321 DEBUG o.a.h.c.p.ResponseProcessCookies: Cookie spec not specified in HTTP context
+2026-03-03 17:16:25,321 DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection: http-outgoing-11: Close connection
+2026-03-03 17:16:25,321 DEBUG o.a.h.i.e.MainClientExec: Connection discarded
+2026-03-03 17:16:25,322 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection released: [id: 11][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:16:25,323 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager is shutting down
+2026-03-03 17:16:25,323 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager shut down
+2026-03-03 17:16:25,403 INFO o.a.j.p.h.p.ProxyControl: Add sample transname/canonical.html-10 into controller transname
+2026-03-03 17:17:45,737 DEBUG o.a.h.c.p.RequestAddCookies: CookieSpec selected: default
+2026-03-03 17:17:45,737 DEBUG o.a.h.c.p.RequestAddCookies: Unsupported cookie policy: default
+2026-03-03 17:17:45,737 DEBUG o.a.h.c.p.RequestAuthCache: Auth cache not set in the context
+2026-03-03 17:17:45,737 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection request: [route: {s}->https://push.services.mozilla.com:443][state: Thread-44][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:17:45,737 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection leased: [id: 12][route: {s}->https://push.services.mozilla.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2026-03-03 17:17:45,737 DEBUG o.a.h.i.e.MainClientExec: Opening connection {s}->https://push.services.mozilla.com:443
+2026-03-03 17:17:45,750 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2026-03-03 17:17:45,750 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2026-03-03 17:17:45,750 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2026-03-03 17:17:45,758 DEBUG o.a.h.c.s.SSLConnectionSocketFactory: Connecting socket to push.services.mozilla.com/34.107.243.93:443 with timeout 0
+2026-03-03 17:17:45,761 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2026-03-03 17:17:45,761 INFO o.a.j.u.SSLManager: KeyStore created OK
+2026-03-03 17:17:45,761 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2026-03-03 17:17:45,768 DEBUG o.a.h.c.s.SSLConnectionSocketFactory: Enabled protocols: [TLSv1.3, TLSv1.2]
+2026-03-03 17:17:45,768 DEBUG o.a.h.c.s.SSLConnectionSocketFactory: Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2026-03-03 17:17:45,768 DEBUG o.a.h.c.s.SSLConnectionSocketFactory: Starting handshake
+2026-03-03 17:17:45,913 DEBUG o.a.h.c.s.SSLConnectionSocketFactory: Secure session established
+2026-03-03 17:17:45,913 DEBUG o.a.h.c.s.SSLConnectionSocketFactory:  negotiated protocol: TLSv1.3
+2026-03-03 17:17:45,913 DEBUG o.a.h.c.s.SSLConnectionSocketFactory:  negotiated cipher suite: TLS_AES_256_GCM_SHA384
+2026-03-03 17:17:45,913 DEBUG o.a.h.c.s.SSLConnectionSocketFactory:  peer principal: CN=push.services.mozilla.com
+2026-03-03 17:17:45,913 DEBUG o.a.h.c.s.SSLConnectionSocketFactory:  peer alternative names: [push.services.mozilla.com]
+2026-03-03 17:17:45,913 DEBUG o.a.h.c.s.SSLConnectionSocketFactory:  issuer principal: CN=R13, O=Let's Encrypt, C=US
+2026-03-03 17:17:45,914 DEBUG o.a.h.i.e.MainClientExec: Executing request GET / HTTP/1.1
+2026-03-03 17:17:45,914 DEBUG o.a.h.i.e.MainClientExec: Target auth state: UNCHALLENGED
+2026-03-03 17:17:45,914 DEBUG o.a.h.i.e.MainClientExec: Proxy auth state: UNCHALLENGED
+2026-03-03 17:17:45,914 DEBUG o.a.h.headers: http-outgoing-12 >> GET / HTTP/1.1
+2026-03-03 17:17:45,914 DEBUG o.a.h.headers: http-outgoing-12 >> Connection: close
+2026-03-03 17:17:45,914 DEBUG o.a.h.headers: http-outgoing-12 >> Sec-Fetch-Mode: websocket
+2026-03-03 17:17:45,914 DEBUG o.a.h.headers: http-outgoing-12 >> Sec-WebSocket-Protocol: push-notification
+2026-03-03 17:17:45,914 DEBUG o.a.h.headers: http-outgoing-12 >> Sec-Fetch-Site: none
+2026-03-03 17:17:45,914 DEBUG o.a.h.headers: http-outgoing-12 >> Accept-Language: en-US,en;q=0.9
+2026-03-03 17:17:45,914 DEBUG o.a.h.headers: http-outgoing-12 >> Upgrade: websocket
+2026-03-03 17:17:45,914 DEBUG o.a.h.headers: http-outgoing-12 >> Sec-WebSocket-Extensions: permessage-deflate
+2026-03-03 17:17:45,914 DEBUG o.a.h.headers: http-outgoing-12 >> Origin: wss://push.services.mozilla.com/
+2026-03-03 17:17:45,914 DEBUG o.a.h.headers: http-outgoing-12 >> Sec-WebSocket-Version: 13
+2026-03-03 17:17:45,914 DEBUG o.a.h.headers: http-outgoing-12 >> Pragma: no-cache
+2026-03-03 17:17:45,914 DEBUG o.a.h.headers: http-outgoing-12 >> Accept: */*
+2026-03-03 17:17:45,914 DEBUG o.a.h.headers: http-outgoing-12 >> Host: push.services.mozilla.com
+2026-03-03 17:17:45,914 DEBUG o.a.h.headers: http-outgoing-12 >> Sec-WebSocket-Key: 2Y/OeCNZS8UBQOT4bmxI6g==
+2026-03-03 17:17:45,914 DEBUG o.a.h.headers: http-outgoing-12 >> Cache-Control: no-cache
+2026-03-03 17:17:45,914 DEBUG o.a.h.headers: http-outgoing-12 >> Accept-Encoding: gzip, deflate, br, zstd
+2026-03-03 17:17:45,914 DEBUG o.a.h.headers: http-outgoing-12 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0
+2026-03-03 17:17:45,914 DEBUG o.a.h.headers: http-outgoing-12 >> Sec-Fetch-Dest: empty
+2026-03-03 17:17:45,914 DEBUG o.a.h.wire: http-outgoing-12 >> "GET / HTTP/1.1[\r][\n]"
+2026-03-03 17:17:45,914 DEBUG o.a.h.wire: http-outgoing-12 >> "Connection: close[\r][\n]"
+2026-03-03 17:17:45,916 DEBUG o.a.h.wire: http-outgoing-12 >> "Sec-Fetch-Mode: websocket[\r][\n]"
+2026-03-03 17:17:45,916 DEBUG o.a.h.wire: http-outgoing-12 >> "Sec-WebSocket-Protocol: push-notification[\r][\n]"
+2026-03-03 17:17:45,916 DEBUG o.a.h.wire: http-outgoing-12 >> "Sec-Fetch-Site: none[\r][\n]"
+2026-03-03 17:17:45,916 DEBUG o.a.h.wire: http-outgoing-12 >> "Accept-Language: en-US,en;q=0.9[\r][\n]"
+2026-03-03 17:17:45,916 DEBUG o.a.h.wire: http-outgoing-12 >> "Upgrade: websocket[\r][\n]"
+2026-03-03 17:17:45,916 DEBUG o.a.h.wire: http-outgoing-12 >> "Sec-WebSocket-Extensions: permessage-deflate[\r][\n]"
+2026-03-03 17:17:45,916 DEBUG o.a.h.wire: http-outgoing-12 >> "Origin: wss://push.services.mozilla.com/[\r][\n]"
+2026-03-03 17:17:45,916 DEBUG o.a.h.wire: http-outgoing-12 >> "Sec-WebSocket-Version: 13[\r][\n]"
+2026-03-03 17:17:45,916 DEBUG o.a.h.wire: http-outgoing-12 >> "Pragma: no-cache[\r][\n]"
+2026-03-03 17:17:45,916 DEBUG o.a.h.wire: http-outgoing-12 >> "Accept: */*[\r][\n]"
+2026-03-03 17:17:45,916 DEBUG o.a.h.wire: http-outgoing-12 >> "Host: push.services.mozilla.com[\r][\n]"
+2026-03-03 17:17:45,916 DEBUG o.a.h.wire: http-outgoing-12 >> "Sec-WebSocket-Key: 2Y/OeCNZS8UBQOT4bmxI6g==[\r][\n]"
+2026-03-03 17:17:45,916 DEBUG o.a.h.wire: http-outgoing-12 >> "Cache-Control: no-cache[\r][\n]"
+2026-03-03 17:17:45,916 DEBUG o.a.h.wire: http-outgoing-12 >> "Accept-Encoding: gzip, deflate, br, zstd[\r][\n]"
+2026-03-03 17:17:45,916 DEBUG o.a.h.wire: http-outgoing-12 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0[\r][\n]"
+2026-03-03 17:17:45,916 DEBUG o.a.h.wire: http-outgoing-12 >> "Sec-Fetch-Dest: empty[\r][\n]"
+2026-03-03 17:17:45,916 DEBUG o.a.h.wire: http-outgoing-12 >> "[\r][\n]"
+2026-03-03 17:17:45,923 DEBUG o.a.h.wire: http-outgoing-12 << "HTTP/1.1 400 Bad Request[\r][\n]"
+2026-03-03 17:17:45,923 DEBUG o.a.h.wire: http-outgoing-12 << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2026-03-03 17:17:45,923 DEBUG o.a.h.wire: http-outgoing-12 << "Referrer-Policy: no-referrer[\r][\n]"
+2026-03-03 17:17:45,923 DEBUG o.a.h.wire: http-outgoing-12 << "Content-Length: 273[\r][\n]"
+2026-03-03 17:17:45,923 DEBUG o.a.h.wire: http-outgoing-12 << "Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000[\r][\n]"
+2026-03-03 17:17:45,923 DEBUG o.a.h.wire: http-outgoing-12 << "Connection: close[\r][\n]"
+2026-03-03 17:17:45,923 DEBUG o.a.h.wire: http-outgoing-12 << "[\r][\n]"
+2026-03-03 17:17:45,923 DEBUG o.a.h.wire: http-outgoing-12 << "[\n]"
+2026-03-03 17:17:45,923 DEBUG o.a.h.wire: http-outgoing-12 << "<html><head>[\n]"
+2026-03-03 17:17:45,923 DEBUG o.a.h.wire: http-outgoing-12 << "<meta http-equiv="content-type" content="text/html;charset=utf-8">[\n]"
+2026-03-03 17:17:45,923 DEBUG o.a.h.wire: http-outgoing-12 << "<title>400 Bad Request</title>[\n]"
+2026-03-03 17:17:45,923 DEBUG o.a.h.wire: http-outgoing-12 << "</head>[\n]"
+2026-03-03 17:17:45,923 DEBUG o.a.h.wire: http-outgoing-12 << "<body text=#000000 bgcolor=#ffffff>[\n]"
+2026-03-03 17:17:45,923 DEBUG o.a.h.wire: http-outgoing-12 << "<h1>Error: Bad Request</h1>[\n]"
+2026-03-03 17:17:45,923 DEBUG o.a.h.wire: http-outgoing-12 << "<h2>Your client has issued a malformed or illegal request.</h2>[\n]"
+2026-03-03 17:17:45,923 DEBUG o.a.h.wire: http-outgoing-12 << "<h2></h2>[\n]"
+2026-03-03 17:17:45,923 DEBUG o.a.h.wire: http-outgoing-12 << "</body></html>[\n]"
+2026-03-03 17:17:45,923 DEBUG o.a.h.headers: http-outgoing-12 << HTTP/1.1 400 Bad Request
+2026-03-03 17:17:45,923 DEBUG o.a.h.headers: http-outgoing-12 << Content-Type: text/html; charset=UTF-8
+2026-03-03 17:17:45,923 DEBUG o.a.h.headers: http-outgoing-12 << Referrer-Policy: no-referrer
+2026-03-03 17:17:45,923 DEBUG o.a.h.headers: http-outgoing-12 << Content-Length: 273
+2026-03-03 17:17:45,923 DEBUG o.a.h.headers: http-outgoing-12 << Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+2026-03-03 17:17:45,923 DEBUG o.a.h.headers: http-outgoing-12 << Connection: close
+2026-03-03 17:17:45,923 DEBUG o.a.h.c.p.ResponseProcessCookies: Cookie spec not specified in HTTP context
+2026-03-03 17:17:45,923 DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection: http-outgoing-12: Close connection
+2026-03-03 17:17:45,923 DEBUG o.a.h.i.e.MainClientExec: Connection discarded
+2026-03-03 17:17:45,923 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection released: [id: 12][route: {s}->https://push.services.mozilla.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:17:45,933 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager is shutting down
+2026-03-03 17:17:45,933 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager shut down
+2026-03-03 17:19:29,652 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
+2026-03-03 17:19:32,105 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2026-03-03 17:19:32,105 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2026-03-03 17:19:32,105 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8081
+2026-03-03 17:19:32,105 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2026-03-03 17:20:27,317 DEBUG o.a.h.c.p.RequestAddCookies: CookieSpec selected: default
+2026-03-03 17:20:27,317 DEBUG o.a.h.c.p.RequestAddCookies: Unsupported cookie policy: default
+2026-03-03 17:20:27,317 DEBUG o.a.h.c.p.RequestAuthCache: Auth cache not set in the context
+2026-03-03 17:20:27,317 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection request: [route: {s}->https://push.services.mozilla.com:443][state: Thread-46][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:20:27,317 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection leased: [id: 13][route: {s}->https://push.services.mozilla.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2026-03-03 17:20:27,317 DEBUG o.a.h.i.e.MainClientExec: Opening connection {s}->https://push.services.mozilla.com:443
+2026-03-03 17:20:27,334 DEBUG o.a.h.c.s.SSLConnectionSocketFactory: Connecting socket to push.services.mozilla.com/34.107.243.93:443 with timeout 0
+2026-03-03 17:20:27,339 DEBUG o.a.h.c.s.SSLConnectionSocketFactory: Enabled protocols: [TLSv1.3, TLSv1.2]
+2026-03-03 17:20:27,339 DEBUG o.a.h.c.s.SSLConnectionSocketFactory: Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2026-03-03 17:20:27,339 DEBUG o.a.h.c.s.SSLConnectionSocketFactory: Starting handshake
+2026-03-03 17:20:27,375 DEBUG o.a.h.c.s.SSLConnectionSocketFactory: Secure session established
+2026-03-03 17:20:27,375 DEBUG o.a.h.c.s.SSLConnectionSocketFactory:  negotiated protocol: TLSv1.3
+2026-03-03 17:20:27,375 DEBUG o.a.h.c.s.SSLConnectionSocketFactory:  negotiated cipher suite: TLS_AES_256_GCM_SHA384
+2026-03-03 17:20:27,375 DEBUG o.a.h.c.s.SSLConnectionSocketFactory:  peer principal: CN=push.services.mozilla.com
+2026-03-03 17:20:27,375 DEBUG o.a.h.c.s.SSLConnectionSocketFactory:  peer alternative names: [push.services.mozilla.com]
+2026-03-03 17:20:27,375 DEBUG o.a.h.c.s.SSLConnectionSocketFactory:  issuer principal: CN=R13, O=Let's Encrypt, C=US
+2026-03-03 17:20:27,375 DEBUG o.a.h.i.e.MainClientExec: Executing request GET / HTTP/1.1
+2026-03-03 17:20:27,375 DEBUG o.a.h.i.e.MainClientExec: Target auth state: UNCHALLENGED
+2026-03-03 17:20:27,375 DEBUG o.a.h.i.e.MainClientExec: Proxy auth state: UNCHALLENGED
+2026-03-03 17:20:27,375 DEBUG o.a.h.headers: http-outgoing-13 >> GET / HTTP/1.1
+2026-03-03 17:20:27,375 DEBUG o.a.h.headers: http-outgoing-13 >> Connection: close
+2026-03-03 17:20:27,375 DEBUG o.a.h.headers: http-outgoing-13 >> Sec-Fetch-Mode: websocket
+2026-03-03 17:20:27,375 DEBUG o.a.h.headers: http-outgoing-13 >> Sec-WebSocket-Protocol: push-notification
+2026-03-03 17:20:27,375 DEBUG o.a.h.headers: http-outgoing-13 >> Sec-Fetch-Site: none
+2026-03-03 17:20:27,375 DEBUG o.a.h.headers: http-outgoing-13 >> Accept-Language: en-US,en;q=0.9
+2026-03-03 17:20:27,375 DEBUG o.a.h.headers: http-outgoing-13 >> Upgrade: websocket
+2026-03-03 17:20:27,375 DEBUG o.a.h.headers: http-outgoing-13 >> Sec-WebSocket-Extensions: permessage-deflate
+2026-03-03 17:20:27,375 DEBUG o.a.h.headers: http-outgoing-13 >> Origin: wss://push.services.mozilla.com/
+2026-03-03 17:20:27,375 DEBUG o.a.h.headers: http-outgoing-13 >> Sec-WebSocket-Version: 13
+2026-03-03 17:20:27,375 DEBUG o.a.h.headers: http-outgoing-13 >> Pragma: no-cache
+2026-03-03 17:20:27,375 DEBUG o.a.h.headers: http-outgoing-13 >> Accept: */*
+2026-03-03 17:20:27,375 DEBUG o.a.h.headers: http-outgoing-13 >> Host: push.services.mozilla.com
+2026-03-03 17:20:27,375 DEBUG o.a.h.headers: http-outgoing-13 >> Sec-WebSocket-Key: Cpx72Vs0mlyIuvug8O1ujw==
+2026-03-03 17:20:27,375 DEBUG o.a.h.headers: http-outgoing-13 >> Cache-Control: no-cache
+2026-03-03 17:20:27,375 DEBUG o.a.h.headers: http-outgoing-13 >> Accept-Encoding: gzip, deflate, br, zstd
+2026-03-03 17:20:27,375 DEBUG o.a.h.headers: http-outgoing-13 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0
+2026-03-03 17:20:27,375 DEBUG o.a.h.headers: http-outgoing-13 >> Sec-Fetch-Dest: empty
+2026-03-03 17:20:27,375 DEBUG o.a.h.wire: http-outgoing-13 >> "GET / HTTP/1.1[\r][\n]"
+2026-03-03 17:20:27,375 DEBUG o.a.h.wire: http-outgoing-13 >> "Connection: close[\r][\n]"
+2026-03-03 17:20:27,375 DEBUG o.a.h.wire: http-outgoing-13 >> "Sec-Fetch-Mode: websocket[\r][\n]"
+2026-03-03 17:20:27,375 DEBUG o.a.h.wire: http-outgoing-13 >> "Sec-WebSocket-Protocol: push-notification[\r][\n]"
+2026-03-03 17:20:27,375 DEBUG o.a.h.wire: http-outgoing-13 >> "Sec-Fetch-Site: none[\r][\n]"
+2026-03-03 17:20:27,375 DEBUG o.a.h.wire: http-outgoing-13 >> "Accept-Language: en-US,en;q=0.9[\r][\n]"
+2026-03-03 17:20:27,375 DEBUG o.a.h.wire: http-outgoing-13 >> "Upgrade: websocket[\r][\n]"
+2026-03-03 17:20:27,375 DEBUG o.a.h.wire: http-outgoing-13 >> "Sec-WebSocket-Extensions: permessage-deflate[\r][\n]"
+2026-03-03 17:20:27,375 DEBUG o.a.h.wire: http-outgoing-13 >> "Origin: wss://push.services.mozilla.com/[\r][\n]"
+2026-03-03 17:20:27,375 DEBUG o.a.h.wire: http-outgoing-13 >> "Sec-WebSocket-Version: 13[\r][\n]"
+2026-03-03 17:20:27,375 DEBUG o.a.h.wire: http-outgoing-13 >> "Pragma: no-cache[\r][\n]"
+2026-03-03 17:20:27,375 DEBUG o.a.h.wire: http-outgoing-13 >> "Accept: */*[\r][\n]"
+2026-03-03 17:20:27,375 DEBUG o.a.h.wire: http-outgoing-13 >> "Host: push.services.mozilla.com[\r][\n]"
+2026-03-03 17:20:27,375 DEBUG o.a.h.wire: http-outgoing-13 >> "Sec-WebSocket-Key: Cpx72Vs0mlyIuvug8O1ujw==[\r][\n]"
+2026-03-03 17:20:27,375 DEBUG o.a.h.wire: http-outgoing-13 >> "Cache-Control: no-cache[\r][\n]"
+2026-03-03 17:20:27,375 DEBUG o.a.h.wire: http-outgoing-13 >> "Accept-Encoding: gzip, deflate, br, zstd[\r][\n]"
+2026-03-03 17:20:27,375 DEBUG o.a.h.wire: http-outgoing-13 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0[\r][\n]"
+2026-03-03 17:20:27,375 DEBUG o.a.h.wire: http-outgoing-13 >> "Sec-Fetch-Dest: empty[\r][\n]"
+2026-03-03 17:20:27,375 DEBUG o.a.h.wire: http-outgoing-13 >> "[\r][\n]"
+2026-03-03 17:20:27,387 DEBUG o.a.h.wire: http-outgoing-13 << "HTTP/1.1 400 Bad Request[\r][\n]"
+2026-03-03 17:20:27,387 DEBUG o.a.h.wire: http-outgoing-13 << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2026-03-03 17:20:27,387 DEBUG o.a.h.wire: http-outgoing-13 << "Referrer-Policy: no-referrer[\r][\n]"
+2026-03-03 17:20:27,387 DEBUG o.a.h.wire: http-outgoing-13 << "Content-Length: 273[\r][\n]"
+2026-03-03 17:20:27,387 DEBUG o.a.h.wire: http-outgoing-13 << "Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000[\r][\n]"
+2026-03-03 17:20:27,387 DEBUG o.a.h.wire: http-outgoing-13 << "Connection: close[\r][\n]"
+2026-03-03 17:20:27,387 DEBUG o.a.h.wire: http-outgoing-13 << "[\r][\n]"
+2026-03-03 17:20:27,387 DEBUG o.a.h.wire: http-outgoing-13 << "[\n]"
+2026-03-03 17:20:27,387 DEBUG o.a.h.wire: http-outgoing-13 << "<html><head>[\n]"
+2026-03-03 17:20:27,387 DEBUG o.a.h.wire: http-outgoing-13 << "<meta http-equiv="content-type" content="text/html;charset=utf-8">[\n]"
+2026-03-03 17:20:27,387 DEBUG o.a.h.wire: http-outgoing-13 << "<title>400 Bad Request</title>[\n]"
+2026-03-03 17:20:27,387 DEBUG o.a.h.wire: http-outgoing-13 << "</head>[\n]"
+2026-03-03 17:20:27,387 DEBUG o.a.h.wire: http-outgoing-13 << "<body text=#000000 bgcolor=#ffffff>[\n]"
+2026-03-03 17:20:27,387 DEBUG o.a.h.wire: http-outgoing-13 << "<h1>Error: Bad Request</h1>[\n]"
+2026-03-03 17:20:27,387 DEBUG o.a.h.wire: http-outgoing-13 << "<h2>Your client has issued a malformed or illegal request.</h2>[\n]"
+2026-03-03 17:20:27,387 DEBUG o.a.h.wire: http-outgoing-13 << "<h2></h2>[\n]"
+2026-03-03 17:20:27,387 DEBUG o.a.h.wire: http-outgoing-13 << "</body></html>[\n]"
+2026-03-03 17:20:27,387 DEBUG o.a.h.headers: http-outgoing-13 << HTTP/1.1 400 Bad Request
+2026-03-03 17:20:27,387 DEBUG o.a.h.headers: http-outgoing-13 << Content-Type: text/html; charset=UTF-8
+2026-03-03 17:20:27,387 DEBUG o.a.h.headers: http-outgoing-13 << Referrer-Policy: no-referrer
+2026-03-03 17:20:27,387 DEBUG o.a.h.headers: http-outgoing-13 << Content-Length: 273
+2026-03-03 17:20:27,387 DEBUG o.a.h.headers: http-outgoing-13 << Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+2026-03-03 17:20:27,387 DEBUG o.a.h.headers: http-outgoing-13 << Connection: close
+2026-03-03 17:20:27,387 DEBUG o.a.h.c.p.ResponseProcessCookies: Cookie spec not specified in HTTP context
+2026-03-03 17:20:27,387 DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection: http-outgoing-13: Close connection
+2026-03-03 17:20:27,387 DEBUG o.a.h.i.e.MainClientExec: Connection discarded
+2026-03-03 17:20:27,387 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection released: [id: 13][route: {s}->https://push.services.mozilla.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:20:27,387 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager is shutting down
+2026-03-03 17:20:27,387 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager shut down
+2026-03-03 17:20:48,457 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
+2026-03-03 17:21:22,450 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2026-03-03 17:21:22,450 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2026-03-03 17:21:22,450 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8081
+2026-03-03 17:21:22,450 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2026-03-03 17:22:10,838 DEBUG o.a.h.c.p.RequestAddCookies: CookieSpec selected: default
+2026-03-03 17:22:10,838 DEBUG o.a.h.c.p.RequestAddCookies: Unsupported cookie policy: default
+2026-03-03 17:22:10,839 DEBUG o.a.h.c.p.RequestAuthCache: Auth cache not set in the context
+2026-03-03 17:22:10,839 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection request: [route: {}->http://detectportal.firefox.com:80][state: Thread-48][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:22:10,839 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection leased: [id: 14][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2026-03-03 17:22:10,839 DEBUG o.a.h.i.e.MainClientExec: Opening connection {}->http://detectportal.firefox.com:80
+2026-03-03 17:22:10,859 DEBUG o.a.h.i.e.MainClientExec: Executing request GET /canonical.html HTTP/1.1
+2026-03-03 17:22:10,859 DEBUG o.a.h.i.e.MainClientExec: Target auth state: UNCHALLENGED
+2026-03-03 17:22:10,859 DEBUG o.a.h.i.e.MainClientExec: Proxy auth state: UNCHALLENGED
+2026-03-03 17:22:10,859 DEBUG o.a.h.headers: http-outgoing-14 >> GET /canonical.html HTTP/1.1
+2026-03-03 17:22:10,859 DEBUG o.a.h.headers: http-outgoing-14 >> Connection: close
+2026-03-03 17:22:10,859 DEBUG o.a.h.headers: http-outgoing-14 >> Accept-Language: en-US,en;q=0.9
+2026-03-03 17:22:10,859 DEBUG o.a.h.headers: http-outgoing-14 >> Host: detectportal.firefox.com
+2026-03-03 17:22:10,859 DEBUG o.a.h.headers: http-outgoing-14 >> Upgrade-Insecure-Requests: 1
+2026-03-03 17:22:10,859 DEBUG o.a.h.headers: http-outgoing-14 >> Priority: u=0, i
+2026-03-03 17:22:10,859 DEBUG o.a.h.headers: http-outgoing-14 >> Accept-Encoding: gzip, deflate
+2026-03-03 17:22:10,859 DEBUG o.a.h.headers: http-outgoing-14 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0
+2026-03-03 17:22:10,859 DEBUG o.a.h.headers: http-outgoing-14 >> Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2026-03-03 17:22:10,859 DEBUG o.a.h.wire: http-outgoing-14 >> "GET /canonical.html HTTP/1.1[\r][\n]"
+2026-03-03 17:22:10,859 DEBUG o.a.h.wire: http-outgoing-14 >> "Connection: close[\r][\n]"
+2026-03-03 17:22:10,859 DEBUG o.a.h.wire: http-outgoing-14 >> "Accept-Language: en-US,en;q=0.9[\r][\n]"
+2026-03-03 17:22:10,859 DEBUG o.a.h.wire: http-outgoing-14 >> "Host: detectportal.firefox.com[\r][\n]"
+2026-03-03 17:22:10,859 DEBUG o.a.h.wire: http-outgoing-14 >> "Upgrade-Insecure-Requests: 1[\r][\n]"
+2026-03-03 17:22:10,859 DEBUG o.a.h.wire: http-outgoing-14 >> "Priority: u=0, i[\r][\n]"
+2026-03-03 17:22:10,859 DEBUG o.a.h.wire: http-outgoing-14 >> "Accept-Encoding: gzip, deflate[\r][\n]"
+2026-03-03 17:22:10,859 DEBUG o.a.h.wire: http-outgoing-14 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0[\r][\n]"
+2026-03-03 17:22:10,859 DEBUG o.a.h.wire: http-outgoing-14 >> "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8[\r][\n]"
+2026-03-03 17:22:10,859 DEBUG o.a.h.wire: http-outgoing-14 >> "[\r][\n]"
+2026-03-03 17:22:10,873 DEBUG o.a.h.wire: http-outgoing-14 << "HTTP/1.1 200 OK[\r][\n]"
+2026-03-03 17:22:10,873 DEBUG o.a.h.wire: http-outgoing-14 << "Server: nginx[\r][\n]"
+2026-03-03 17:22:10,873 DEBUG o.a.h.wire: http-outgoing-14 << "Content-Length: 90[\r][\n]"
+2026-03-03 17:22:10,873 DEBUG o.a.h.wire: http-outgoing-14 << "Via: 1.1 google[\r][\n]"
+2026-03-03 17:22:10,873 DEBUG o.a.h.wire: http-outgoing-14 << "Date: Mon, 02 Mar 2026 19:00:33 GMT[\r][\n]"
+2026-03-03 17:22:10,873 DEBUG o.a.h.wire: http-outgoing-14 << "Age: 48097[\r][\n]"
+2026-03-03 17:22:10,873 DEBUG o.a.h.wire: http-outgoing-14 << "Content-Type: text/html[\r][\n]"
+2026-03-03 17:22:10,873 DEBUG o.a.h.wire: http-outgoing-14 << "Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600[\r][\n]"
+2026-03-03 17:22:10,873 DEBUG o.a.h.wire: http-outgoing-14 << "Connection: close[\r][\n]"
+2026-03-03 17:22:10,873 DEBUG o.a.h.wire: http-outgoing-14 << "[\r][\n]"
+2026-03-03 17:22:10,873 DEBUG o.a.h.wire: http-outgoing-14 << "<meta http-equiv="refresh" content="0;url=https://support.mozilla.org/kb/captive-portal"/>"
+2026-03-03 17:22:10,875 DEBUG o.a.h.headers: http-outgoing-14 << HTTP/1.1 200 OK
+2026-03-03 17:22:10,875 DEBUG o.a.h.headers: http-outgoing-14 << Server: nginx
+2026-03-03 17:22:10,875 DEBUG o.a.h.headers: http-outgoing-14 << Content-Length: 90
+2026-03-03 17:22:10,875 DEBUG o.a.h.headers: http-outgoing-14 << Via: 1.1 google
+2026-03-03 17:22:10,875 DEBUG o.a.h.headers: http-outgoing-14 << Date: Mon, 02 Mar 2026 19:00:33 GMT
+2026-03-03 17:22:10,875 DEBUG o.a.h.headers: http-outgoing-14 << Age: 48097
+2026-03-03 17:22:10,875 DEBUG o.a.h.headers: http-outgoing-14 << Content-Type: text/html
+2026-03-03 17:22:10,875 DEBUG o.a.h.headers: http-outgoing-14 << Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+2026-03-03 17:22:10,875 DEBUG o.a.h.headers: http-outgoing-14 << Connection: close
+2026-03-03 17:22:10,875 DEBUG o.a.h.c.p.ResponseProcessCookies: Cookie spec not specified in HTTP context
+2026-03-03 17:22:10,875 DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection: http-outgoing-14: Close connection
+2026-03-03 17:22:10,875 DEBUG o.a.h.i.e.MainClientExec: Connection discarded
+2026-03-03 17:22:10,875 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection released: [id: 14][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:22:10,878 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager is shutting down
+2026-03-03 17:22:10,878 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager shut down
+2026-03-03 17:22:10,942 DEBUG o.a.h.c.p.RequestAddCookies: CookieSpec selected: default
+2026-03-03 17:22:10,942 DEBUG o.a.h.c.p.RequestAddCookies: Unsupported cookie policy: default
+2026-03-03 17:22:10,942 DEBUG o.a.h.c.p.RequestAuthCache: Auth cache not set in the context
+2026-03-03 17:22:10,942 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection request: [route: {}->http://detectportal.firefox.com:80][state: Thread-49][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:22:10,942 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection leased: [id: 15][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2026-03-03 17:22:10,942 DEBUG o.a.h.i.e.MainClientExec: Opening connection {}->http://detectportal.firefox.com:80
+2026-03-03 17:22:10,946 DEBUG o.a.h.i.e.MainClientExec: Executing request GET /favicon.ico HTTP/1.1
+2026-03-03 17:22:10,946 DEBUG o.a.h.i.e.MainClientExec: Target auth state: UNCHALLENGED
+2026-03-03 17:22:10,946 DEBUG o.a.h.i.e.MainClientExec: Proxy auth state: UNCHALLENGED
+2026-03-03 17:22:10,946 DEBUG o.a.h.headers: http-outgoing-15 >> GET /favicon.ico HTTP/1.1
+2026-03-03 17:22:10,946 DEBUG o.a.h.headers: http-outgoing-15 >> Connection: close
+2026-03-03 17:22:10,946 DEBUG o.a.h.headers: http-outgoing-15 >> Referer: http://detectportal.firefox.com/canonical.html
+2026-03-03 17:22:10,946 DEBUG o.a.h.headers: http-outgoing-15 >> Accept-Language: en-US,en;q=0.9
+2026-03-03 17:22:10,946 DEBUG o.a.h.headers: http-outgoing-15 >> Host: detectportal.firefox.com
+2026-03-03 17:22:10,946 DEBUG o.a.h.headers: http-outgoing-15 >> Priority: u=6
+2026-03-03 17:22:10,946 DEBUG o.a.h.headers: http-outgoing-15 >> Accept-Encoding: gzip, deflate
+2026-03-03 17:22:10,946 DEBUG o.a.h.headers: http-outgoing-15 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0
+2026-03-03 17:22:10,957 DEBUG o.a.h.headers: http-outgoing-15 >> Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+2026-03-03 17:22:10,957 DEBUG o.a.h.wire: http-outgoing-15 >> "GET /favicon.ico HTTP/1.1[\r][\n]"
+2026-03-03 17:22:10,957 DEBUG o.a.h.wire: http-outgoing-15 >> "Connection: close[\r][\n]"
+2026-03-03 17:22:10,957 DEBUG o.a.h.wire: http-outgoing-15 >> "Referer: http://detectportal.firefox.com/canonical.html[\r][\n]"
+2026-03-03 17:22:10,957 DEBUG o.a.h.wire: http-outgoing-15 >> "Accept-Language: en-US,en;q=0.9[\r][\n]"
+2026-03-03 17:22:10,957 DEBUG o.a.h.wire: http-outgoing-15 >> "Host: detectportal.firefox.com[\r][\n]"
+2026-03-03 17:22:10,957 DEBUG o.a.h.wire: http-outgoing-15 >> "Priority: u=6[\r][\n]"
+2026-03-03 17:22:10,957 DEBUG o.a.h.wire: http-outgoing-15 >> "Accept-Encoding: gzip, deflate[\r][\n]"
+2026-03-03 17:22:10,957 DEBUG o.a.h.wire: http-outgoing-15 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0[\r][\n]"
+2026-03-03 17:22:10,957 DEBUG o.a.h.wire: http-outgoing-15 >> "Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5[\r][\n]"
+2026-03-03 17:22:10,957 DEBUG o.a.h.wire: http-outgoing-15 >> "[\r][\n]"
+2026-03-03 17:22:10,958 INFO o.a.j.p.h.p.ProxyControl: Add sample transname/canonical.html-15 into controller transname
+2026-03-03 17:22:10,969 DEBUG o.a.h.wire: http-outgoing-15 << "HTTP/1.1 404 Not Found[\r][\n]"
+2026-03-03 17:22:10,969 DEBUG o.a.h.wire: http-outgoing-15 << "Server: nginx[\r][\n]"
+2026-03-03 17:22:10,969 DEBUG o.a.h.wire: http-outgoing-15 << "Content-Length: 146[\r][\n]"
+2026-03-03 17:22:10,969 DEBUG o.a.h.wire: http-outgoing-15 << "Via: 1.1 google[\r][\n]"
+2026-03-03 17:22:10,969 DEBUG o.a.h.wire: http-outgoing-15 << "Date: Tue, 03 Mar 2026 08:21:57 GMT[\r][\n]"
+2026-03-03 17:22:10,969 DEBUG o.a.h.wire: http-outgoing-15 << "Age: 13[\r][\n]"
+2026-03-03 17:22:10,969 DEBUG o.a.h.wire: http-outgoing-15 << "Content-Type: text/html[\r][\n]"
+2026-03-03 17:22:10,969 DEBUG o.a.h.wire: http-outgoing-15 << "Connection: close[\r][\n]"
+2026-03-03 17:22:10,969 DEBUG o.a.h.wire: http-outgoing-15 << "[\r][\n]"
+2026-03-03 17:22:10,969 DEBUG o.a.h.wire: http-outgoing-15 << "<html>[\r][\n]"
+2026-03-03 17:22:10,969 DEBUG o.a.h.wire: http-outgoing-15 << "<head><title>404 Not Found</title></head>[\r][\n]"
+2026-03-03 17:22:10,969 DEBUG o.a.h.wire: http-outgoing-15 << "<body>[\r][\n]"
+2026-03-03 17:22:10,969 DEBUG o.a.h.wire: http-outgoing-15 << "<center><h1>404 Not Found</h1></center>[\r][\n]"
+2026-03-03 17:22:10,969 DEBUG o.a.h.wire: http-outgoing-15 << "<hr><center>nginx</center>[\r][\n]"
+2026-03-03 17:22:10,969 DEBUG o.a.h.wire: http-outgoing-15 << "</body>[\r][\n]"
+2026-03-03 17:22:10,969 DEBUG o.a.h.wire: http-outgoing-15 << "</html>[\r][\n]"
+2026-03-03 17:22:10,969 DEBUG o.a.h.headers: http-outgoing-15 << HTTP/1.1 404 Not Found
+2026-03-03 17:22:10,969 DEBUG o.a.h.headers: http-outgoing-15 << Server: nginx
+2026-03-03 17:22:10,969 DEBUG o.a.h.headers: http-outgoing-15 << Content-Length: 146
+2026-03-03 17:22:10,969 DEBUG o.a.h.headers: http-outgoing-15 << Via: 1.1 google
+2026-03-03 17:22:10,969 DEBUG o.a.h.headers: http-outgoing-15 << Date: Tue, 03 Mar 2026 08:21:57 GMT
+2026-03-03 17:22:10,969 DEBUG o.a.h.headers: http-outgoing-15 << Age: 13
+2026-03-03 17:22:10,969 DEBUG o.a.h.headers: http-outgoing-15 << Content-Type: text/html
+2026-03-03 17:22:10,969 DEBUG o.a.h.headers: http-outgoing-15 << Connection: close
+2026-03-03 17:22:10,969 DEBUG o.a.h.c.p.ResponseProcessCookies: Cookie spec not specified in HTTP context
+2026-03-03 17:22:10,969 DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection: http-outgoing-15: Close connection
+2026-03-03 17:22:10,969 DEBUG o.a.h.i.e.MainClientExec: Connection discarded
+2026-03-03 17:22:10,973 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection released: [id: 15][route: {}->http://detectportal.firefox.com:80][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-03 17:22:10,974 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager is shutting down
+2026-03-03 17:22:10,974 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager shut down
+2026-03-03 17:22:43,213 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped

@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1772439598550,5398,HTTP リクエスト/chat,200,,スレッドグループ2 1-2,text,true,,635,389,2,2,http://127.0.0.1:8080/chat?message=What%20time%20is%20it%20in%20nepal%20,5398,0,1
+1772439593550,10940,HTTP リクエスト/chat,200,,スレッドグループ2 1-1,text,true,,236,389,1,1,http://127.0.0.1:8080/chat?message=What%20time%20is%20it%20in%20nepal%20,10940,0,1
+1772439604585,1498,HTTP リクエスト/prompt,200,,スレッドグループ1 1-1,text,true,,314,416,1,1,"http://127.0.0.1:8080/prompt?message=What%20time%20is%20it%20in%20Delhi,%20india",1498,0,2
+1772439609587,933,HTTP リクエスト/prompt,200,,スレッドグループ1 1-2,text,true,,202,416,1,1,"http://127.0.0.1:8080/prompt?message=What%20time%20is%20it%20in%20Delhi,%20india",933,0,1

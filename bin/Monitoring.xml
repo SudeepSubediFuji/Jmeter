@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="8868" it="0" lt="8868" ct="3" ts="1772502872839" s="true" lb="HTTP リクエスト" rc="200" rm="" tn="SpringThread2 1-1" dt="text" by="248" sby="398" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 86
+Date: Tue, 03 Mar 2026 01:54:41 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Authorization: bearer ${OPEN_AI_KEY}
+username: sudh
+Content-type: json/application
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_481)
+</requestHeader>
+  <responseData class="java.lang.String">Current date and time in Germany (Europe/Berlin): 2026-03-03 02:54:40 CET (UTC+01:00).</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/time?message=Current%20time%20in%20germany?</java.net.URL>
+</httpSample>
+
+</testResults>

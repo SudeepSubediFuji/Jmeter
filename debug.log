@@ -1,0 +1,64 @@
+2026-03-03 15:39:05,372 ERROR o.a.j.JMeter: Error generating the report: Error while processing samples: Consumer failed with message :Consumer failed with message :Consumer failed with message :Consumer failed with message :No column <"null"> found in sample metadata <timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect>, check #jmeter.save.saveservice.* properties to add the missing column
+org.apache.jmeter.report.dashboard.GenerationException: Error while processing samples: Consumer failed with message :Consumer failed with message :Consumer failed with message :Consumer failed with message :No column <"null"> found in sample metadata <timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect>, check #jmeter.save.saveservice.* properties to add the missing column
+        at org.apache.jmeter.report.dashboard.ReportGenerator.generate(ReportGenerator.java:246) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.JMeter$ListenToTest.endTest(JMeter.java:1285) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.JMeter$ListenToTest.testEnded(JMeter.java:1240) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfEnd(StandardJMeterEngine.java:266) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:543) ~[ApacheJMeter_core.jar:5.6.3]
+        at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+        at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: org.apache.jmeter.report.core.SampleException: Consumer failed with message :Consumer failed with message :Consumer failed with message :Consumer failed with message :No column <"null"> found in sample metadata <timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect>, check #jmeter.save.saveservice.* properties to add the missing column
+        at org.apache.jmeter.report.processor.CsvFileSampleSource$PrivateProducer.produce(CsvFileSampleSource.java:327) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.CsvFileSampleSource.produce(CsvFileSampleSource.java:179) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.CsvFileSampleSource.run(CsvFileSampleSource.java:236) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.dashboard.ReportGenerator.generate(ReportGenerator.java:244) ~[ApacheJMeter_core.jar:5.6.3]
+        ... 9 more
+Caused by: org.apache.jmeter.report.core.SampleException: Consumer failed with message :Consumer failed with message :Consumer failed with message :No column <"null"> found in sample metadata <timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect>, check #jmeter.save.saveservice.* properties to add the missing column
+        at org.apache.jmeter.report.processor.AbstractSampleConsumer.produce(AbstractSampleConsumer.java:232) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.NormalizerSampleConsumer.consume(NormalizerSampleConsumer.java:120) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.CsvFileSampleSource$PrivateProducer.produce(CsvFileSampleSource.java:324) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.CsvFileSampleSource.produce(CsvFileSampleSource.java:179) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.CsvFileSampleSource.run(CsvFileSampleSource.java:236) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.dashboard.ReportGenerator.generate(ReportGenerator.java:244) ~[ApacheJMeter_core.jar:5.6.3]
+        ... 9 more
+Caused by: org.apache.jmeter.report.core.SampleException: Consumer failed with message :Consumer failed with message :No column <"null"> found in sample metadata <timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect>, check #jmeter.save.saveservice.* properties to add the missing column
+        at org.apache.jmeter.report.processor.AbstractSampleConsumer.produce(AbstractSampleConsumer.java:232) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.FilterConsumer.consume(FilterConsumer.java:105) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.AbstractSampleConsumer.produce(AbstractSampleConsumer.java:228) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.NormalizerSampleConsumer.consume(NormalizerSampleConsumer.java:120) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.CsvFileSampleSource$PrivateProducer.produce(CsvFileSampleSource.java:324) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.CsvFileSampleSource.produce(CsvFileSampleSource.java:179) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.CsvFileSampleSource.run(CsvFileSampleSource.java:236) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.dashboard.ReportGenerator.generate(ReportGenerator.java:244) ~[ApacheJMeter_core.jar:5.6.3]
+        ... 9 more
+Caused by: org.apache.jmeter.report.core.SampleException: Consumer failed with message :No column <"null"> found in sample metadata <timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect>, check #jmeter.save.saveservice.* properties to add the missing column
+        at org.apache.jmeter.report.processor.AbstractSampleConsumer.produce(AbstractSampleConsumer.java:232) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.FilterConsumer.consume(FilterConsumer.java:105) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.AbstractSampleConsumer.produce(AbstractSampleConsumer.java:228) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.FilterConsumer.consume(FilterConsumer.java:105) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.AbstractSampleConsumer.produce(AbstractSampleConsumer.java:228) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.NormalizerSampleConsumer.consume(NormalizerSampleConsumer.java:120) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.CsvFileSampleSource$PrivateProducer.produce(CsvFileSampleSource.java:324) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.CsvFileSampleSource.produce(CsvFileSampleSource.java:179) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.CsvFileSampleSource.run(CsvFileSampleSource.java:236) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.dashboard.ReportGenerator.generate(ReportGenerator.java:244) ~[ApacheJMeter_core.jar:5.6.3]
+        ... 9 more
+Caused by: org.apache.jmeter.report.core.SampleException: No column <"null"> found in sample metadata <timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect>, check #jmeter.save.saveservice.* properties to add the missing column
+        at org.apache.jmeter.report.core.SampleMetadata.ensureIndexOf(SampleMetadata.java:216) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.core.Sample.getData(Sample.java:91) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.graph.impl.CustomGraphConsumer.lambda$createGroupInfos$0(CustomGraphConsumer.java:206) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.graph.AbstractGraphConsumer.consume(AbstractGraphConsumer.java:501) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.AbstractSampleConsumer.produce(AbstractSampleConsumer.java:228) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.FilterConsumer.consume(FilterConsumer.java:105) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.AbstractSampleConsumer.produce(AbstractSampleConsumer.java:228) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.FilterConsumer.consume(FilterConsumer.java:105) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.AbstractSampleConsumer.produce(AbstractSampleConsumer.java:228) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.NormalizerSampleConsumer.consume(NormalizerSampleConsumer.java:120) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.CsvFileSampleSource$PrivateProducer.produce(CsvFileSampleSource.java:324) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.CsvFileSampleSource.produce(CsvFileSampleSource.java:179) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.processor.CsvFileSampleSource.run(CsvFileSampleSource.java:236) ~[ApacheJMeter_core.jar:5.6.3]
+        at org.apache.jmeter.report.dashboard.ReportGenerator.generate(ReportGenerator.java:244) ~[ApacheJMeter_core.jar:5.6.3]
+        ... 9 more

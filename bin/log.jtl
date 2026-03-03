@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1772521166892,5774,HTTP リクエスト,200,,SpringThread2 2-1,text,false,Test failed: code expected to contain /400/,223,406,1,2,"http://127.0.0.1:8080/time?message=What%20time%20is%20it%20in%20tokyo,japan?",5765,0,48
+1772521166892,10457,HTTP リクエスト,200,,SpringThread1 1-1,text,true,,303,377,1,1,http://127.0.0.1:8080/webSearch?message=Gold%20price?,10456,0,48
