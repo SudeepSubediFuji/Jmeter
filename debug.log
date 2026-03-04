@@ -1,64 +1,175 @@
-2026-03-03 15:39:05,372 ERROR o.a.j.JMeter: Error generating the report: Error while processing samples: Consumer failed with message :Consumer failed with message :Consumer failed with message :Consumer failed with message :No column <"null"> found in sample metadata <timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect>, check #jmeter.save.saveservice.* properties to add the missing column
-org.apache.jmeter.report.dashboard.GenerationException: Error while processing samples: Consumer failed with message :Consumer failed with message :Consumer failed with message :Consumer failed with message :No column <"null"> found in sample metadata <timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect>, check #jmeter.save.saveservice.* properties to add the missing column
-        at org.apache.jmeter.report.dashboard.ReportGenerator.generate(ReportGenerator.java:246) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.JMeter$ListenToTest.endTest(JMeter.java:1285) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.JMeter$ListenToTest.testEnded(JMeter.java:1240) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfEnd(StandardJMeterEngine.java:266) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:543) ~[ApacheJMeter_core.jar:5.6.3]
-        at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
-        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
-        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-        at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: org.apache.jmeter.report.core.SampleException: Consumer failed with message :Consumer failed with message :Consumer failed with message :Consumer failed with message :No column <"null"> found in sample metadata <timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect>, check #jmeter.save.saveservice.* properties to add the missing column
-        at org.apache.jmeter.report.processor.CsvFileSampleSource$PrivateProducer.produce(CsvFileSampleSource.java:327) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.CsvFileSampleSource.produce(CsvFileSampleSource.java:179) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.CsvFileSampleSource.run(CsvFileSampleSource.java:236) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.dashboard.ReportGenerator.generate(ReportGenerator.java:244) ~[ApacheJMeter_core.jar:5.6.3]
-        ... 9 more
-Caused by: org.apache.jmeter.report.core.SampleException: Consumer failed with message :Consumer failed with message :Consumer failed with message :No column <"null"> found in sample metadata <timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect>, check #jmeter.save.saveservice.* properties to add the missing column
-        at org.apache.jmeter.report.processor.AbstractSampleConsumer.produce(AbstractSampleConsumer.java:232) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.NormalizerSampleConsumer.consume(NormalizerSampleConsumer.java:120) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.CsvFileSampleSource$PrivateProducer.produce(CsvFileSampleSource.java:324) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.CsvFileSampleSource.produce(CsvFileSampleSource.java:179) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.CsvFileSampleSource.run(CsvFileSampleSource.java:236) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.dashboard.ReportGenerator.generate(ReportGenerator.java:244) ~[ApacheJMeter_core.jar:5.6.3]
-        ... 9 more
-Caused by: org.apache.jmeter.report.core.SampleException: Consumer failed with message :Consumer failed with message :No column <"null"> found in sample metadata <timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect>, check #jmeter.save.saveservice.* properties to add the missing column
-        at org.apache.jmeter.report.processor.AbstractSampleConsumer.produce(AbstractSampleConsumer.java:232) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.FilterConsumer.consume(FilterConsumer.java:105) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.AbstractSampleConsumer.produce(AbstractSampleConsumer.java:228) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.NormalizerSampleConsumer.consume(NormalizerSampleConsumer.java:120) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.CsvFileSampleSource$PrivateProducer.produce(CsvFileSampleSource.java:324) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.CsvFileSampleSource.produce(CsvFileSampleSource.java:179) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.CsvFileSampleSource.run(CsvFileSampleSource.java:236) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.dashboard.ReportGenerator.generate(ReportGenerator.java:244) ~[ApacheJMeter_core.jar:5.6.3]
-        ... 9 more
-Caused by: org.apache.jmeter.report.core.SampleException: Consumer failed with message :No column <"null"> found in sample metadata <timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect>, check #jmeter.save.saveservice.* properties to add the missing column
-        at org.apache.jmeter.report.processor.AbstractSampleConsumer.produce(AbstractSampleConsumer.java:232) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.FilterConsumer.consume(FilterConsumer.java:105) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.AbstractSampleConsumer.produce(AbstractSampleConsumer.java:228) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.FilterConsumer.consume(FilterConsumer.java:105) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.AbstractSampleConsumer.produce(AbstractSampleConsumer.java:228) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.NormalizerSampleConsumer.consume(NormalizerSampleConsumer.java:120) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.CsvFileSampleSource$PrivateProducer.produce(CsvFileSampleSource.java:324) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.CsvFileSampleSource.produce(CsvFileSampleSource.java:179) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.CsvFileSampleSource.run(CsvFileSampleSource.java:236) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.dashboard.ReportGenerator.generate(ReportGenerator.java:244) ~[ApacheJMeter_core.jar:5.6.3]
-        ... 9 more
-Caused by: org.apache.jmeter.report.core.SampleException: No column <"null"> found in sample metadata <timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect>, check #jmeter.save.saveservice.* properties to add the missing column
-        at org.apache.jmeter.report.core.SampleMetadata.ensureIndexOf(SampleMetadata.java:216) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.core.Sample.getData(Sample.java:91) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.graph.impl.CustomGraphConsumer.lambda$createGroupInfos$0(CustomGraphConsumer.java:206) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.graph.AbstractGraphConsumer.consume(AbstractGraphConsumer.java:501) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.AbstractSampleConsumer.produce(AbstractSampleConsumer.java:228) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.FilterConsumer.consume(FilterConsumer.java:105) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.AbstractSampleConsumer.produce(AbstractSampleConsumer.java:228) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.FilterConsumer.consume(FilterConsumer.java:105) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.AbstractSampleConsumer.produce(AbstractSampleConsumer.java:228) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.NormalizerSampleConsumer.consume(NormalizerSampleConsumer.java:120) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.CsvFileSampleSource$PrivateProducer.produce(CsvFileSampleSource.java:324) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.CsvFileSampleSource.produce(CsvFileSampleSource.java:179) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.processor.CsvFileSampleSource.run(CsvFileSampleSource.java:236) ~[ApacheJMeter_core.jar:5.6.3]
-        at org.apache.jmeter.report.dashboard.ReportGenerator.generate(ReportGenerator.java:244) ~[ApacheJMeter_core.jar:5.6.3]
-        ... 9 more
+2026-03-04 15:46:12,236 INFO o.a.j.p.j.s.J.JSR223Sampler: Groovy test script is executed successfully. 2222???
+2026-03-04 15:46:12,236 WARN o.a.j.p.j.s.J.JSR223Sampler: Warning log test
+2026-03-04 15:46:12,236 INFO o.a.j.p.j.s.J.JSR223Sampler: Groovy previous response code 200
+2026-03-04 15:46:12,236 INFO o.a.j.p.j.s.J.JSR223Sampler: Groovy test samplerData
+2026-03-04 15:46:12,236 INFO o.a.j.p.j.s.J.JSR223Sampler: Jmeter default Vars object: org.apache.jmeter.threads.JMeterVariables@2b2e35
+2026-03-04 15:46:12,236 INFO o.a.j.p.j.s.J.JSR223Sampler: Jmeter default java.util.Properties object: [jmeter.reportgenerator.exporter.html.show_controllers_only:false, jmeter.reportgenerator.start_date:, jmeter.reportgenerator.end_date:, jmeter.reportgenerator.apdex_satisfied_threshold:500, jmeter.reportgenerator.apdex_tolerated_threshold:1500, jdbc.config.jdbc.driver.class:com.mysql.jdbc.Driver|org.postgresql.Driver|oracle.jdbc.OracleDriver|com.ingres.jdbc.IngresDriver|com.microsoft.sqlserver.jdbc.SQLServerDriver|com.microsoft.jdbc.sqlserver.SQLServerDriver|org.apache.derby.jdbc.ClientDriver|org.hsqldb.jdbc.JDBCDriver|com.ibm.db2.jcc.DB2Driver|org.apache.derby.jdbc.ClientDriver|org.h2.Driver|org.firebirdsql.jdbc.FBDriver|org.mariadb.jdbc.Driver|org.sqlite.JDBC|net.sourceforge.jtds.jdbc.Driver|com.exasol.jdbc.EXADriver, START.YMD:20260304, wmlParser.className:org.apache.jmeter.protocol.http.parser.RegexpHTMLParser, gui.quick_9:ViewResultsFullVisualizer, gui.quick_8:DebugSampler, gui.quick_7:JSR223PreProcessor, csvdataset.file.encoding_list:UTF-8|UTF-16|ISO-8859-15|US-ASCII, gui.quick_6:JSR223PostProcessor, gui.quick_5:TestActionGui, gui.quick_4:ConstantTimerGui, gui.quick_3:AssertionGui, gui.quick_2:RegexExtractorGui, jmeter.save.saveservice.label:true, gui.quick_1:HttpTestSampleGui, gui.quick_0:ThreadGroupGui, jmeter.reportgenerator.date_format:yyyyMMddHHmmss, TESTSTART.MS:1772606768090, sampleresult.timestamp.start:true, summariser.name:summary, beanshell.server.file:../extras/startup.bsh, jmeter.save.saveservice.timestamp_format:ms, system.properties:system.properties, classfinder.functions.notContain:.gui., jmeter.save.saveservice.sent_bytes:true, jmeter.save.saveservice.time:true, remote_hosts:127.0.0.1, jmeter.reportgenerator.exporter.html.filters_only_sample_series:true, jmeter.save.saveservice.connect_time:true, jmeter.reportgenerator.exporter.html.series_filter:^(Search|Order)(-success|-failure)?$, jmeter.save.saveservice.response_code:true, jmeter.save.saveservice.bytes:true, jmeter.save.saveservice.latency:true, cookies:cookies, user.properties:user.properties, jmeter.reportgenerator.report_title:Apache JMeter Dashboard, cssParser.className:org.apache.jmeter.protocol.http.parser.CssParser, jmeter.save.saveservice.response_message:true, jmeter.save.saveservice.thread_name:true, jmeter.version:5.6.3, wmlParser.types:text/vnd.wap.wml, jdbc.config.check.query:select 1 from INFORMATION_SCHEMA.SYSTEM_USERS|select 1 from dual|select 1 from sysibm.sysdummy1|select 1|select 1 from rdb$database, classfinder.functions.contain:.functions., HTTPResponse.parsers:htmlParser wmlParser cssParser, cssParser.types:text/css, htmlParser.className:org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser, jmeter.save.saveservice.successful:true, not_in_menu:org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler,org.apache.jmeter.protocol.mongodb.config.MongoSourceElement,org.apache.jmeter.timers.BSFTimer,org.apache.jmeter.modifiers.BSFPreProcessor,org.apache.jmeter.extractor.BSFPostProcessor,org.apache.jmeter.assertions.BSFAssertion,org.apache.jmeter.visualizers.BSFListener,org.apache.jmeter.protocol.java.sampler.BSFSampler,org.apache.jmeter.protocol.http.control.gui.SoapSamplerGui, htmlParser.types:text/html application/xhtml+xml application/xml text/xml, START.MS:1772589278794, view.results.tree.renderers_order:.RenderAsText,.RenderAsRegexp,.RenderAsBoundaryExtractor,.RenderAsCssJQuery,org.apache.jmeter.extractor.json.render.RenderAsJsonRenderer,.RenderAsXPath2,org.apache.jmeter.extractor.json.render.RenderAsJmesPathRenderer,.RenderAsXPath,.RenderAsHTML,.RenderAsHTMLFormatted,.RenderAsHTMLWithEmbedded,.RenderAsDocument,.RenderAsJSON,.RenderAsXML, jmeter.save.saveservice.thread_counts:true, START.HMS:105438, upgrade_properties:/bin/upgrade.properties]
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Variable name: START.MS , Variable value: 1772589278794
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Variable name: TESTSTART.MS , Variable value: 1772606768090
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Variable name: JMeterThread.last_sample_ok , Variable value: true
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Variable name: __jmeter.U_T__ , Variable value: SpringThreadWithGroovy 1-1
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Variable name: START.HMS , Variable value: 105438
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Variable name: JMeterThread.pack , Variable value: org.apache.jmeter.threads.SamplePackage@8b3ed9
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Variable name: OPEN_AI_KEY , Variable value: ${OPEN_AI_KEY}
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Variable name: __jmv_SAME_USER , Variable value: true
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Variable name: START.YMD , Variable value: 20260304
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Variable name: __jm__SpringThreadWithGroovy__idx , Variable value: 0
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: jmeter.reportgenerator.exporter.html.show_controllers_only, Properties value: false 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: jmeter.reportgenerator.start_date, Properties value:  
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: jmeter.reportgenerator.end_date, Properties value:  
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: jmeter.reportgenerator.apdex_satisfied_threshold, Properties value: 500 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: jmeter.reportgenerator.apdex_tolerated_threshold, Properties value: 1500 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: jdbc.config.jdbc.driver.class, Properties value: com.mysql.jdbc.Driver|org.postgresql.Driver|oracle.jdbc.OracleDriver|com.ingres.jdbc.IngresDriver|com.microsoft.sqlserver.jdbc.SQLServerDriver|com.microsoft.jdbc.sqlserver.SQLServerDriver|org.apache.derby.jdbc.ClientDriver|org.hsqldb.jdbc.JDBCDriver|com.ibm.db2.jcc.DB2Driver|org.apache.derby.jdbc.ClientDriver|org.h2.Driver|org.firebirdsql.jdbc.FBDriver|org.mariadb.jdbc.Driver|org.sqlite.JDBC|net.sourceforge.jtds.jdbc.Driver|com.exasol.jdbc.EXADriver 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: START.YMD, Properties value: 20260304 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: wmlParser.className, Properties value: org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: gui.quick_9, Properties value: ViewResultsFullVisualizer 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: gui.quick_8, Properties value: DebugSampler 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: gui.quick_7, Properties value: JSR223PreProcessor 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: csvdataset.file.encoding_list, Properties value: UTF-8|UTF-16|ISO-8859-15|US-ASCII 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: gui.quick_6, Properties value: JSR223PostProcessor 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: gui.quick_5, Properties value: TestActionGui 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: gui.quick_4, Properties value: ConstantTimerGui 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: gui.quick_3, Properties value: AssertionGui 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: gui.quick_2, Properties value: RegexExtractorGui 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: jmeter.save.saveservice.label, Properties value: true 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: gui.quick_1, Properties value: HttpTestSampleGui 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: gui.quick_0, Properties value: ThreadGroupGui 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: jmeter.reportgenerator.date_format, Properties value: yyyyMMddHHmmss 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: TESTSTART.MS, Properties value: 1772606768090 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: sampleresult.timestamp.start, Properties value: true 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: summariser.name, Properties value: summary 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: beanshell.server.file, Properties value: ../extras/startup.bsh 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: jmeter.save.saveservice.timestamp_format, Properties value: ms 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: system.properties, Properties value: system.properties 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: classfinder.functions.notContain, Properties value: .gui. 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: jmeter.save.saveservice.sent_bytes, Properties value: true 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: jmeter.save.saveservice.time, Properties value: true 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: remote_hosts, Properties value: 127.0.0.1 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: jmeter.reportgenerator.exporter.html.filters_only_sample_series, Properties value: true 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: jmeter.save.saveservice.connect_time, Properties value: true 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: jmeter.reportgenerator.exporter.html.series_filter, Properties value: ^(Search|Order)(-success|-failure)?$ 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: jmeter.save.saveservice.response_code, Properties value: true 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: jmeter.save.saveservice.bytes, Properties value: true 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: jmeter.save.saveservice.latency, Properties value: true 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: cookies, Properties value: cookies 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: user.properties, Properties value: user.properties 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: jmeter.reportgenerator.report_title, Properties value: Apache JMeter Dashboard 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: cssParser.className, Properties value: org.apache.jmeter.protocol.http.parser.CssParser 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: jmeter.save.saveservice.response_message, Properties value: true 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: jmeter.save.saveservice.thread_name, Properties value: true 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: jmeter.version, Properties value: 5.6.3 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: wmlParser.types, Properties value: text/vnd.wap.wml 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: jdbc.config.check.query, Properties value: select 1 from INFORMATION_SCHEMA.SYSTEM_USERS|select 1 from dual|select 1 from sysibm.sysdummy1|select 1|select 1 from rdb$database 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: classfinder.functions.contain, Properties value: .functions. 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: HTTPResponse.parsers, Properties value: htmlParser wmlParser cssParser 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: cssParser.types, Properties value: text/css 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: htmlParser.className, Properties value: org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: jmeter.save.saveservice.successful, Properties value: true 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: not_in_menu, Properties value: org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler,org.apache.jmeter.protocol.mongodb.config.MongoSourceElement,org.apache.jmeter.timers.BSFTimer,org.apache.jmeter.modifiers.BSFPreProcessor,org.apache.jmeter.extractor.BSFPostProcessor,org.apache.jmeter.assertions.BSFAssertion,org.apache.jmeter.visualizers.BSFListener,org.apache.jmeter.protocol.java.sampler.BSFSampler,org.apache.jmeter.protocol.http.control.gui.SoapSamplerGui 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: htmlParser.types, Properties value: text/html application/xhtml+xml application/xml text/xml 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: START.MS, Properties value: 1772589278794 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: view.results.tree.renderers_order, Properties value: .RenderAsText,.RenderAsRegexp,.RenderAsBoundaryExtractor,.RenderAsCssJQuery,org.apache.jmeter.extractor.json.render.RenderAsJsonRenderer,.RenderAsXPath2,org.apache.jmeter.extractor.json.render.RenderAsJmesPathRenderer,.RenderAsXPath,.RenderAsHTML,.RenderAsHTMLFormatted,.RenderAsHTMLWithEmbedded,.RenderAsDocument,.RenderAsJSON,.RenderAsXML 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: jmeter.save.saveservice.thread_counts, Properties value: true 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: START.HMS, Properties value: 105438 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Properties name: upgrade_properties, Properties value: /bin/upgrade.properties 
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Jmeter Ctx context : org.apache.jmeter.threads.JMeterContext@16fa396
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Jmeter Ctx class : class org.apache.jmeter.threads.JMeterContext
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: prev : HTTP ���N�G�X�g_Conc
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: The list of methods in vars remove
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: The list of methods in vars get
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: The list of methods in vars put
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: The list of methods in vars getObject
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: The list of methods in vars putObject
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: The list of methods in vars entrySet
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: The list of methods in vars putAll
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: The list of methods in vars putAll
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: The list of methods in vars getIterator
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: The list of methods in vars getThreadName
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: The list of methods in vars isSameUserOnNextIteration
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: The list of methods in vars getIteration
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: The list of methods in vars incIteration
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: The list of methods in vars wait
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: The list of methods in vars wait
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: The list of methods in vars wait
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: The list of methods in vars equals
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: The list of methods in vars toString
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: The list of methods in vars hashCode
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: The list of methods in vars getClass
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: The list of methods in vars notify
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: The list of methods in vars notifyAll
+2026-03-04 15:46:12,238 INFO o.a.j.p.j.s.J.JSR223Sampler: Vars method checker: 1772589278794
+2026-03-04 15:46:12,249 DEBUG o.a.j.a.ResponseAssertion: Test Type Info: contains=true, notTest=false, orTest=false
+2026-03-04 15:46:12,249 DEBUG o.a.j.a.ResponseAssertion: Passed: 200
+2026-03-04 15:46:12,249 DEBUG o.a.j.c.GenericController: Calling next on: class org.apache.jmeter.control.GenericController
+2026-03-04 15:46:12,249 INFO o.a.j.t.JMeterThread: Thread is done: SpringThreadWithGroovy 1-1
+2026-03-04 15:46:12,249 INFO o.a.j.t.JMeterThread: Thread finished: SpringThreadWithGroovy 1-1
+2026-03-04 15:46:12,249 DEBUG o.a.j.p.h.s.HTTPHC4Impl: Thread Finished
+2026-03-04 15:46:12,249 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager is shutting down
+2026-03-04 15:46:12,249 DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection: http-outgoing-65: Close connection
+2026-03-04 15:46:12,249 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager shut down
+2026-03-04 15:46:12,249 DEBUG o.a.j.t.ThreadGroup: Ending thread SpringThreadWithGroovy 1-1
+2026-03-04 15:46:12,249 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-03-04 15:46:12,249 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2026-03-04 15:46:12,430 DEBUG o.a.j.v.ViewResultsFullVisualizer: Expanded: [[Root, JSR223Sampler], [Root]]
+2026-03-04 15:46:12,431 DEBUG o.a.j.v.ViewResultsFullVisualizer: Elements: [JSR223Sampler, Root]
+2026-03-04 15:46:12,880 DEBUG o.a.j.g.t.JMeterTreeListener: value changed, updating currentPath
+2026-03-04 15:46:12,880 DEBUG o.a.j.g.GuiPackage: Updating current node JSR223Sampler
+2026-03-04 15:46:12,880 DEBUG o.a.j.g.GuiPackage: Gui retrieved = TestBeanGUI:org.apache.jmeter.protocol.java.sampler.JSR223Sampler
+2026-03-04 15:46:12,880 DEBUG o.a.j.t.g.WrapperEditor: ->java.lang.String:groovy
+2026-03-04 15:46:12,880 DEBUG o.a.j.t.g.GenericTestBeanCustomizer: Set scriptLanguage=groovy
+2026-03-04 15:46:12,880 DEBUG o.a.j.t.g.WrapperEditor: ->java.lang.String:
+2026-03-04 15:46:12,880 DEBUG o.a.j.t.g.GenericTestBeanCustomizer: Set parameters=
+2026-03-04 15:46:12,880 DEBUG o.a.j.t.g.WrapperEditor: ->java.lang.String:C:/Users/SudeepFuji/Downloads/apache-jmeter-5.6.3/apache-jmeter-5.6.3/bin/main.groovy
+2026-03-04 15:46:12,880 DEBUG o.a.j.t.g.GenericTestBeanCustomizer: Set filename=C:/Users/SudeepFuji/Downloads/apache-jmeter-5.6.3/apache-jmeter-5.6.3/bin/main.groovy
+2026-03-04 15:46:12,880 DEBUG o.a.j.t.g.GenericTestBeanCustomizer: Set cacheKey=false
+2026-03-04 15:46:12,880 DEBUG o.a.j.t.g.GenericTestBeanCustomizer: Set script=
+2026-03-04 15:46:12,880 DEBUG o.a.j.g.AbstractJMeterGuiComponent: setting element to enabled: true
+2026-03-04 15:46:12,880 DEBUG o.a.j.t.g.TestBeanGUI: Modify scriptLanguage to groovy
+2026-03-04 15:46:12,880 DEBUG o.a.j.t.g.TestBeanGUI: Modify parameters to 
+2026-03-04 15:46:12,880 DEBUG o.a.j.t.g.TestBeanGUI: Modify filename to C:/Users/SudeepFuji/Downloads/apache-jmeter-5.6.3/apache-jmeter-5.6.3/bin/main.groovy
+2026-03-04 15:46:12,880 DEBUG o.a.j.t.g.TestBeanGUI: Modify cacheKey to false
+2026-03-04 15:46:12,880 DEBUG o.a.j.t.g.TestBeanGUI: Modify script to 
+2026-03-04 15:46:12,888 DEBUG o.a.j.g.GuiPackage: Gui retrieved = org.apache.jmeter.assertions.gui.AssertionGui[�A�T�[�V����,0,0,1444x645,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@5e2b5c,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-04 15:46:12,888 DEBUG o.a.j.g.GuiPackage: Updating current node �A�T�[�V����
+2026-03-04 15:46:12,888 DEBUG o.a.j.g.GuiPackage: Gui retrieved = org.apache.jmeter.assertions.gui.AssertionGui[�A�T�[�V����,0,0,1444x645,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@5e2b5c,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-04 15:46:12,888 DEBUG o.a.j.g.AbstractJMeterGuiComponent: setting element to enabled: true
+2026-03-04 15:46:12,888 DEBUG o.a.j.g.GuiPackage: Gui retrieved = org.apache.jmeter.assertions.gui.AssertionGui[�A�T�[�V����,0,0,1444x645,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@5e2b5c,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-04 15:46:12,890 DEBUG o.a.j.g.GuiPackage: Updating gui to new node
+2026-03-04 15:46:12,900 DEBUG o.a.j.g.GuiPackage: Gui retrieved = org.apache.jmeter.assertions.gui.AssertionGui[�A�T�[�V����,0,0,1444x645,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@5e2b5c,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-04 15:46:12,900 DEBUG o.a.j.g.GuiPackage: Updating current node �A�T�[�V����
+2026-03-04 15:46:12,900 DEBUG o.a.j.g.GuiPackage: Gui retrieved = org.apache.jmeter.assertions.gui.AssertionGui[�A�T�[�V����,0,0,1444x645,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@5e2b5c,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-04 15:46:12,900 DEBUG o.a.j.g.AbstractJMeterGuiComponent: setting element to enabled: true
+2026-03-04 15:46:12,900 DEBUG o.a.j.g.GuiPackage: Gui retrieved = org.apache.jmeter.assertions.gui.AssertionGui[�A�T�[�V����,0,0,1444x645,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@5e2b5c,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-04 15:46:12,900 DEBUG o.a.j.g.GuiPackage: Updating gui to new node
+2026-03-04 15:46:14,118 DEBUG o.a.j.g.t.JMeterTreeListener: value changed, updating currentPath
+2026-03-04 15:46:14,118 DEBUG o.a.j.g.GuiPackage: Updating current node �A�T�[�V����
+2026-03-04 15:46:14,118 DEBUG o.a.j.g.GuiPackage: Gui retrieved = org.apache.jmeter.assertions.gui.AssertionGui[�A�T�[�V����,0,0,1444x733,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@5e2b5c,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-04 15:46:14,118 DEBUG o.a.j.g.AbstractJMeterGuiComponent: setting element to enabled: true
+2026-03-04 15:46:14,118 DEBUG o.a.j.g.GuiPackage: Gui retrieved = org.apache.jmeter.visualizers.SummaryReport[Summary Report,0,0,1444x733,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-04 15:46:14,118 DEBUG o.a.j.g.GuiPackage: Updating current node Summary Report
+2026-03-04 15:46:14,118 DEBUG o.a.j.g.GuiPackage: Gui retrieved = org.apache.jmeter.visualizers.SummaryReport[Summary Report,0,0,1444x733,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-04 15:46:14,118 DEBUG o.a.j.g.AbstractJMeterGuiComponent: setting element to enabled: true
+2026-03-04 15:46:14,125 DEBUG o.a.j.g.GuiPackage: Gui retrieved = org.apache.jmeter.visualizers.SummaryReport[Summary Report,0,0,1444x733,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-04 15:46:14,125 DEBUG o.a.j.g.GuiPackage: Updating gui to new node
+2026-03-04 15:46:14,134 DEBUG o.a.j.g.GuiPackage: Gui retrieved = org.apache.jmeter.visualizers.SummaryReport[Summary Report,0,0,1444x733,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-04 15:46:14,135 DEBUG o.a.j.g.GuiPackage: Updating current node Summary Report
+2026-03-04 15:46:14,135 DEBUG o.a.j.g.GuiPackage: Gui retrieved = org.apache.jmeter.visualizers.SummaryReport[Summary Report,0,0,1444x733,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-04 15:46:14,135 DEBUG o.a.j.g.AbstractJMeterGuiComponent: setting element to enabled: true
+2026-03-04 15:46:14,136 DEBUG o.a.j.g.GuiPackage: Gui retrieved = org.apache.jmeter.visualizers.SummaryReport[Summary Report,0,0,1444x733,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-04 15:46:14,136 DEBUG o.a.j.g.GuiPackage: Updating gui to new node
+2026-03-04 15:46:14,960 DEBUG o.a.j.g.t.JMeterTreeListener: value changed, updating currentPath
+2026-03-04 15:46:14,961 DEBUG o.a.j.g.GuiPackage: Updating current node Summary Report
+2026-03-04 15:46:14,961 DEBUG o.a.j.g.GuiPackage: Gui retrieved = org.apache.jmeter.visualizers.SummaryReport[Summary Report,0,0,1444x733,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-04 15:46:14,961 DEBUG o.a.j.g.AbstractJMeterGuiComponent: setting element to enabled: true
+2026-03-04 15:46:14,961 DEBUG o.a.j.g.GuiPackage: Gui retrieved = org.apache.jmeter.visualizers.ViewResultsFullVisualizer[���ʂ��c���[�ŕ\��,0,0,1444x733,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@c4d04b,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-04 15:46:14,962 DEBUG o.a.j.g.GuiPackage: Updating current node ���ʂ��c���[�ŕ\��
+2026-03-04 15:46:14,962 DEBUG o.a.j.g.GuiPackage: Gui retrieved = org.apache.jmeter.visualizers.ViewResultsFullVisualizer[���ʂ��c���[�ŕ\��,0,0,1444x733,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@c4d04b,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-04 15:46:14,962 DEBUG o.a.j.g.AbstractJMeterGuiComponent: setting element to enabled: true
+2026-03-04 15:46:14,963 DEBUG o.a.j.g.GuiPackage: Gui retrieved = org.apache.jmeter.visualizers.ViewResultsFullVisualizer[���ʂ��c���[�ŕ\��,0,0,1444x733,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@c4d04b,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-04 15:46:14,963 DEBUG o.a.j.g.GuiPackage: Updating gui to new node
+2026-03-04 15:46:14,980 DEBUG o.a.j.g.GuiPackage: Gui retrieved = org.apache.jmeter.visualizers.ViewResultsFullVisualizer[���ʂ��c���[�ŕ\��,0,0,1444x733,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@c4d04b,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-04 15:46:14,981 DEBUG o.a.j.g.GuiPackage: Updating current node ���ʂ��c���[�ŕ\��
+2026-03-04 15:46:14,981 DEBUG o.a.j.g.GuiPackage: Gui retrieved = org.apache.jmeter.visualizers.ViewResultsFullVisualizer[���ʂ��c���[�ŕ\��,0,0,1444x733,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@c4d04b,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-04 15:46:14,981 DEBUG o.a.j.g.AbstractJMeterGuiComponent: setting element to enabled: true
+2026-03-04 15:46:14,981 DEBUG o.a.j.g.GuiPackage: Gui retrieved = org.apache.jmeter.visualizers.ViewResultsFullVisualizer[���ʂ��c���[�ŕ\��,0,0,1444x733,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@c4d04b,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-04 15:46:14,982 DEBUG o.a.j.g.GuiPackage: Updating gui to new node
