@@ -1,0 +1,88 @@
+2026-03-13 17:32:29,387 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-03-13 17:32:29,387 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-03-13 17:32:29,387 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-03-13 17:32:29,404 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-03-13 17:32:29,404 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-03-13 17:32:29,942 INFO o.a.j.JMeter: Running test (1773390749939)
+2026-03-13 17:32:29,945 INFO o.a.j.e.StandardJMeterEngine: Starting setUp thread groups
+2026-03-13 17:32:29,945 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 1 : Ollama Thread Group
+2026-03-13 17:32:29,945 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Ollama Thread Group.
+2026-03-13 17:32:29,945 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-03-13 17:32:29,947 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2026-03-13 17:32:29,955 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-03-13 17:32:29,955 INFO o.a.j.e.StandardJMeterEngine: Waiting for all setup thread groups to exit
+2026-03-13 17:32:29,959 INFO o.a.j.t.JMeterThread: Thread started: Ollama Thread Group 1-1
+2026-03-13 17:32:31,190 INFO o.a.j.m.J.JSR223 PreProcessor: Start of preTestScript
+2026-03-13 17:32:31,190 INFO o.a.j.m.J.JSR223 PreProcessor: End of preTestScript
+2026-03-13 17:32:31,224 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = 520-361
+2026-03-13 17:32:31,238 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-03-13 17:32:31,243 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-03-13 17:32:31,243 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-03-13 17:32:31,243 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-03-13 17:32:31,243 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-03-13 17:32:31,449 DEBUG o.a.h.c.p.RequestAddCookies: CookieSpec selected: default
+2026-03-13 17:32:31,449 DEBUG o.a.h.c.p.RequestAddCookies: Unsupported cookie policy: default
+2026-03-13 17:32:31,449 DEBUG o.a.h.c.p.RequestAuthCache: Auth cache not set in the context
+2026-03-13 17:32:31,449 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection request: [route: {}->http://localhost:8080][state: Ollama Thread Group 1-1][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2026-03-13 17:32:31,467 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection leased: [id: 0][route: {}->http://localhost:8080][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2026-03-13 17:32:31,469 DEBUG o.a.h.i.e.MainClientExec: Opening connection {}->http://localhost:8080
+2026-03-13 17:32:31,481 DEBUG o.a.h.i.e.MainClientExec: Executing request GET /advisor/office?message=hi HTTP/1.1
+2026-03-13 17:32:31,481 DEBUG o.a.h.i.e.MainClientExec: Target auth state: UNCHALLENGED
+2026-03-13 17:32:31,481 DEBUG o.a.h.i.e.MainClientExec: Proxy auth state: UNCHALLENGED
+2026-03-13 17:32:31,481 DEBUG o.a.h.headers: http-outgoing-0 >> GET /advisor/office?message=hi HTTP/1.1
+2026-03-13 17:32:31,485 DEBUG o.a.h.headers: http-outgoing-0 >> Connection: keep-alive
+2026-03-13 17:32:31,485 DEBUG o.a.h.headers: http-outgoing-0 >> Host: localhost:8080
+2026-03-13 17:32:31,485 DEBUG o.a.h.headers: http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.8)
+2026-03-13 17:32:31,485 DEBUG o.a.h.wire: http-outgoing-0 >> "GET /advisor/office?message=hi HTTP/1.1[\r][\n]"
+2026-03-13 17:32:31,485 DEBUG o.a.h.wire: http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2026-03-13 17:32:31,485 DEBUG o.a.h.wire: http-outgoing-0 >> "Host: localhost:8080[\r][\n]"
+2026-03-13 17:32:31,485 DEBUG o.a.h.wire: http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.8)[\r][\n]"
+2026-03-13 17:32:31,485 DEBUG o.a.h.wire: http-outgoing-0 >> "[\r][\n]"
+2026-03-13 17:32:33,054 DEBUG o.a.h.wire: http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+2026-03-13 17:32:33,054 DEBUG o.a.h.wire: http-outgoing-0 << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+2026-03-13 17:32:33,055 DEBUG o.a.h.wire: http-outgoing-0 << "Content-Length: 113[\r][\n]"
+2026-03-13 17:32:33,055 DEBUG o.a.h.wire: http-outgoing-0 << "Date: Fri, 13 Mar 2026 08:32:33 GMT[\r][\n]"
+2026-03-13 17:32:33,055 DEBUG o.a.h.wire: http-outgoing-0 << "Keep-Alive: timeout=60[\r][\n]"
+2026-03-13 17:32:33,055 DEBUG o.a.h.wire: http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2026-03-13 17:32:33,055 DEBUG o.a.h.wire: http-outgoing-0 << "[\r][\n]"
+2026-03-13 17:32:33,055 DEBUG o.a.h.wire: http-outgoing-0 << "Hi there! How's your day going so far? [0xf0][0x9f][0x98][0x8a] [\n]"
+2026-03-13 17:32:33,055 DEBUG o.a.h.wire: http-outgoing-0 << "[\n]"
+2026-03-13 17:32:33,055 DEBUG o.a.h.wire: http-outgoing-0 << "Is there anything you'd like to chat about or any help I can offer?"
+2026-03-13 17:32:33,058 DEBUG o.a.h.headers: http-outgoing-0 << HTTP/1.1 200
+2026-03-13 17:32:33,058 DEBUG o.a.h.headers: http-outgoing-0 << Content-Type: text/plain;charset=UTF-8
+2026-03-13 17:32:33,058 DEBUG o.a.h.headers: http-outgoing-0 << Content-Length: 113
+2026-03-13 17:32:33,058 DEBUG o.a.h.headers: http-outgoing-0 << Date: Fri, 13 Mar 2026 08:32:33 GMT
+2026-03-13 17:32:33,058 DEBUG o.a.h.headers: http-outgoing-0 << Keep-Alive: timeout=60
+2026-03-13 17:32:33,058 DEBUG o.a.h.headers: http-outgoing-0 << Connection: keep-alive
+2026-03-13 17:32:33,065 DEBUG o.a.h.i.e.MainClientExec: Connection can be kept alive for 60000 MILLISECONDS
+2026-03-13 17:32:33,066 DEBUG o.a.h.c.p.ResponseProcessCookies: Cookie spec not specified in HTTP context
+2026-03-13 17:32:33,068 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection [id: 0][route: {}->http://localhost:8080][state: Ollama Thread Group 1-1] can be kept alive for 60.0 seconds
+2026-03-13 17:32:33,068 DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection: http-outgoing-0: set socket timeout to 0
+2026-03-13 17:32:33,070 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection released: [id: 0][route: {}->http://localhost:8080][state: Ollama Thread Group 1-1][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2026-03-13 17:32:33,229 INFO o.a.j.e.J.JSR223 PostProcessor: Post: Start of postTestScript
+2026-03-13 17:32:33,254 INFO o.a.j.e.J.JSR223 PostProcessor: Groovy previous response code 200
+2026-03-13 17:32:33,264 INFO o.a.j.e.J.JSR223 PostProcessor: Post: Failed to retrieve!
+2026-03-13 17:32:33,264 INFO o.a.j.e.J.JSR223 PostProcessor: Post: End of PostTestScript
+2026-03-13 17:32:33,300 INFO o.a.j.r.Summariser: summary +      1 in 00:00:03 =    0.3/s Avg:  1669 Min:  1669 Max:  1669 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2026-03-13 17:32:33,304 INFO o.a.j.m.J.JSR223 PreProcessor: Start of preTestScript
+2026-03-13 17:32:33,304 INFO o.a.j.m.J.JSR223 PreProcessor: End of preTestScript
+2026-03-13 17:32:33,368 INFO o.a.j.p.j.s.J.JSR223 Sampler: Sampler: Start of sampler script
+2026-03-13 17:32:33,368 INFO o.a.j.p.j.s.J.JSR223 Sampler: Groovy previous response code 200
+2026-03-13 17:32:33,368 INFO o.a.j.p.j.s.J.JSR223 Sampler: 200
+2026-03-13 17:32:33,368 INFO o.a.j.p.j.s.J.JSR223 Sampler: Successfully retrieved Response code
+2026-03-13 17:32:33,368 INFO o.a.j.p.j.s.J.JSR223 Sampler: Sampler: End of samplerTestScript
+2026-03-13 17:32:33,368 INFO o.a.j.e.J.JSR223 PostProcessor: Post: Start of postTestScript
+2026-03-13 17:32:33,368 INFO o.a.j.e.J.JSR223 PostProcessor: Groovy previous response code 200
+2026-03-13 17:32:33,368 INFO o.a.j.e.J.JSR223 PostProcessor: Post: Failed to retrieve!
+2026-03-13 17:32:33,368 INFO o.a.j.e.J.JSR223 PostProcessor: Post: End of PostTestScript
+2026-03-13 17:32:33,368 INFO o.a.j.t.JMeterThread: Thread is done: Ollama Thread Group 1-1
+2026-03-13 17:32:33,368 INFO o.a.j.t.JMeterThread: Thread finished: Ollama Thread Group 1-1
+2026-03-13 17:32:33,368 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager is shutting down
+2026-03-13 17:32:33,378 DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection: http-outgoing-0: Close connection
+2026-03-13 17:32:33,379 DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager: Connection manager shut down
+2026-03-13 17:32:33,379 INFO o.a.j.e.StandardJMeterEngine: All Setup Threads have ended
+2026-03-13 17:32:33,403 INFO o.a.j.e.StandardJMeterEngine: No enabled thread groups found
+2026-03-13 17:32:33,411 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-03-13 17:32:33,422 INFO o.a.j.r.Summariser: summary +      1 in 00:00:00 =    7.9/s Avg:    67 Min:    67 Max:    67 Err:     0 (0.00%) Active: 0 Started: 0 Finished: 0
+2026-03-13 17:32:33,422 INFO o.a.j.r.Summariser: summary =      2 in 00:00:03 =    0.6/s Avg:   868 Min:    67 Max:  1669 Err:     0 (0.00%)
+
