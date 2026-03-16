@@ -3,4 +3,24 @@ log.info("Start of preTestScript")
 // log.info("Groovy previous response code "+ prev.getResponseCode())
 
 
+
+
+def user = vars.get("username")
+def pass = vars.get("password")
+
+
+// Encoding required ??
+
+def unencoded = "what%27s%20the%20temperature%20in%20yokohama,%20japan?"
+def msg = "what's the temperature in yokohama, japan?"
+log.info("Username :"+ user + "\n Password :" + pass)
+
+log.info("Message insertion")
+
+vars.put("message",unencoded)
+
+def message = vars.get("message")
+log.info("This is a message: "+message)
+
+
 log.info("End of preTestScript")
