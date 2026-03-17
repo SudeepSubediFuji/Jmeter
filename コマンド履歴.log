@@ -1,0 +1,382 @@
+Microsoft Windows [Version 10.0.26200.7840]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\SudeepFuji>docker run -d --name worker1 --network jmeter-net justb4/jmeter -s -Jserver.rmi.ssl.disable=true
+a5eb372707fd07633c2fc6813ed39e6ddb95e1b1826f81b256820a704855786c
+
+C:\Users\SudeepFuji>cd JMeterrStudy
+
+C:\Users\SudeepFuji\JMeterrStudy>docker run --rm --network jmeter-net -v %cd%:/test justb4/jmeter -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+START Running Jmeter on Tue Mar 17 05:55:17 CET 2026
+JVM_ARGS=-Xmn1160m -Xms4640m -Xmx4640m
+jmeter args=-n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+jmeter ALL ARGS=-Dlog4j2.formatMsgNoLookups=true -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+Mar 17, 2026 5:55:20 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using /test/study_test.jmx
+Configuring remote engine: worker1
+Starting distributed test with remote engines: [worker1] @ March 17, 2026 5:55:22 AM CET (1773723322678)
+Remote engines have been started:[worker1]
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =      0 in 00:00:00 = ******/s Avg:     0 Min: 9223372036854775807 Max: -9223372036854775808 Err:     0 (0.00%)
+Tidying up remote @ March 17, 2026 5:55:27 AM CET (1773723327615)
+... end of run
+END Running Jmeter on Tue Mar 17 05:55:34 CET 2026
+
+C:\Users\SudeepFuji\JMeterrStudy>ls
+'ls' は、内部コマンドまたは外部コマンド、
+操作可能なプログラムまたはバッチ ファイルとして認識されていません。
+
+C:\Users\SudeepFuji\JMeterrStudy>ls
+'ls' は、内部コマンドまたは外部コマンド、
+操作可能なプログラムまたはバッチ ファイルとして認識されていません。
+
+C:\Users\SudeepFuji\JMeterrStudy>docker run --rm --network jmeter-net -v %cd%:/test justb4/jmeter -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+START Running Jmeter on Tue Mar 17 05:58:44 CET 2026
+JVM_ARGS=-Xmn1150m -Xms4600m -Xmx4600m
+jmeter args=-n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+jmeter ALL ARGS=-Dlog4j2.formatMsgNoLookups=true -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+Mar 17, 2026 5:58:48 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using /test/study_test.jmx
+Configuring remote engine: worker1
+Starting distributed test with remote engines: [worker1] @ March 17, 2026 5:58:49 AM CET (1773723529871)
+Remote engines have been started:[worker1]
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =      0 in 00:00:00 = ******/s Avg:     0 Min: 9223372036854775807 Max: -9223372036854775808 Err:     0 (0.00%)
+Tidying up remote @ March 17, 2026 5:58:52 AM CET (1773723532623)
+... end of run
+END Running Jmeter on Tue Mar 17 05:58:59 CET 2026
+
+C:\Users\SudeepFuji\JMeterrStudy>docker run --rm --network jmeter-net -v %cd%:/test justb4/jmeter -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+START Running Jmeter on Tue Mar 17 05:59:24 CET 2026
+JVM_ARGS=-Xmn1146m -Xms4584m -Xmx4584m
+jmeter args=-n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+jmeter ALL ARGS=-Dlog4j2.formatMsgNoLookups=true -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+Mar 17, 2026 5:59:27 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using /test/study_test.jmx
+Configuring remote engine: worker1
+Starting distributed test with remote engines: [worker1] @ March 17, 2026 5:59:29 AM CET (1773723569104)
+Remote engines have been started:[worker1]
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =      0 in 00:00:00 = ******/s Avg:     0 Min: 9223372036854775807 Max: -9223372036854775808 Err:     0 (0.00%)
+Tidying up remote @ March 17, 2026 5:59:31 AM CET (1773723571934)
+... end of run
+END Running Jmeter on Tue Mar 17 05:59:38 CET 2026
+
+C:\Users\SudeepFuji\JMeterrStudy>docker run --rm --network jmeter-net -v %cd%:/test justb4/jmeter -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+START Running Jmeter on Tue Mar 17 06:15:08 CET 2026
+JVM_ARGS=-Xmn1154m -Xms4616m -Xmx4616m
+jmeter args=-n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+jmeter ALL ARGS=-Dlog4j2.formatMsgNoLookups=true -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+Mar 17, 2026 6:15:11 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using /test/study_test.jmx
+Configuring remote engine: worker1
+Starting distributed test with remote engines: [worker1] @ March 17, 2026 6:15:13 AM CET (1773724513710)
+Remote engines have been started:[worker1]
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =      0 in 00:00:00 = ******/s Avg:     0 Min: 9223372036854775807 Max: -9223372036854775808 Err:     0 (0.00%)
+Tidying up remote @ March 17, 2026 6:15:17 AM CET (1773724517699)
+... end of run
+END Running Jmeter on Tue Mar 17 06:15:24 CET 2026
+
+C:\Users\SudeepFuji\JMeterrStudy>docker run --rm --network jmeter-net -v %cd%:/test justb4/jmeter -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true                          docker run --rm --network jmeter-net -v %cd%:/test justb4/jmeter -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+START Running Jmeter on Tue Mar 17 06:26:18 CET 2026
+JVM_ARGS=-Xmn1148m -Xms4592m -Xmx4592m
+jmeter args=-n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+jmeter ALL ARGS=-Dlog4j2.formatMsgNoLookups=true -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+Mar 17, 2026 6:26:21 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using /test/study_test.jmx
+Configuring remote engine: worker1
+Starting distributed test with remote engines: [worker1] @ March 17, 2026 6:26:23 AM CET (1773725183745)
+Remote engines have been started:[worker1]
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =      0 in 00:00:00 = ******/s Avg:     0 Min: 9223372036854775807 Max: -9223372036854775808 Err:     0 (0.00%)
+Tidying up remote @ March 17, 2026 6:26:27 AM CET (1773725187321)
+... end of run
+END Running Jmeter on Tue Mar 17 06:26:33 CET 2026
+
+C:\Users\SudeepFuji\JMeterrStudy>docker run --rm --network jmeter-net -v %cd%:/test justb4/jmeter -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+START Running Jmeter on Tue Mar 17 06:33:48 CET 2026
+JVM_ARGS=-Xmn1150m -Xms4600m -Xmx4600m
+jmeter args=-n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+jmeter ALL ARGS=-Dlog4j2.formatMsgNoLookups=true -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+Mar 17, 2026 6:33:53 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using /test/study_test.jmx
+Configuring remote engine: worker1
+Starting distributed test with remote engines: [worker1] @ March 17, 2026 6:33:57 AM CET (1773725637335)
+Remote engines have been started:[worker1]
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =      0 in 00:00:00 = ******/s Avg:     0 Min: 9223372036854775807 Max: -9223372036854775808 Err:     0 (0.00%)
+Tidying up remote @ March 17, 2026 6:34:08 AM CET (1773725648537)
+... end of run
+END Running Jmeter on Tue Mar 17 06:34:15 CET 2026
+
+C:\Users\SudeepFuji\JMeterrStudy>docker run --rm --network jmeter-net -v %cd%:/test justb4/jmeter -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+START Running Jmeter on Tue Mar 17 06:36:27 CET 2026
+JVM_ARGS=-Xmn1146m -Xms4584m -Xmx4584m
+jmeter args=-n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+jmeter ALL ARGS=-Dlog4j2.formatMsgNoLookups=true -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+Mar 17, 2026 6:36:30 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using /test/study_test.jmx
+Configuring remote engine: worker1
+Starting distributed test with remote engines: [worker1] @ March 17, 2026 6:36:32 AM CET (1773725792217)
+Remote engines have been started:[worker1]
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =      0 in 00:00:00 = ******/s Avg:     0 Min: 9223372036854775807 Max: -9223372036854775808 Err:     0 (0.00%)
+Tidying up remote @ March 17, 2026 6:36:34 AM CET (1773725794941)
+... end of run
+END Running Jmeter on Tue Mar 17 06:36:41 CET 2026
+
+C:\Users\SudeepFuji\JMeterrStudy>docker run --rm --network jmeter-net -v %cd%:/test justb4/jmeter -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+START Running Jmeter on Tue Mar 17 06:40:11 CET 2026
+JVM_ARGS=-Xmn1186m -Xms4744m -Xmx4744m
+jmeter args=-n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+jmeter ALL ARGS=-Dlog4j2.formatMsgNoLookups=true -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+Mar 17, 2026 6:40:14 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using /test/study_test.jmx
+Configuring remote engine: worker1
+Starting distributed test with remote engines: [worker1] @ March 17, 2026 6:40:16 AM CET (1773726016784)
+Remote engines have been started:[worker1]
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =      0 in 00:00:00 = ******/s Avg:     0 Min: 9223372036854775807 Max: -9223372036854775808 Err:     0 (0.00%)
+Tidying up remote @ March 17, 2026 6:40:21 AM CET (1773726021482)
+... end of run
+END Running Jmeter on Tue Mar 17 06:40:28 CET 2026
+
+C:\Users\SudeepFuji\JMeterrStudy>docker run --rm --network jmeter-net -v %cd%:/test justb4/jmeter -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+START Running Jmeter on Tue Mar 17 06:41:44 CET 2026
+JVM_ARGS=-Xmn1150m -Xms4600m -Xmx4600m
+jmeter args=-n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+jmeter ALL ARGS=-Dlog4j2.formatMsgNoLookups=true -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+Mar 17, 2026 6:41:46 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using /test/study_test.jmx
+Configuring remote engine: worker1
+Starting distributed test with remote engines: [worker1] @ March 17, 2026 6:41:48 AM CET (1773726108686)
+Remote engines have been started:[worker1]
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =      0 in 00:00:00 = ******/s Avg:     0 Min: 9223372036854775807 Max: -9223372036854775808 Err:     0 (0.00%)
+Tidying up remote @ March 17, 2026 6:41:51 AM CET (1773726111320)
+... end of run
+END Running Jmeter on Tue Mar 17 06:41:57 CET 2026
+
+C:\Users\SudeepFuji\JMeterrStudy>docker run --rm --network jmeter-net -v %cd%:/test justb4/jmeter -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+START Running Jmeter on Tue Mar 17 06:49:18 CET 2026
+JVM_ARGS=-Xmn1154m -Xms4616m -Xmx4616m
+jmeter args=-n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+jmeter ALL ARGS=-Dlog4j2.formatMsgNoLookups=true -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+Mar 17, 2026 6:49:21 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using /test/study_test.jmx
+Configuring remote engine: worker1
+Starting distributed test with remote engines: [worker1] @ March 17, 2026 6:49:23 AM CET (1773726563093)
+Remote engines have been started:[worker1]
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =      6 in 00:00:43 =    0.1/s Avg: 30478 Min: 22065 Max: 39094 Err:     0 (0.00%)
+Tidying up remote @ March 17, 2026 6:50:07 AM CET (1773726607820)
+... end of run
+END Running Jmeter on Tue Mar 17 06:50:13 CET 2026
+
+C:\Users\SudeepFuji\JMeterrStudy>docker run -d --name worker1 --network jmeter-net justb4/jmeter -s -Jserver.rmi.ssl.disable=true
+docker: Error response from daemon: Conflict. The container name "/worker1" is already in use by container "a5eb372707fd07633c2fc6813ed39e6ddb95e1b1826f81b256820a704855786c". You have to remove (or rename) that container to be able to reuse that name.
+
+Run 'docker run --help' for more information
+
+C:\Users\SudeepFuji\JMeterrStudy>docker run -d --name worker2 --network jmeter-net justb4/jmeter -s -Jserver.rmi.ssl.disable=true
+6bb50a60463a2d040ceb0e4c94d5b5903fb1386410ba13daaee91638b8ee7b90
+
+C:\Users\SudeepFuji\JMeterrStudy>ls
+'ls' は、内部コマンドまたは外部コマンド、
+操作可能なプログラムまたはバッチ ファイルとして認識されていません。
+
+C:\Users\SudeepFuji\JMeterrStudy>docker cp ./ worker2:/opt/apache-jmeter-5.5/bin/
+Successfully copied 73.7kB to worker2:/opt/apache-jmeter-5.5/bin/
+
+C:\Users\SudeepFuji\JMeterrStudy>docker run --rm --network jmeter-net -v %cd%:/test justb4/jmeter -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+START Running Jmeter on Tue Mar 17 07:01:16 CET 2026
+JVM_ARGS=-Xmn1080m -Xms4320m -Xmx4320m
+jmeter args=-n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+jmeter ALL ARGS=-Dlog4j2.formatMsgNoLookups=true -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true
+Mar 17, 2026 7:01:21 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using /test/study_test.jmx
+Configuring remote engine: worker1
+Starting distributed test with remote engines: [worker1] @ March 17, 2026 7:01:23 AM CET (1773727283465)
+Remote engines have been started:[worker1]
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      2 in 00:00:35 =    0.1/s Avg: 19474 Min: 17213 Max: 21736 Err:     0 (0.00%) Active: 0 Started: 6 Finished: 6
+summary +      4 in 00:00:00 =  363.6/s Avg: 27943 Min: 23472 Max: 31520 Err:     0 (0.00%) Active: 0 Started: 6 Finished: 6
+summary =      6 in 00:00:35 =    0.2/s Avg: 25120 Min: 17213 Max: 31520 Err:     0 (0.00%)
+Tidying up remote @ March 17, 2026 7:02:00 AM CET (1773727320873)
+... end of run
+END Running Jmeter on Tue Mar 17 07:02:06 CET 2026
+
+C:\Users\SudeepFuji\JMeterrStudy>docker run --rm --network jmeter-net -v %cd%:/test justb4/jmeter -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 worker2 -Jserver.rmi.ssl.disable=true
+START Running Jmeter on Tue Mar 17 07:02:59 CET 2026
+JVM_ARGS=-Xmn1080m -Xms4320m -Xmx4320m
+jmeter args=-n -t /test/study_test.jmx -l /test/results.jtl -R worker1 worker2 -Jserver.rmi.ssl.disable=true
+jmeter ALL ARGS=-Dlog4j2.formatMsgNoLookups=true -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 worker2 -Jserver.rmi.ssl.disable=true
+Mar 17, 2026 7:03:02 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+An error occurred: Unknown arg: worker2
+
+C:\Users\SudeepFuji\JMeterrStudy>docker run --rm --network jmeter-net -v %cd%:/test justb4/jmeter -n -t /test/study_test.jmx -l /test/results.jtl -R worker1,worker2 -Jserver.rmi.ssl.disable=true
+START Running Jmeter on Tue Mar 17 07:04:07 CET 2026
+JVM_ARGS=-Xmn1080m -Xms4320m -Xmx4320m
+jmeter args=-n -t /test/study_test.jmx -l /test/results.jtl -R worker1,worker2 -Jserver.rmi.ssl.disable=true
+jmeter ALL ARGS=-Dlog4j2.formatMsgNoLookups=true -n -t /test/study_test.jmx -l /test/results.jtl -R worker1,worker2 -Jserver.rmi.ssl.disable=true
+Mar 17, 2026 7:04:10 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using /test/study_test.jmx
+Configuring remote engine: worker1
+Configuring remote engine: worker2
+Starting distributed test with remote engines: [worker1, worker2] @ March 17, 2026 7:04:13 AM CET (1773727453532)
+Remote engines have been started:[worker1, worker2]
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      2 in 00:00:17 =    0.1/s Avg:  6450 Min:  5424 Max:  7477 Err:     0 (0.00%) Active: 6 Started: 12 Finished: 6
+summary +     10 in 00:00:18 =    0.5/s Avg: 15297 Min:  8959 Max: 24560 Err:     0 (0.00%) Active: 0 Started: 12 Finished: 12
+summary =     12 in 00:00:35 =    0.3/s Avg: 13823 Min:  5424 Max: 24560 Err:     0 (0.00%)
+Tidying up remote @ March 17, 2026 7:04:50 AM CET (1773727490765)
+... end of run
+END Running Jmeter on Tue Mar 17 07:04:56 CET 2026
+
+C:\Users\SudeepFuji\JMeterrStudy>docker run --network jmeter-net -v %cd%:/test justb4/jmeter -n -t /test/study_test.jmx -l /test/results.jtl -R worker1,worker2 -Jserver.rmi.ssl.disable=true
+START Running Jmeter on Tue Mar 17 07:11:06 CET 2026
+JVM_ARGS=-Xmn1042m -Xms4168m -Xmx4168m
+jmeter args=-n -t /test/study_test.jmx -l /test/results.jtl -R worker1,worker2 -Jserver.rmi.ssl.disable=true
+jmeter ALL ARGS=-Dlog4j2.formatMsgNoLookups=true -n -t /test/study_test.jmx -l /test/results.jtl -R worker1,worker2 -Jserver.rmi.ssl.disable=true
+Mar 17, 2026 7:11:09 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using /test/study_test.jmx
+Configuring remote engine: worker1
+Configuring remote engine: worker2
+Starting distributed test with remote engines: [worker1, worker2] @ March 17, 2026 7:11:11 AM CET (1773727871656)
+Remote engines have been started:[worker1, worker2]
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:00:17 =    0.1/s Avg: 16283 Min: 16283 Max: 16283 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0
+summary +      7 in 00:00:32 =    0.2/s Avg: 28162 Min: 18443 Max: 43379 Err:     0 (0.00%) Active: 0 Started: 12 Finished: 12
+summary =      8 in 00:00:49 =    0.2/s Avg: 26677 Min: 16283 Max: 43379 Err:     0 (0.00%)
+summary +      4 in 00:00:00 =  666.7/s Avg: 39888 Min: 35090 Max: 46252 Err:     0 (0.00%) Active: 0 Started: 12 Finished: 12
+summary =     12 in 00:00:49 =    0.2/s Avg: 31081 Min: 16283 Max: 46252 Err:     0 (0.00%)
+Tidying up remote @ March 17, 2026 7:12:02 AM CET (1773727922526)
+... end of run
+END Running Jmeter on Tue Mar 17 07:12:08 CET 2026
+
+C:\Users\SudeepFuji\JMeterrStudy>docker run --rm --network jmeter-net -v %cd%:/test justb4/jmeter -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true -e -o /opt/apache-jmeter-5.5/output
+START Running Jmeter on Tue Mar 17 07:14:35 CET 2026
+JVM_ARGS=-Xmn1036m -Xms4144m -Xmx4144m
+jmeter args=-n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true -e -o /opt/apache-jmeter-5.5/output
+jmeter ALL ARGS=-Dlog4j2.formatMsgNoLookups=true -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true -e -o /opt/apache-jmeter-5.5/output
+Mar 17, 2026 7:14:38 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Error in NonGUIDriver java.lang.IllegalArgumentException: Results file:/test/results.jtl is not empty
+An error occurred: Error in NonGUIDriver Results file:/test/results.jtl is not empty
+
+C:\Users\SudeepFuji\JMeterrStudy>docker run --rm --network jmeter-net -v %cd%:/test justb4/jmeter -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true -e -o /opt/apache-jmeter-5.5/output
+START Running Jmeter on Tue Mar 17 07:15:17 CET 2026
+JVM_ARGS=-Xmn1036m -Xms4144m -Xmx4144m
+jmeter args=-n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true -e -o /opt/apache-jmeter-5.5/output
+jmeter ALL ARGS=-Dlog4j2.formatMsgNoLookups=true -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true -e -o /opt/apache-jmeter-5.5/output
+Mar 17, 2026 7:15:20 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Error in NonGUIDriver java.lang.IllegalArgumentException: Results file:/test/results.jtl is not empty
+An error occurred: Error in NonGUIDriver Results file:/test/results.jtl is not empty
+
+C:\Users\SudeepFuji\JMeterrStudy>docker run --rm --network jmeter-net -v %cd%:/test justb4/jmeter -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true -e -o /opt/apache-jmeter-5.5/output
+START Running Jmeter on Tue Mar 17 07:17:10 CET 2026
+JVM_ARGS=-Xmn1084m -Xms4336m -Xmx4336m
+jmeter args=-n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true -e -o /opt/apache-jmeter-5.5/output
+jmeter ALL ARGS=-Dlog4j2.formatMsgNoLookups=true -n -t /test/study_test.jmx -l /test/results.jtl -R worker1 -Jserver.rmi.ssl.disable=true -e -o /opt/apache-jmeter-5.5/output
+Mar 17, 2026 7:17:12 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Error in NonGUIDriver java.lang.IllegalArgumentException: Results file:/test/results.jtl is not empty
+An error occurred: Error in NonGUIDriver Results file:/test/results.jtl is not empty
+
+got 3 SIGTERM/SIGINTs, forcefully exiting
+
+C:\Users\SudeepFuji\JMeterrStudy>docker run --rm --network jmeter-net -v %cd%:/test justb4/jmeter -n -t /test/study_test.jmx -l /test/results.jtl -R worker1,worker2 -Jserver.rmi.ssl.disable=true -e -o /opt/apache-jmeter-5.5/output
+START Running Jmeter on Tue Mar 17 07:17:58 CET 2026
+JVM_ARGS=-Xmn1080m -Xms4320m -Xmx4320m
+jmeter args=-n -t /test/study_test.jmx -l /test/results.jtl -R worker1,worker2 -Jserver.rmi.ssl.disable=true -e -o /opt/apache-jmeter-5.5/output
+jmeter ALL ARGS=-Dlog4j2.formatMsgNoLookups=true -n -t /test/study_test.jmx -l /test/results.jtl -R worker1,worker2 -Jserver.rmi.ssl.disable=true -e -o /opt/apache-jmeter-5.5/output
+Mar 17, 2026 7:18:00 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Error in NonGUIDriver java.lang.IllegalArgumentException: Results file:/test/results.jtl is not empty
+An error occurred: Error in NonGUIDriver Results file:/test/results.jtl is not empty
+
+C:\Users\SudeepFuji\JMeterrStudy>docker run --rm --network jmeter-net -v %cd%:/test justb4/jmeter -n -t /test/study_test.jmx -l /test/results.jtl -R worker1,worker2 -Jserver.rmi.ssl.disable=true -e -o /opt/apache-jmeter-5.5/output
+START Running Jmeter on Tue Mar 17 07:24:39 CET 2026
+JVM_ARGS=-Xmn1088m -Xms4352m -Xmx4352m
+jmeter args=-n -t /test/study_test.jmx -l /test/results.jtl -R worker1,worker2 -Jserver.rmi.ssl.disable=true -e -o /opt/apache-jmeter-5.5/output
+jmeter ALL ARGS=-Dlog4j2.formatMsgNoLookups=true -n -t /test/study_test.jmx -l /test/results.jtl -R worker1,worker2 -Jserver.rmi.ssl.disable=true -e -o /opt/apache-jmeter-5.5/output
+Mar 17, 2026 7:24:41 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using /test/study_test.jmx
+Configuring remote engine: worker1
+Configuring remote engine: worker2
+Starting distributed test with remote engines: [worker1, worker2] @ March 17, 2026 7:24:43 AM CET (1773728683798)
+Remote engines have been started:[worker1, worker2]
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:00:17 =    0.1/s Avg: 11328 Min: 11328 Max: 11328 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0
+summary +     11 in 00:00:39 =    0.3/s Avg: 34678 Min: 18093 Max: 53023 Err:     0 (0.00%) Active: 0 Started: 12 Finished: 12
+summary =     12 in 00:00:56 =    0.2/s Avg: 32732 Min: 11328 Max: 53023 Err:     0 (0.00%)
+Tidying up remote @ March 17, 2026 7:25:42 AM CET (1773728742000)
+... end of run
+END Running Jmeter on Tue Mar 17 07:25:49 CET 2026
+
+C:\Users\SudeepFuji\JMeterrStudy>docker run --rm --network jmeter-net -v %cd%:/test justb4/jmeter -n -t /test/study_test.jmx -l /test/results.jtl -R worker1,worker2 -Jserver.rmi.ssl.disable=true -e -o /test/output
+START Running Jmeter on Tue Mar 17 07:31:35 CET 2026
+JVM_ARGS=-Xmn1034m -Xms4136m -Xmx4136m
+jmeter args=-n -t /test/study_test.jmx -l /test/results.jtl -R worker1,worker2 -Jserver.rmi.ssl.disable=true -e -o /test/output
+jmeter ALL ARGS=-Dlog4j2.formatMsgNoLookups=true -n -t /test/study_test.jmx -l /test/results.jtl -R worker1,worker2 -Jserver.rmi.ssl.disable=true -e -o /test/output
+Mar 17, 2026 7:31:39 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Error in NonGUIDriver java.lang.IllegalArgumentException: Results file:/test/results.jtl is not empty
+An error occurred: Error in NonGUIDriver Results file:/test/results.jtl is not empty
+
+C:\Users\SudeepFuji\JMeterrStudy>docker run --rm --network jmeter-net -v %cd%:/test justb4/jmeter -n -t /test/study_test.jmx -l /test/results.jtl -R worker1,worker2 -Jserver.rmi.ssl.disable=true -e -o /test/output
+START Running Jmeter on Tue Mar 17 07:32:06 CET 2026
+JVM_ARGS=-Xmn1036m -Xms4144m -Xmx4144m
+jmeter args=-n -t /test/study_test.jmx -l /test/results.jtl -R worker1,worker2 -Jserver.rmi.ssl.disable=true -e -o /test/output
+jmeter ALL ARGS=-Dlog4j2.formatMsgNoLookups=true -n -t /test/study_test.jmx -l /test/results.jtl -R worker1,worker2 -Jserver.rmi.ssl.disable=true -e -o /test/output
+Mar 17, 2026 7:32:09 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using /test/study_test.jmx
+Configuring remote engine: worker1
+Configuring remote engine: worker2
+Starting distributed test with remote engines: [worker1, worker2] @ March 17, 2026 7:32:11 AM CET (1773729131300)
+Remote engines have been started:[worker1, worker2]
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     12 in 00:00:45 =    0.3/s Avg: 28249 Min: 13079 Max: 42797 Err:     0 (0.00%)
+Tidying up remote @ March 17, 2026 7:32:58 AM CET (1773729178136)
+... end of run
+END Running Jmeter on Tue Mar 17 07:33:08 CET 2026
+
+C:\Users\SudeepFuji\JMeterrStudy>
