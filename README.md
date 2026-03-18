@@ -159,4 +159,94 @@ docker run --rm --network jmeter-net -v %cd%:/test justb4/jmeter
 ```
 ※ローカル端末ではFirewall・Window defenderがインストールされた場合、Controller/Workerは構築できません。まあ、ほぼほぼWorker・Controllerに分かれて使ってときはいつもはAWSや他の環境にあり
 
+## マスタースレーブ系　Vs 単ワーカ系テスト
+Master/Slave テスト系はDockerで公開して実装。
+一般スレッドテスト系は普通のロカール端末で実装。
+
+### データ分析
+
+テスト状況１：エラー件なし
+
+* ramp時間：120秒
+* ループ回数：10
+
+* スレッド：
+マスタースレーブ系
+Worker1：6
+Worker2：6
+単ワーカ系
+スレッド回数：12
+
+
+ActiveThreadOverTime
+
+マスタースレーブ系：
+以下の画像の通り６スレッドはそれぞれWorker１、Worker２が使っています。
+※以下の画像見たら混乱する可能性もあります。画像の青色のピクは12スレッドですがそれはワーカ1とワーカ2にの６スレッドと６スレッドです（6+6）。ワーカ１の上にワーカ２を被った線グラフです。
+![alt text](ActiveThreadOverTimeマスタースレーブ.png)
+
+単ワーカ系：
+以下の画像では12:59で12スレッドがアクティブになりました。
+![alt text](ActiveThreadOverTime単ワーカ.png)
+
+BytesThroughputOverTime
+
+マスタースレーブ系：
+
+Bytes送信：
+マスタースレーブ系でBytes Throughput over time は03:52から03:55までは一番高かった。そこでも一番値は237です。
+単ワーカ系でBytes Throughput over time は12:58から13:01は一番高かったです。
+そこでも一番値は221です。
+比較したらマスタースレーブ系は最も
+
+Bytes受信：
+![alt text](BTOTマスタースレーブ.png)
+
+![alt text](BTOT単ワーカ.png)
+
+ResponseTime:
+
+マスタースレーブ系：
+Average response time は
+11:51:09.395~11:56:09.485＝05分 
+11:53→ピクロード　
+response times over time → 28637ms
+![alt text](RTマスタースレーブ系.png)
+
+単ワーカ系：
+14:54:11.747~14:59:04.565＝05分
+14:56→ピクロード　
+response times over time →　25983ms
+![alt text](RT単ワーカ系.png)
+
+レスポンス時間を見るとマスタースレーブ系のより単ワーカ系の方はレスポンス早いでした（28637ms-25983ms=2654ms/2.6秒）。この条件の理由はDockerで動いても端末は同じリソース（メモリーやプロセサル）を使っていますので、複数ワーカを作成してももっと時間かかってしまいましたそうです。ですが、普段はマスタースレーブ系をAWSやサーバ側で動くものですからパフォーマンスをよく旨くなりそうです。
+
+※少ない処理時間の場合
+#### 受信Bytes
+マスタースレーブ系　→　238
+一般スレッド　→　224
+結果を見ると（ 238-224= 14Bytes ）, Master/Slave系はもっと14Bytesを加えていたそうです。それの理由はMasterとWorkerを連携するため、RMI（Remote Method Invocation）プロトコルを使っていますのでRMIを使いためにかかった14Bytesでした。
+
+### Bytes throughput over time 
+単ワーカ系 -> 10:15 :: 9
+         10:16 :: 106
+マスタースレーブ系　-> 104
+
+Peak Bytes throughput over time　はローカルでは106Bytes/sec でしたが Master/Slave では104Bytes/secでした。Master/slave側は遅いと見えていますがこの状況の理由はMaster側でWorker側の連携するための時間かかったのでです。後は本テストでは処理時間はWorker１とWorker２に分かれていましたので一般でWorker側からMaster側への結果送信した時、Master側で結果は収取した時は一般のデータと思った可能性が多いです。後は連絡取る時のネットワーク遅延とWorker側は指示もらって初期化される時間もあります。
+
+#### Latency
+Latencyはとても遅かったです（20435ms/20.4秒）。
+
+なんでこんな遅かった理由を探して見ました。以下は私の認識です。
+Javaアプリで公開したAPIので色々処理が入っていますので、時間がかかりました。
+![alt text](SpringAPILatency.png)
+
+直接にOllamaAPIを連絡したらLatencyがよくなりました。(777ms/2requestpersecond=388.5ms/0.388秒)
+![alt text](直接OllamaAPI連絡.png)
+詳細結果：apache-jmeter-5.6.3\apache-jmeter-5.6.3\結果\DirectOllama
+実行コマンド：
+```sh
+ ./jmeter.bat -n -t ./TestPlanTemplate/DOLatency.jmx -l ./results.jtl -e -o ./output
+```
+
 

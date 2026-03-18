@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1773817541497,12346,HTTP Request,200,OK,DirectOllamaLatencyThread Group 1-1,text,true,,524,289,1,1,http://localhost:11434/api/generate,12333,0,44

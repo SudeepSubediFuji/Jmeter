@@ -51,7 +51,7 @@ echo Found ApacheJMeter_core.jar
 REM No longer need to create the rmiregistry as it is done by the server
 REM set CLASSPATH=%JMETER_HOME%\lib\ext\ApacheJMeter_core.jar;%JMETER_HOME%\lib\jorphan.jar
 
-REM START rmiregistry %SERVER_PORT%
+START "" "C:\Program Files\Java\jdk-21\bin\rmiregistry.exe" %SERVER_PORT%
 REM
 
 rem On NT/2K grab all arguments at once
