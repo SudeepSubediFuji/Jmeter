@@ -22,5 +22,9 @@ vars.put("message",unencoded)
 def message = vars.get("message")
 log.info("This is a message: "+message)
 
+props.getIterator().each { entry-> 
+log.info("Properties name: ${entry.key} , properties value: ${entry.value}")
+}
+
 
 log.info("End of preTestScript")

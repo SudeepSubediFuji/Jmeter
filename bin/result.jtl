@@ -1,2 +1,7 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1773817541497,12346,HTTP Request,200,OK,DirectOllamaLatencyThread Group 1-1,text,true,,524,289,1,1,http://localhost:11434/api/generate,12333,0,44
+1773906093889,13305,HTTP リクエスト,200,,OllamaThreadGroup 1-3,text,true,,1616,224,6,6,"http://localhost:8080/advisor/login?username=sudh&password=password&message=what%27s%20the%20temperature%20in%20yokohama,%20japan?",9800,0,65
+1773906093889,15597,HTTP リクエスト,200,,OllamaThreadGroup 1-2,text,true,,1148,224,5,5,"http://localhost:8080/advisor/login?username=sudh&password=password&message=what%27s%20the%20temperature%20in%20yokohama,%20japan?",13268,0,65
+1773906093889,18186,HTTP リクエスト,200,,OllamaThreadGroup 1-5,text,true,,1250,224,4,4,"http://localhost:8080/advisor/login?username=sudh&password=password&message=what%27s%20the%20temperature%20in%20yokohama,%20japan?",15641,0,65
+1773906093889,19875,HTTP リクエスト,200,,OllamaThreadGroup 1-1,text,true,,896,224,3,3,"http://localhost:8080/advisor/login?username=sudh&password=password&message=what%27s%20the%20temperature%20in%20yokohama,%20japan?",18213,0,65
+1773906093889,21668,HTTP リクエスト,200,,OllamaThreadGroup 1-4,text,true,,947,224,2,2,"http://localhost:8080/advisor/login?username=sudh&password=password&message=what%27s%20the%20temperature%20in%20yokohama,%20japan?",19899,0,65
+1773906093889,23791,HTTP リクエスト,200,,OllamaThreadGroup 1-6,text,true,,1030,224,1,1,"http://localhost:8080/advisor/login?username=sudh&password=password&message=what%27s%20the%20temperature%20in%20yokohama,%20japan?",21700,0,65
